@@ -1,0 +1,49 @@
+# Защищённые исходники книги
+source/*
+!source/README.md
+*.epub
+*.pdf
+
+# Экспортируемые крупные/двоичные файлы
+exports/*.docx
+exports/*.xlsx
+exports/*.zip
+exports/*.epub
+exports/*.pdf
+
+# Секреты и локальная конфигурация
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+secrets.*
+*.secret
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node.js
+node_modules/
+.next/
+dist/
+build/
+
+# Редакторы и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+*.tmp
+*.temp
+*.bak
+~$*
