@@ -102,7 +102,10 @@ def workbook_rows(path: Path, required_header: str):
     workbook = load_workbook(path, read_only=True, data_only=False)
     try:
         for sheet in workbook.worksheets:
-            probe = list(sheet.iter_rows(min_row=1, max_row=min(sheet.max_row, 25), values_only=True))
+            # Some exported Google Sheets omit the worksheet dimension metadata;
+            # openpyxl then exposes max_row as None in read-only mode.
+            max_row = sheet.max_row or 25
+            probe = list(sheet.iter_rows(min_row=1, max_row=min(max_row, 25), values_only=True))
             found = find_header(probe, required_header)
             if found:
                 header_row, columns, header = found
