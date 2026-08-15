@@ -1,0 +1,66 @@
+{
+  "chapters": [
+    {
+      "chapter": "CH05",
+      "path": "chapters/CH05/registry/CH05_registry_v0.3.xlsx",
+      "expected_count": 303,
+      "qa_pass_through": 120,
+      "next_batch": "CH05-B0121-CH05-B0160"
+    },
+    {
+      "chapter": "CH06",
+      "path": "chapters/CH06/registry/CH06_registry_v0.1_current.xlsx",
+      "expected_count": 314,
+      "qa_pass_through": 80,
+      "next_batch": "CH06-B0081-CH06-B0120"
+    },
+    {
+      "chapter": "CH07",
+      "path": "chapters/CH07/registry/CH07_registry_v0.8_BATCH-003_QA_PASS.xlsx",
+      "expected_count": 368,
+      "qa_pass_through": 120,
+      "next_batch": "CH07-B0121-CH07-B0160"
+    },
+    {
+      "chapter": "CH08",
+      "path": "chapters/CH08/registry/CH08_registry_v0.2.xlsx",
+      "expected_count": 408,
+      "qa_pass_through": 80,
+      "next_batch": "CH08-B0081-CH08-B0120"
+    },
+    {
+      "chapter": "CH09",
+      "path": "chapters/CH09/registry/CH09_registry_v0.2_NATIVE.xlsx",
+      "expected_count": 289,
+      "qa_pass_through": 120,
+      "next_batch": "CH09-B0121-CH09-B0160"
+    }
+  ],
+  "allowed_statuses": [
+    "NOT_STARTED",
+    "PENDING",
+    "PENDING_TRANSLATION",
+    "READY",
+    "READY_TO_TRANSLATE",
+    "IN_PROGRESS",
+    "TRANSLATED",
+    "QA_PENDING",
+    "QA_IN_PROGRESS",
+    "QA_PASS",
+    "QA_FAIL",
+    "NEEDS_FIX",
+    "BLOCKED",
+    "ACCEPTED",
+    "CLOSED",
+    "OPEN"
+  ],
+  "translated_statuses": ["TRANSLATED", "QA_PASS", "ACCEPTED"],
+  "issue_registry_globs": [
+    "qa/issues/CH06/*.xlsx",
+    "qa/issues/CH07/*.xlsx",
+    "qa/issues/CH08/*.xlsx",
+    "qa/issues/CH09/*.csv"
+  ],
+  "forbidden_source_globs": ["source/**/*.epub", "source/**/*.pdf"],
+  "checksum_manifests": ["manifests/SHA256SUMS_ERRORS_2026-08-16.txt"]
+}
