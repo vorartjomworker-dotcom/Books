@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-08-16T02:00:00+03:00",
+  "hash_algorithm": "SHA-256",
+  "sources": [
+    {
+      "kind": "epub",
+      "role": "canonical_text",
+      "name": "Machine Learning for Trading Integrate GenAI, Causal Inference, and Reinforcement Learning into Real World Trading Systems ПРВ.epub",
+      "size_bytes": 28627327,
+      "sha256": "e22359c1e148ecdebcee4d24e4d5506e8a9dbd94b59d88c4ab574e4995ba0da2"
+    },
+    {
+      "kind": "pdf",
+      "role": "visual_reference",
+      "name": "Machine Learning for Trading A disciplined workflow from research to live execution, with nine case studies and AI agents (Stefan Jansen) .pdf",
+      "size_bytes": 39622935,
+      "sha256": "2931e9657a2f7a3b0343d8e10bf29dc9fe92ccc6a36714ce12eae2c7e6f7b65e"
+    }
+  ],
+  "registries": [
+    {"chapter": "CH05", "version": "v0.3", "drive_id": "1k3edfdB4aG5lPJhQ4ryn-vLHefRYgXh0", "size_bytes": 128241, "modified_time": "2026-08-15T20:23:56.703Z", "sha256": "ec9167ddfe9759b18be5dadb561810258f7ceb514a82d382d30f34b53363ad23", "hash_scope": "stored XLSX bytes"},
+    {"chapter": "CH06", "version": "v0.1", "drive_id": "11luC00OhnLC7yvnDhBAjGCX6TGKKue6U", "size_bytes": 101774, "modified_time": "2026-08-15T20:28:13.585Z", "sha256": "13ea123b05d16bb401d20e31c2ac1f8de953c2ae91019b949cb3524bcfff8227", "hash_scope": "stored XLSX bytes"},
+    {"chapter": "CH07", "version": "v0.8-BATCH-003_QA_PASS", "drive_id": "1uqYO_VZ8hQeLdHyiAqNTQdrgQFzFB5O7", "size_bytes": 121858, "modified_time": "2026-08-15T20:33:28.421Z", "sha256": "3a59e4c933bb2ab1e43ecae3efaa0a7b856fa1a682888c274a9b5bcf84a92c8b", "hash_scope": "stored XLSX bytes"},
+    {"chapter": "CH08", "version": "v0.2", "drive_id": "13_rS13juXtkN6k1Xf9ZRNg3tpV6EE0Jx_tbEEvTzKYw", "size_bytes": 105010, "modified_time": "2026-08-15T20:17:23.469Z", "sha256": "35a28ad66b98b367496741f213099624b7fed6c15b9eebe5e6b5f344867675c0", "hash_scope": "XLSX export bytes"},
+    {"chapter": "CH09", "version": "v0.2-NATIVE", "drive_id": "1gEuN0ZoRT4hK_sMAgLAnB1upB7zprVTvCB8X2YlV2Bw", "size_bytes": 145003, "modified_time": "2026-08-15T20:36:23.035Z", "sha256": "4fcdedf8b897d0bab635fec9d8ef4dbfcf2c5907118d51c4f352812cb261ec34", "hash_scope": "XLSX export bytes"}
+  ]
+}
+
