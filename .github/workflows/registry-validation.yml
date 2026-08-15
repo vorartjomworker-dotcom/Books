@@ -8,7 +8,10 @@ on:
       - "qa/**"
       - "manifests/**"
       - "config/**"
+      - "automation/**"
       - "scripts/**"
+      - "tests/**"
+      - "requirements-ci.txt"
       - ".github/workflows/registry-validation.yml"
   pull_request:
     branches: [main]
@@ -34,3 +37,5 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Validate registries and checksums
         run: python scripts/validate_registries.py --root .
+      - name: Validate autonomous pipeline state
+        run: python scripts/validate_pipeline_state.py --root .
