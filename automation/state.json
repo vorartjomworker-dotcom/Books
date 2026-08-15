@@ -8,18 +8,23 @@
     "start": 121,
     "end": 160,
     "branch": "translation/ch05-b0121-b0160",
-    "status": "READY",
+    "status": "QA",
     "attempt": 0,
     "lock": null,
     "stop_reason": null
   },
   "queue": [
-    {"chapter": "CH05", "start": 121, "end": 160, "branch": "translation/ch05-b0121-b0160", "status": "READY"},
+    {"chapter": "CH05", "start": 121, "end": 160, "branch": "translation/ch05-b0121-b0160", "status": "QA"},
     {"chapter": "CH06", "start": 81, "end": 120, "branch": "translation/ch06-b0081-b0120", "status": "READY"},
     {"chapter": "CH07", "start": 121, "end": 160, "branch": "translation/ch07-b0121-b0160", "status": "READY"},
     {"chapter": "CH08", "start": 81, "end": 120, "branch": "translation/ch08-b0081-b0120", "status": "READY"},
     {"chapter": "CH09", "start": 121, "end": 160, "branch": "translation/ch09-b0121-b0160", "status": "READY"}
   ],
-  "last_run": null,
-  "updated_at": "2026-08-16T00:00:00+03:00"
+  "last_run": {
+    "batch": "CH05-B0121-B0160",
+    "result": "QA",
+    "deterministic_validation": "PASS",
+    "open_high_critical": 1
+  },
+  "updated_at": "2026-08-15T23:40:30Z"
 }

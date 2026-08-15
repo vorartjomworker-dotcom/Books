@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "batch_id": "CH05-BATCH-004",
+  "chapter": "CH05",
+  "start": 121,
+  "end": 160,
+  "branch": "translation/ch05-b0121-b0160",
+  "status": "QA",
+  "attempt": 0,
+  "lock": null,
+  "started_at": "2026-08-15T23:34:58Z",
+  "updated_at": "2026-08-15T23:40:30Z",
+  "artifacts": {
+    "batch": "chapters/CH05/batches/CH05_B0121_B0160.csv",
+    "qa_report": "qa/reports/CH05_B0121_B0160_QA.md",
+    "issues": "qa/issues/CH05/CH05_errors_B0121_B0160.csv"
+  },
+  "checks": {
+    "exact_range": "PASS",
+    "immutable_source": "PASS",
+    "complete_translation": "PASS",
+    "protected_tokens": "PASS",
+    "unit_tests": "PASS",
+    "registry_validator": "PASS",
+    "glossary": "PENDING",
+    "language_qa": "PENDING",
+    "structural_qa": "BLOCKED",
+    "zero_open_high_critical": "FAIL"
+  },
+  "open_issues": ["CH05-QA-0001"],
+  "next_action": "Run independent language QA and structural QA; create and verify target_html; resolve the PDF page mapping issue; rerun validators."
+}
