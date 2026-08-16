@@ -8,15 +8,10 @@
     "start": 81,
     "end": 120,
     "branch": "translation/ch06-b0081-b0120",
-    "status": "TRANSLATING",
+    "status": "STOPPED",
     "attempt": 1,
-    "lock": {
-      "run_id": "CH06-B0081-B0120-20260816T204124+0300",
-      "owner": "integrator",
-      "acquired_at": "2026-08-16T17:41:24Z",
-      "expires_at": "2026-08-16T20:41:24Z"
-    },
-    "stop_reason": null
+    "lock": null,
+    "stop_reason": "Canonical registry mismatch: current Google Drive CH06 registry metadata differs from the source snapshot pinned in main; translation cannot proceed without an authoritative registry decision."
   },
   "queue": [
     {
@@ -31,7 +26,7 @@
       "start": 81,
       "end": 120,
       "branch": "translation/ch06-b0081-b0120",
-      "status": "TRANSLATING"
+      "status": "STOPPED"
     },
     {
       "chapter": "CH07",
@@ -55,7 +50,7 @@
       "status": "AWAITING_REVIEW"
     }
   ],
-  "last_run": "CH09-B0121-B0160-20260816T190652+0300",
-  "updated_at": "2026-08-16T17:41:24Z",
+  "last_run": "CH06-B0081-B0120-20260816T204124+0300",
+  "updated_at": "2026-08-16T17:49:00Z",
   "auto_advance": true
 }
