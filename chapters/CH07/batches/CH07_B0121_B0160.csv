@@ -1,0 +1,1253 @@
+﻿,chapter_id,block_id,sequence_number,element_type,section_path,xhtml_path,source_element_id,pdf_physical_page,pdf_printed_page,english_text,russian_text,source_html,target_html,asset_ids,table_id,formula_id,code_id,link_ids,term_candidates,formatting_markers,translation_status,qa_semantic,qa_terminology,qa_numbers_code_links,qa_structure_formatting,qa_status,batch_id,notes,version
+120,CH07,CH07-B0121,121,p,7.2 Label engineering > Variable-horizon labels > Maximum favorable and adverse excursion diagnostics,/*/*[2]/*/*[80],,196,155,"In practice, the goal is to choose widths that yield a workable class balance, plausible upper- and lower-barrier hit rates, and reasonable resolution-time distributions.","На практике требуется выбрать такую ширину барьеров, которая обеспечивает приемлемый баланс классов, правдоподобную частоту достижения верхнего и нижнего барьеров и разумное распределение времени до определения результата.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.385.1"">
+     In practice, the goal is to choose widths that yield a workable class balance, plausible upper- and lower-barrier hit rates, and reasonable resolution-time distributions.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.385.1"">На практике требуется выбрать такую ширину барьеров, которая обеспечивает приемлемый баланс классов, правдоподобную частоту достижения верхнего и нижнего барьеров и разумное распределение времени до определения результата.</span>
+   </p>
+",,,,,,,,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+121,CH07,CH07-B0122,122,p,7.2 Label engineering > Variable-horizon labels > Maximum favorable and adverse excursion diagnostics,/*/*[2]/*/*[81]/*,,196,155,"Implementation : 04_maximum_favorable_adverse_excursion demonstrates MFE/MAE visualizations, barrier calibration, and validation using hit fractions and resolution-time distributions.","Реализация: 04_maximum_favorable_adverse_excursion демонстрирует визуализацию MFE/MAE, калибровку барьеров и валидацию по долям достижений и распределениям времени до определения результата.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+     <strong class=""screenText"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.386.1"">
+       Implementation
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.387.1"">
+      :
+     </span>
+     <code class=""inlineCode"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.388.1"">
+       04_maximum_favorable_adverse_excursion
+      </span>
+     </code>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.389.1"">
+      demonstrates MFE/MAE visualizations, barrier calibration, and validation using hit fractions and resolution-time distributions.
+     </span>
+    </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+     <strong class=""screenText"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.386.1"">Реализация</span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.387.1"">:</span>
+     <code class=""inlineCode"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.388.1"">04_maximum_favorable_adverse_excursion</span>
+     </code>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.389.1"">демонстрирует визуализацию MFE/MAE, калибровку барьеров и валидацию по долям достижений и распределениям времени до определения результата.</span>
+    </p>
+",,,,CH07-CODE-009,,,"strong,code",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+122,CH07,CH07-B0123,123,h2,"7.2 Label engineering > Overlap, sample dependence, and effective sample size",/*/*[2]/*/*[82],_idParaDest-315,196,155,"Overlap, sample dependence, and effective sample size","Перекрытие, зависимость наблюдений и эффективный размер выборки","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-315"">
+    <a id=""_idTextAnchor306"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.390.1"">
+     Overlap, sample dependence, and effective sample size
+    </span>
+   </h2>
+   ","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-315"">
+    <a id=""_idTextAnchor306"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.390.1"">Перекрытие, зависимость наблюдений и эффективный размер выборки</span>
+   </h2>
+",,,,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+123,CH07,CH07-B0124,124,p,"7.2 Label engineering > Overlap, sample dependence, and effective sample size",/*/*[2]/*/*[83],,196,155,"Overlap is structural: adjacent -bar labels share most of the same price increments, and event-style labels overlap irregularly because resolution times vary. Any price shock affects every label alive at that moment, creating mechanical dependence.","Перекрытие носит структурный характер: соседние метки с горизонтом H баров используют большую часть одних и тех же приращений цены, а метки событийного типа перекрываются нерегулярно, поскольку время до определения результата различается. Любой ценовой шок влияет на все метки, активные в этот момент, создавая механическую зависимость.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.391.1"">
+     Overlap is
+    </span>
+    <a id=""_idIndexMarker853"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.392.1"">
+     structural: adjacent
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.393.1"">
+     <img alt=""img"" src=""../Images/B18427_07_006.png""/>
+    </span>
+    <a id=""_idIndexMarker854"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.394.1"">
+     -bar labels share most of the same price increments, and event-style labels overlap irregularly because resolution times vary.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.394.2"">
+     Any price shock affects every label alive at that moment, creating mechanical dependence.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.391.1"">Перекрытие носит</span>
+    <a id=""_idIndexMarker853"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.392.1"">структурный характер: соседние метки с горизонтом</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.393.1"">
+     <img alt=""img"" src=""../Images/B18427_07_006.png""/>
+    </span>
+    <a id=""_idIndexMarker854"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.394.1"">баров используют большую часть одних и тех же приращений цены, а метки событийного типа перекрываются нерегулярно, поскольку время до определения результата различается.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.394.2"">Любой ценовой шок влияет на все метки, активные в этот момент, создавая механическую зависимость.</span>
+   </p>
+",,,CH07-FORMULA-055,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+124,CH07,CH07-B0125,125,p,"7.2 Label engineering > Overlap, sample dependence, and effective sample size",/*/*[2]/*/*[84],,196,155,"A label generated at time is alive from until its resolution time —the interval . The concurrency at bar , denoted , counts how many labels are alive at . The average uniqueness of a label summarizes its overlap:","Метка, сформированная в момент t, активна от t до момента определения результата t^res — на интервале L_{t,a} = [t, t^res]. Одновременность в баре u, обозначаемая c(u), показывает, сколько меток активно в момент u. Средняя уникальность метки характеризует степень её перекрытия:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.395.1"">
+     A label generated at time
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.396.1"">
+     <img alt=""img"" src=""../Images/B18427_05_074.png""/>
+    </span>
+    <a id=""_idIndexMarker855"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.397.1"">
+     is alive from
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.398.1"">
+     <img alt=""img"" src=""../Images/B18427_05_074.png""/>
+    </span>
+    <a id=""_idIndexMarker856"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.399.1"">
+     until its resolution time
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.400.1"">
+     <img alt=""img"" src=""../Images/B18427_07_054.png""/>
+    </span>
+    <a id=""_idIndexMarker857"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.401.1"">
+     —the interval
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.402.1"">
+     <img alt=""img"" src=""../Images/B18427_07_059.png""/>
+    </span>
+    <a id=""_idIndexMarker858"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.403.1"">
+     .
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.403.2"">
+     The
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.404.1"">
+      concurrency
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.405.1"">
+     at bar
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.406.1"">
+     <img alt=""img"" src=""../Images/B18427_07_042.png""/>
+    </span>
+    <a id=""_idIndexMarker859"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.407.1"">
+     , denoted
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.408.1"">
+     <img alt=""img"" src=""../Images/B18427_07_061.png""/>
+    </span>
+    <a id=""_idIndexMarker860"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.409.1"">
+     , counts how many labels are alive at
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.410.1"">
+     <img alt=""img"" src=""../Images/B18427_07_042.png""/>
+    </span>
+    <a id=""_idIndexMarker861"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.411.1"">
+     .
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.411.2"">
+     The
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.412.1"">
+      average uniqueness
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.413.1"">
+     of a label summarizes its overlap:
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.395.1"">Метка, сформированная в момент</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.396.1"">
+     <img alt=""img"" src=""../Images/B18427_05_074.png""/>
+    </span>
+    <a id=""_idIndexMarker855"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.397.1"">активна от</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.398.1"">
+     <img alt=""img"" src=""../Images/B18427_05_074.png""/>
+    </span>
+    <a id=""_idIndexMarker856"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.399.1"">до момента определения результата</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.400.1"">
+     <img alt=""img"" src=""../Images/B18427_07_054.png""/>
+    </span>
+    <a id=""_idIndexMarker857"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.401.1"">— на интервале</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.402.1"">
+     <img alt=""img"" src=""../Images/B18427_07_059.png""/>
+    </span>
+    <a id=""_idIndexMarker858"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.403.1"">.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.403.2""></span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.404.1"">Одновременность</span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.405.1"">в баре</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.406.1"">
+     <img alt=""img"" src=""../Images/B18427_07_042.png""/>
+    </span>
+    <a id=""_idIndexMarker859"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.407.1"">, обозначаемая</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.408.1"">
+     <img alt=""img"" src=""../Images/B18427_07_061.png""/>
+    </span>
+    <a id=""_idIndexMarker860"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.409.1"">, показывает, сколько меток активно в момент</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.410.1"">
+     <img alt=""img"" src=""../Images/B18427_07_042.png""/>
+    </span>
+    <a id=""_idIndexMarker861"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.411.1"">.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.411.2""></span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.412.1"">Средняя уникальность</span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.413.1"">метки характеризует степень её перекрытия:</span>
+   </p>
+",CH07-ASSET-061,,"CH07-FORMULA-056,CH07-FORMULA-057,CH07-FORMULA-058,CH07-FORMULA-059",,,,"strong,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+125,CH07,CH07-B0126,126,p,"7.2 Label engineering > Overlap, sample dependence, and effective sample size",/*/*[2]/*/*[86],,196,155,"where is the number of bars in the label’s lifetime. A uniqueness of 1.0 means no overlap; values near indicate near-maximal overlap. The effective sample size is approximately . For fixed-horizon labels sampled at every bar, (ignoring cross-section and time-series correlation that may further reduce the effective sample size).","где |L_{t,a}| — число баров в периоде жизни метки. Уникальность 1.0 означает отсутствие перекрытия; значения, близкие к 1/H, указывают на почти максимальное перекрытие. Эффективный размер выборки приблизительно равен N_eff = Σ_{t,a} w_{t,a}. Для меток с фиксированным горизонтом, формируемых на каждом баре, N_eff ≈ N/H (без учёта межактивной и временной корреляции, которые могут дополнительно уменьшить эффективный размер выборки).","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.415.1"">
+     where
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.416.1"">
+     <img alt=""img"" src=""../Images/B18427_07_064.png""/>
+    </span>
+    <a id=""_idIndexMarker863"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.417.1"">
+     is the number of bars in the label’s lifetime.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.417.2"">
+     A uniqueness of 1.0 means no overlap; values near
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.418.1"">
+     <img alt=""img"" src=""../Images/B18427_07_065.png""/>
+    </span>
+    <a id=""_idIndexMarker864"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.419.1"">
+     indicate near-maximal overlap.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.419.2"">
+     The
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.420.1"">
+      effective sample size
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.421.1"">
+     is approximately
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.422.1"">
+     <img alt=""img"" src=""../Images/B18427_07_066.png""/>
+    </span>
+    <a id=""_idIndexMarker865"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.423.1"">
+     .
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.423.2"">
+     For
+    </span>
+    <a id=""_idIndexMarker866"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.424.1"">
+     fixed-horizon labels sampled at every bar,
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.425.1"">
+     <img alt=""img"" src=""../Images/B18427_07_067.png""/>
+    </span>
+    <a id=""_idIndexMarker867"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.426.1"">
+     (ignoring cross-section and time-series correlation that may further reduce the effective sample size).
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.415.1"">где</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.416.1"">
+     <img alt=""img"" src=""../Images/B18427_07_064.png""/>
+    </span>
+    <a id=""_idIndexMarker863"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.417.1"">— число баров в периоде жизни метки.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.417.2"">Уникальность 1.0 означает отсутствие перекрытия; значения, близкие к</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.418.1"">
+     <img alt=""img"" src=""../Images/B18427_07_065.png""/>
+    </span>
+    <a id=""_idIndexMarker864"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.419.1"">, указывают на почти максимальное перекрытие.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.419.2""></span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.420.1"">Эффективный размер выборки</span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.421.1"">приблизительно равен</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.422.1"">
+     <img alt=""img"" src=""../Images/B18427_07_066.png""/>
+    </span>
+    <a id=""_idIndexMarker865"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.423.1"">.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.423.2"">Для</span>
+    <a id=""_idIndexMarker866"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.424.1"">меток с фиксированным горизонтом, формируемых на каждом баре,</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.425.1"">
+     <img alt=""img"" src=""../Images/B18427_07_067.png""/>
+    </span>
+    <a id=""_idIndexMarker867"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.426.1"">(без учёта межактивной и временной корреляции, которые могут дополнительно уменьшить эффективный размер выборки).</span>
+   </p>
+","CH07-ASSET-063,CH07-ASSET-065,CH07-ASSET-066,CH07-ASSET-067",,"CH07-FORMULA-060,CH07-FORMULA-061,CH07-FORMULA-062,CH07-FORMULA-063,CH07-FORMULA-064,CH07-FORMULA-065",,,,"strong,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+126,CH07,CH07-B0127,127,p,"7.2 Label engineering > Overlap, sample dependence, and effective sample size",/*/*[2]/*/*[87],,196,155,"As a concrete example, 03_label_methods measures uniqueness for SPY with over roughly 10 years: 248,436 nominal observations collapse to an effective sample size of about 11,830, so confidence intervals based on the nominal count are roughly too narrow. Standard errors should use , not .","Конкретный пример: 03_label_methods измеряет уникальность для SPY при H = 21 примерно за 10 лет. Из 248 436 номинальных наблюдений остаётся эффективная выборка приблизительно из 11 830 наблюдений, поэтому доверительные интервалы, рассчитанные по номинальному количеству, оказываются примерно в 4,6 раза уже должного. При вычислении стандартных ошибок следует использовать N_eff, а не N.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.427.1"">
+     As a concrete example,
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.428.1"">
+      03_label_methods
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.429.1"">
+     measures uniqueness for SPY with
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.430.1"">
+     <img alt=""img"" src=""../Images/B18427_07_068.png""/>
+    </span>
+    <a id=""_idIndexMarker868"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.431.1"">
+     over roughly 10 years: 248,436 nominal observations collapse to an effective sample size of about 11,830, so confidence intervals based on the nominal count are roughly
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.432.1"">
+     <img alt=""img"" src=""../Images/B18427_07_069.png""/>
+    </span>
+    <a id=""_idIndexMarker869"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.433.1"">
+     too narrow.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.433.2"">
+     Standard errors should use
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.434.1"">
+     <img alt=""img"" src=""../Images/B18427_07_070.png""/>
+    </span>
+    <a id=""_idIndexMarker870"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.435.1"">
+     , not
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.436.1"">
+     <img alt=""img"" src=""../Images/B18427_07_071.png""/>
+    </span>
+    <a id=""_idIndexMarker871"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.437.1"">
+     .
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.427.1"">Конкретный пример:</span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.428.1"">03_label_methods</span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.429.1"">измеряет уникальность для SPY при</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.430.1"">
+     <img alt=""img"" src=""../Images/B18427_07_068.png""/>
+    </span>
+    <a id=""_idIndexMarker868"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.431.1"">примерно за 10 лет. Из 248 436 номинальных наблюдений остаётся эффективная выборка приблизительно из 11 830 наблюдений, поэтому доверительные интервалы, рассчитанные по номинальному количеству, оказываются примерно</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.432.1"">
+     <img alt=""img"" src=""../Images/B18427_07_069.png""/>
+    </span>
+    <a id=""_idIndexMarker869"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.433.1"">раза уже должного.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.433.2"">При вычислении стандартных ошибок следует использовать</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.434.1"">
+     <img alt=""img"" src=""../Images/B18427_07_070.png""/>
+    </span>
+    <a id=""_idIndexMarker870"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.435.1"">, а не</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.436.1"">
+     <img alt=""img"" src=""../Images/B18427_07_071.png""/>
+    </span>
+    <a id=""_idIndexMarker871"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.437.1"">.</span>
+   </p>
+","CH07-ASSET-068,CH07-ASSET-069,CH07-ASSET-070,CH07-ASSET-071",,"CH07-FORMULA-066,CH07-FORMULA-067,CH07-FORMULA-068,CH07-FORMULA-069",CH07-CODE-010,,,"code,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+127,CH07,CH07-B0128,128,p,"7.2 Label engineering > Overlap, sample dependence, and effective sample size",/*/*[2]/*/*[88],,196,155,Overlap creates three distinct problems:,Перекрытие создаёт три самостоятельные проблемы:,"<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.438.1"">
+     Overlap creates three distinct problems:
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.438.1"">Перекрытие создаёт три самостоятельные проблемы:</span>
+   </p>
+","CH07-ASSET-072,CH07-ASSET-073,CH07-ASSET-074",,"CH07-FORMULA-070,CH07-FORMULA-071",,,,,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+128,CH07,CH07-B0129,129,li,"7.2 Label engineering > Overlap, sample dependence, and effective sample size",/*/*[2]/*/*[89]/*[1],,196,155,Training and test labels that share price increments leak information across the split.,"Если обучающие и тестовые метки используют общие приращения цены, информация просачивается через границу разбиения.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"" value=""1"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.439.1"">
+      Training and test
+     </span>
+     <a id=""_idIndexMarker872"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.440.1"">
+      labels that share price increments leak information across the split.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"" value=""1"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.439.1"">Если обучающие и тестовые</span>
+     <a id=""_idIndexMarker872"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.440.1"">метки используют общие приращения цены, информация просачивается через границу разбиения.</span>
+    </li>
+",,,,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+129,CH07,CH07-B0130,130,li,"7.2 Label engineering > Overlap, sample dependence, and effective sample size",/*/*[2]/*/*[89]/*[2],,196,155,Gradient updates and evaluation metrics overweight high-concurrency periods.,Обновления градиента и метрики оценки придают чрезмерный вес периодам с высокой одновременностью.,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.441.1"">
+      Gradient updates and evaluation metrics overweight high-concurrency periods.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.441.1"">Обновления градиента и метрики оценки придают чрезмерный вес периодам с высокой одновременностью.</span>
+    </li>
+",,,,,,,,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+130,CH07,CH07-B0131,131,li,"7.2 Label engineering > Overlap, sample dependence, and effective sample size",/*/*[2]/*/*[89]/*[3],,196,155,Serial dependence in labels inflates apparent statistical significance.,Последовательная зависимость меток завышает кажущуюся статистическую значимость.,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.442.1"">
+      Serial dependence in labels inflates apparent statistical significance.
+     </span>
+    </li>
+   ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.442.1"">Последовательная зависимость меток завышает кажущуюся статистическую значимость.</span>
+    </li>
+",,,,,,,,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+131,CH07,CH07-B0132,132,p,"7.2 Label engineering > Overlap, sample dependence, and effective sample size",/*/*[2]/*/*[90],,197,156,The time-series protocol ( Chapter 6 ) addresses problem 1 through purge gaps; sample weighting addresses problem 2; and reporting (or block-bootstrap standard errors) addresses problem 3.,"Протокол для временных рядов (глава 6) решает проблему 1 с помощью интервалов очистки; взвешивание наблюдений решает проблему 2; а представление N_eff (либо стандартных ошибок, рассчитанных блочным бутстрэпом) — проблему 3.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.443.1"">
+     The
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.444.1"">
+      time-series protocol
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.445.1"">
+     (
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.446.1"">
+      Chapter 6
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.447.1"">
+     ) addresses problem 1 through purge gaps; sample weighting
+    </span>
+    <a id=""_idIndexMarker873"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.448.1"">
+     addresses problem 2; and reporting
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.449.1"">
+     <img alt=""img"" src=""../Images/B18427_07_070.png""/>
+    </span>
+    <a id=""_idIndexMarker874"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.450.1"">
+     (or block-bootstrap standard errors) addresses problem 3.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.443.1""></span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.444.1"">Протокол для временных рядов</span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.445.1"">(</span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.446.1"">глава 6</span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.447.1"">) решает проблему 1 с помощью интервалов очистки; взвешивание наблюдений</span>
+    <a id=""_idIndexMarker873"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.448.1"">решает проблему 2; а представление</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.449.1"">
+     <img alt=""img"" src=""../Images/B18427_07_070.png""/>
+    </span>
+    <a id=""_idIndexMarker874"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.450.1"">(либо стандартных ошибок, рассчитанных блочным бутстрэпом) — проблему 3.</span>
+   </p>
+",,,,,,,"strong,em,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+132,CH07,CH07-B0133,133,h3,"7.2 Label engineering > Overlap, sample dependence, and effective sample size > Dealing with overlap",/*/*[2]/*/*[91],_idParaDest-316,197,156,Dealing with overlap,Как учитывать перекрытие,"<h3 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-3"" id=""_idParaDest-316"">
+    <a id=""_idTextAnchor307"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.451.1"">
+     Dealing with overlap
+    </span>
+   </h3>
+   ","<h3 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-3"" id=""_idParaDest-316"">
+    <a id=""_idTextAnchor307"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.451.1"">Как учитывать перекрытие</span>
+   </h3>
+",,,CH07-FORMULA-072,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+133,CH07,CH07-B0134,134,p,"7.2 Label engineering > Overlap, sample dependence, and effective sample size > Dealing with overlap",/*/*[2]/*/*[92],,197,156,Four complementary strategies address overlap:,Перекрытие учитывают четыре взаимодополняющие стратегии:,"<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.452.1"">
+     Four complementary
+    </span>
+    <a id=""_idIndexMarker875"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.453.1"">
+     strategies address overlap:
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.452.1"">Перекрытие учитывают четыре взаимодополняющие</span>
+    <a id=""_idIndexMarker875"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.453.1"">стратегии:</span>
+   </p>
+",,,,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+134,CH07,CH07-B0135,135,li,"7.2 Label engineering > Overlap, sample dependence, and effective sample size > Dealing with overlap",/*/*[2]/*/*[93]/*[1],,197,156,Protocol-correct splits are non-negotiable: leave at least bars between training and validation/test windows ( Chapter 6 ).,"Разбиения, соответствующие протоколу, обязательны: между обучающим и валидационным/тестовым окнами следует оставлять не менее H_max баров (глава 6).","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.454.1"">
+       Protocol-correct splits
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.455.1"">
+      are
+     </span>
+     <a id=""_idIndexMarker876"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.456.1"">
+      non-negotiable: leave at least
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.457.1"">
+      <img alt=""img"" src=""../Images/B18427_07_073.png""/>
+     </span>
+     <a id=""_idIndexMarker877"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.458.1"">
+      bars between training and validation/test windows (
+     </span>
+     <em class=""italic"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.459.1"">
+       Chapter 6
+      </span>
+     </em>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.460.1"">
+      ).
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.454.1"">Разбиения, соответствующие протоколу,</span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.455.1""></span>
+     <a id=""_idIndexMarker876"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.456.1"">обязательны: между обучающим и валидационным/тестовым окнами следует оставлять не менее</span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.457.1"">
+      <img alt=""img"" src=""../Images/B18427_07_073.png""/>
+     </span>
+     <a id=""_idIndexMarker877"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.458.1"">баров (</span>
+     <em class=""italic"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.459.1"">глава 6</span>
+     </em>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.460.1"">).</span>
+    </li>
+",,,CH07-FORMULA-073,,,,"strong,em,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+135,CH07,CH07-B0136,136,li,"7.2 Label engineering > Overlap, sample dependence, and effective sample size > Dealing with overlap",/*/*[2]/*/*[93]/*[2],,197,156,"Sample weighting assigns a uniqueness weight to each observation, so that high-concurrency periods do not dominate loss or metrics.","Взвешивание наблюдений присваивает каждому наблюдению вес уникальности w_{t,a}, чтобы периоды с высокой одновременностью не доминировали в функции потерь или метриках.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.461.1"">
+       Sample weighting
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.462.1"">
+      assigns
+     </span>
+     <a id=""_idIndexMarker878"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.463.1"">
+      a uniqueness weight
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.464.1"">
+      <img alt=""img"" src=""../Images/B18427_07_074.png""/>
+     </span>
+     <a id=""_idIndexMarker879"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.465.1"">
+      to each observation, so that high-concurrency periods do not dominate loss or metrics.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.461.1"">Взвешивание наблюдений</span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.462.1"">присваивает</span>
+     <a id=""_idIndexMarker878"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.463.1"">вес уникальности</span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.464.1"">
+      <img alt=""img"" src=""../Images/B18427_07_074.png""/>
+     </span>
+     <a id=""_idIndexMarker879"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.465.1"">каждому наблюдению, чтобы периоды с высокой одновременностью не доминировали в функции потерь или метриках.</span>
+    </li>
+",CH07-ASSET-075,,,,,,"strong,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+136,CH07,CH07-B0137,137,li,"7.2 Label engineering > Overlap, sample dependence, and effective sample size > Dealing with overlap",/*/*[2]/*/*[93]/*[3],,197,156,Subsampling reduces overlap by sampling every bars or starting a new label only after the previous one resolves.,Подвыборка уменьшает перекрытие: наблюдения отбирают через каждые H баров либо новую метку создают только после определения результата предыдущей.,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.466.1"">
+       Subsampling
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.467.1"">
+      reduces
+     </span>
+     <a id=""_idIndexMarker880"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.468.1"">
+      overlap by sampling every
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.469.1"">
+      <img alt=""img"" src=""../Images/B18427_07_006.png""/>
+     </span>
+     <a id=""_idIndexMarker881"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.470.1"">
+      bars or starting a new label only after the previous one resolves.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.466.1"">Подвыборка</span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.467.1"">уменьшает</span>
+     <a id=""_idIndexMarker880"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.468.1"">перекрытие: наблюдения отбирают через каждые</span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.469.1"">
+      <img alt=""img"" src=""../Images/B18427_07_006.png""/>
+     </span>
+     <a id=""_idIndexMarker881"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.470.1"">баров либо новую метку создают только после определения результата предыдущей.</span>
+    </li>
+",CH07-ASSET-076,,CH07-FORMULA-074,,,,"strong,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+137,CH07,CH07-B0138,138,li,"7.2 Label engineering > Overlap, sample dependence, and effective sample size > Dealing with overlap",/*/*[2]/*/*[93]/*[4],,197,156,"A more data-efficient alternative is the sequential bootstrap (López de Prado, 2018). Instead of drawing each index with equal probability, the sequential bootstrap updates selection probabilities after every draw so that observations with higher expected uniqueness, that is, with less overlap with the labels already selected, become more likely to enter the sample. Intuitively, labels that overlap heavily with the current sample contribute less new information and are less likely to be drawn, while labels from less crowded periods are more likely to be selected. The result is a resampled dataset with lower effective redundancy, even though the original labels may overlap substantially.","Более эффективная с точки зрения использования данных альтернатива — последовательный бутстрэп (López de Prado, 2018). Вместо отбора каждого индекса с равной вероятностью последовательный бутстрэп после каждого извлечения обновляет вероятности отбора так, чтобы наблюдения с более высокой ожидаемой уникальностью, то есть с меньшим перекрытием с уже выбранными метками, с большей вероятностью попадали в выборку. Интуитивно метки, которые сильно перекрываются с текущей выборкой, добавляют меньше новой информации и отбираются реже, тогда как метки из менее насыщенных периодов выбираются чаще. В результате получается повторная выборка с меньшей эффективной избыточностью, хотя исходные метки могут существенно перекрываться.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.471.1"">
+      A more data-efficient alternative is
+     </span>
+     <a id=""_idIndexMarker882"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.472.1"">
+      the
+     </span>
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.473.1"">
+       sequential bootstrap
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.474.1"">
+      (López de Prado, 2018).
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.474.2"">
+      Instead of drawing each index with equal probability, the sequential bootstrap updates selection probabilities after every draw so that observations with higher expected uniqueness, that is, with less overlap with the labels already selected, become more likely to enter the sample.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.474.3"">
+      Intuitively, labels that overlap heavily with the current sample contribute less new information and are less likely to be drawn, while labels from less crowded periods are more likely to be
+     </span>
+     <a id=""_idIndexMarker883"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.475.1"">
+      selected.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.475.2"">
+      The result is a resampled dataset with lower effective redundancy, even though the original labels may overlap substantially.
+     </span>
+    </li>
+   ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.471.1"">Более эффективная с точки зрения использования данных альтернатива —</span>
+     <a id=""_idIndexMarker882"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.472.1""></span>
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.473.1"">последовательный бутстрэп</span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.474.1"">(López de Prado, 2018).</span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.474.2"">Вместо отбора каждого индекса с равной вероятностью последовательный бутстрэп после каждого извлечения обновляет вероятности отбора так, чтобы наблюдения с более высокой ожидаемой уникальностью, то есть с меньшим перекрытием с уже выбранными метками, с большей вероятностью попадали в выборку.</span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.474.3"">Интуитивно метки, которые сильно перекрываются с текущей выборкой, добавляют меньше новой информации и отбираются реже, тогда как метки из менее насыщенных периодов</span>
+     <a id=""_idIndexMarker883"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.475.1"">выбираются чаще.</span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.475.2"">В результате получается повторная выборка с меньшей эффективной избыточностью, хотя исходные метки могут существенно перекрываться.</span>
+    </li>
+",,,CH07-FORMULA-075,,,,"strong,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+138,CH07,CH07-B0139,139,p,"7.2 Label engineering > Overlap, sample dependence, and effective sample size > Dealing with overlap",/*/*[2]/*/*[94],,197,156,Weighting retains all data; subsampling is simpler but discards information. Most setups combine at least two of these four.,"Взвешивание сохраняет все данные; подвыборка проще, но отбрасывает часть информации. В большинстве схем сочетают как минимум две из этих четырёх стратегий.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.476.1"">
+     Weighting retains all data; subsampling is simpler but discards information.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.476.2"">
+     Most setups combine at least two of these four.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.476.1"">Взвешивание сохраняет все данные; подвыборка проще, но отбрасывает часть информации.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.476.2"">В большинстве схем сочетают как минимум две из этих четырёх стратегий.</span>
+   </p>
+",,,,,,,,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+139,CH07,CH07-B0140,140,h2,7.2 Label engineering > Label diagnostics before modeling,/*/*[2]/*/*[95],_idParaDest-317,197,156,Label diagnostics before modeling,Диагностика меток до моделирования,"<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-317"">
+    <a id=""_idTextAnchor308"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.477.1"">
+     Label diagnostics before modeling
+    </span>
+   </h2>
+   ","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-317"">
+    <a id=""_idTextAnchor308"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.477.1"">Диагностика меток до моделирования</span>
+   </h2>
+",,,,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+140,CH07,CH07-B0141,141,p,7.2 Label engineering > Label diagnostics before modeling,/*/*[2]/*/*[96],,197,156,"Before training, verify labels are correctly defined and stable. Inspect distribution and tail behavior by time and asset group. Outliers often signal broken adjustments. Track base rates over time (class fractions should be stable across regimes), examine resolution-time distributions for event labels, and compute implied trading intensity. If trading intensity is infeasible, revise the label before modeling.","До обучения убедитесь, что метки определены корректно и стабильны. Исследуйте распределение и поведение хвостов по времени и группам активов. Выбросы нередко указывают на ошибки в корректировках. Отслеживайте базовую долю положительного класса во времени (доли классов должны быть стабильны в разных режимах), изучайте распределения времени до определения результата для событийных меток и рассчитывайте подразумеваемую интенсивность торговли. Если такая интенсивность нереализуема, пересмотрите метку до моделирования.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.478.1"">
+     Before training, verify labels
+    </span>
+    <a id=""_idIndexMarker884"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.479.1"">
+     are correctly defined and stable.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.479.2"">
+     Inspect distribution and tail behavior by time and asset group.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.479.3"">
+     Outliers often signal broken adjustments.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.479.4"">
+     Track base rates over time (class fractions should be stable across regimes), examine resolution-time distributions for event labels, and compute implied trading intensity.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.479.5"">
+     If trading intensity is infeasible, revise the label before modeling.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.478.1"">До обучения убедитесь, что метки</span>
+    <a id=""_idIndexMarker884"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.479.1"">определены корректно и стабильны.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.479.2"">Исследуйте распределение и поведение хвостов по времени и группам активов.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.479.3"">Выбросы нередко указывают на ошибки в корректировках.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.479.4"">Отслеживайте базовую долю положительного класса во времени (доли классов должны быть стабильны в разных режимах), изучайте распределения времени до определения результата для событийных меток и рассчитывайте подразумеваемую интенсивность торговли.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.479.5"">Если такая интенсивность нереализуема, пересмотрите метку до моделирования.</span>
+   </p>
+",,,,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+141,CH07,CH07-B0142,142,p,7.2 Label engineering > Label diagnostics before modeling,/*/*[2]/*/*[97],,197,156,"Close each label definition with a short audit record: anchor convention, horizon definition, resolution-time rule (including bar-data tie-breaking), overlap summary, and base-rate summary. These fields keep trials comparable under the Chapter 6 research ledger (see 03_label_methods and 04_maximum_favorable_adverse_excursion for reusable diagnostics).","Каждое определение метки завершайте краткой аудиторской записью: правило выбора момента начала отсчёта, определение горизонта, правило определения результата (включая разрешение одновременного достижения барьеров в баровых данных), сводка перекрытия и сводка базовой доли положительного класса. Эти поля обеспечивают сопоставимость испытаний в журнале исследований из главы 6 (воспроизводимые диагностические процедуры приведены в 03_label_methods и 04_maximum_favorable_adverse_excursion).","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.480.1"">
+     Close each label definition with a short audit record: anchor convention, horizon definition, resolution-time rule (including bar-data tie-breaking), overlap summary, and base-rate summary.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.480.2"">
+     These fields keep trials comparable under the
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.481.1"">
+      Chapter 6
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.482.1"">
+     research ledger (see
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.483.1"">
+      03_label_methods
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.484.1"">
+     and
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.485.1"">
+      04_maximum_favorable_adverse_excursion
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.486.1"">
+     for reusable diagnostics).
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.480.1"">Каждое определение метки завершайте краткой аудиторской записью: правило выбора момента начала отсчёта, определение горизонта, правило определения результата (включая разрешение одновременного достижения барьеров в баровых данных), сводка перекрытия и сводка базовой доли положительного класса.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.480.2"">Эти поля обеспечивают сопоставимость испытаний в</span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.481.1"">журнале исследований из главы 6</span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.482.1"">(воспроизводимые диагностические процедуры приведены в</span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.483.1"">03_label_methods</span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.484.1"">и</span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.485.1"">04_maximum_favorable_adverse_excursion</span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.486.1"">).</span>
+   </p>
+",,,,"CH07-CODE-011,CH07-CODE-012",,,"em,code",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+142,CH07,CH07-B0143,143,h2,7.2 Label engineering > Meta-labels for confidence-weighted sizing,/*/*[2]/*/*[98],_idParaDest-318,197,156,Meta-labels for confidence-weighted sizing,Мета-метки для взвешивания размера позиции по уверенности,"<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-318"">
+    <a id=""_idTextAnchor309"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.487.1"">
+     Meta-labels for confidence-weighted sizing
+    </span>
+   </h2>
+   ","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-318"">
+    <a id=""_idTextAnchor309"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.487.1"">Мета-метки для взвешивания размера позиции по уверенности</span>
+   </h2>
+",,,,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+143,CH07,CH07-B0144,144,p,7.2 Label engineering > Meta-labels for confidence-weighted sizing,/*/*[2]/*/*[99],,197,156,"A different way to structure the labeling problem is to decompose direction and confidence into two stages (López de Prado, 2018). A primary model (often a simple rule or an existing strategy) generates entry signals; the secondary label records only whether each signal was profitable after costs. A separate meta-model then learns when the primary signal is trustworthy, and its calibrated probability is mapped to a position size, for example through a sigmoid that scales conviction into a fraction of the maximum bet.","Ещё один способ построения задачи разметки — разделить направление и уверенность на два этапа (López de Prado, 2018). Первичная модель (часто простое правило или существующая стратегия) формирует сигналы входа; вторичная метка фиксирует лишь то, оказался ли каждый сигнал прибыльным после учёта издержек. Затем отдельная мета-модель учится определять, когда первичный сигнал заслуживает доверия, а её калиброванная вероятность преобразуется в размер позиции — например, с помощью сигмоиды, которая переводит степень уверенности в долю максимальной ставки.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.488.1"">
+     A different way to structure the
+    </span>
+    <a id=""_idIndexMarker885"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.489.1"">
+     labeling problem is to
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.490.1"">
+      decompose direction and confidence
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.491.1"">
+     into two stages (López de Prado, 2018).
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.491.2"">
+     A primary model (often a simple rule or an existing strategy) generates entry signals; the secondary label records only whether each signal was profitable after costs.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.491.3"">
+     A separate
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.492.1"">
+      meta-model
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.493.1"">
+     then learns
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.494.1"">
+      when
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.495.1"">
+     the primary signal is trustworthy, and its calibrated probability is mapped to a position size, for example through a sigmoid that scales conviction into a fraction of the maximum bet.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.488.1"">Ещё один способ построения</span>
+    <a id=""_idIndexMarker885"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.489.1"">задачи разметки —</span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.490.1"">разделить направление и уверенность</span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.491.1"">на два этапа (López de Prado, 2018).</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.491.2"">Первичная модель (часто простое правило или существующая стратегия) формирует сигналы входа; вторичная метка фиксирует лишь то, оказался ли каждый сигнал прибыльным после учёта издержек.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.491.3"">Затем отдельная</span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.492.1"">мета-модель</span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.493.1"">учится определять,</span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.494.1"">когда</span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.495.1"">первичный сигнал заслуживает доверия, а её калиброванная вероятность преобразуется в размер позиции — например, с помощью сигмоиды, которая переводит степень уверенности в долю максимальной ставки.</span>
+   </p>
+",,,,,,,"strong,em,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+144,CH07,CH07-B0145,145,p,7.2 Label engineering > Meta-labels for confidence-weighted sizing,/*/*[2]/*/*[100],,198,157,"03_label_methods includes a self-contained illustration: a 20-day-momentum signal on SPY is meta-labeled by its forward-return outcome, and a sigmoid bet-size mapping converts the confidence score into a position. The case studies in this book do not adopt this two-stage structure: each case study trains a single model on a single label horizon and sizes positions via an allocator ( Chapter 17 ). The technique is most useful when a directional model is already in place and the goal is to filter weak signals rather than re-engineer the entry rule.","В 03_label_methods приведён автономный пример: 20-дневный импульсный сигнал для SPY получает мета-метку по доходности за последующий период, а сигмоидальное отображение размера ставки преобразует оценку уверенности в позицию. В примерах из этой книги двухэтапная структура не используется: в каждом примере обучается одна модель для одного горизонта метки, а размер позиций задаётся распределителем (глава 17). Этот метод особенно полезен, когда модель направления уже существует и требуется отфильтровать слабые сигналы, а не перепроектировать правило входа.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.496.1"">
+      03_label_methods
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.497.1"">
+     includes a self-contained illustration: a 20-day-momentum signal on SPY is meta-labeled by its forward-return outcome, and a sigmoid bet-size mapping converts the confidence score into a position.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.497.2"">
+     The case studies in this book do not adopt this two-stage structure: each case study trains a single model on a single label horizon and sizes positions via an allocator (
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.498.1"">
+      Chapter 17
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.499.1"">
+     ).
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.499.2"">
+     The technique is most useful when a directional model is already in place and the goal is to filter weak signals rather than re-engineer the entry rule.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.496.1"">03_label_methods</span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.497.1"">приводит автономный пример: 20-дневный импульсный сигнал для SPY получает мета-метку по доходности за последующий период, а сигмоидальное отображение размера ставки преобразует оценку уверенности в позицию.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.497.2"">В примерах из этой книги двухэтапная структура не используется: в каждом примере обучается одна модель для одного горизонта метки, а размер позиций задаётся распределителем (</span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.498.1"">глава 17</span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.499.1"">).</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.499.2"">Этот метод особенно полезен, когда модель направления уже существует и требуется отфильтровать слабые сигналы, а не перепроектировать правило входа.</span>
+   </p>
+",,,,CH07-CODE-013,,,"em,code",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+145,CH07,CH07-B0146,146,p,7.2 Label engineering > Meta-labels for confidence-weighted sizing,/*/*[2]/*/*[101],,198,157,Label diagnostics here focus on the quality of definitions ; the next section shows how to evaluate the relationship between a label and a candidate feature.,"Здесь диагностика меток сосредоточена на качестве определений; следующий раздел показывает, как оценивать связь между меткой и признаком-кандидатом.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.500.1"">
+     Label diagnostics here
+    </span>
+    <a id=""_idIndexMarker886"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.501.1"">
+     focus on
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.502.1"">
+      the quality of definitions
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.503.1"">
+     ; the next section shows how to evaluate the relationship between a label and a candidate feature.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.500.1"">Здесь диагностика меток</span>
+    <a id=""_idIndexMarker886"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.501.1"">сосредоточена на</span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.502.1"">качестве определений</span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.503.1"">; следующий раздел показывает, как оценивать связь между меткой и признаком-кандидатом.</span>
+   </p>
+",,,,,,,"em,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+146,CH07,CH07-B0147,147,h1,7.3 Univariate feature–label evaluation,/*/*[2]/*/*[102],_idParaDest-319,198,157,7.3 Univariate feature–label evaluation,7.3 Одномерная оценка связи признака и метки,"<h1 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-1"" id=""_idParaDest-319"">
+    <a id=""_idTextAnchor310"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.504.1"">
+     7.3 Univariate feature–label evaluation
+    </span>
+   </h1>
+   ","<h1 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-1"" id=""_idParaDest-319"">
+    <a id=""_idTextAnchor310"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.504.1"">7.3 Одномерная оценка связи признака и метки</span>
+   </h1>
+",,,,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+147,CH07,CH07-B0148,148,p,7.3 Univariate feature–label evaluation,/*/*[2]/*/*[103],,198,157,The first layer of evaluation is univariate feature–label screening: each candidate is assessed against the label one at a time. Preprocessed inputs and execution-consistent labels are described in Sections 7.1–7.2 ; candidate features appear in Chapters 8–10 . The screens apply in rough order:,"Первый уровень оценки — одномерный скрининг связи признака и метки: каждый кандидат поочерёдно оценивается относительно метки. Предобработанные входные данные и метки, согласованные с исполнением, описаны в разделах 7.1–7.2; признаки-кандидаты представлены в главах 8–10. Проверки выполняют примерно в следующем порядке:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.505.1"">
+     The first layer of evaluation is univariate feature–label
+    </span>
+    <a id=""_idIndexMarker887"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.506.1"">
+     screening: each candidate is assessed against the label one at a time.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.506.2"">
+     Preprocessed inputs and execution-consistent labels are described in
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.507.1"">
+      Sections 7.1–7.2
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.508.1"">
+     ; candidate features appear in
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.509.1"">
+      Chapters 8–10
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.510.1"">
+     .
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.510.2"">
+     The screens apply in rough order:
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.505.1"">Первый уровень оценки — одномерный скрининг связи признака и метки:</span>
+    <a id=""_idIndexMarker887"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.506.1"">каждый кандидат поочерёдно оценивается относительно метки.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.506.2"">Предобработанные входные данные и метки, согласованные с исполнением, описаны в</span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.507.1"">разделах 7.1–7.2</span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.508.1"">; признаки-кандидаты представлены в</span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.509.1"">главах 8–10</span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.510.1"">.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.510.2"">Проверки выполняют примерно в следующем порядке:</span>
+   </p>
+",,,,,,,"em,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+148,CH07,CH07-B0149,149,li,7.3 Univariate feature–label evaluation,/*/*[2]/*/*[104]/*[1],,198,157,Correctness : Can you trust the definition at decision time?,Корректность: можно ли доверять определению на момент принятия решения?,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"" value=""1"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.511.1"">
+       Correctness
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.512.1"">
+      : Can you trust the definition at decision time?
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"" value=""1"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.511.1"">Корректность</span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.512.1"">: можно ли доверять определению на момент принятия решения?</span>
+    </li>
+",,,,,,,strong,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+149,CH07,CH07-B0150,150,li,7.3 Univariate feature–label evaluation,/*/*[2]/*/*[104]/*[2],,198,157,Association : Does the feature carry information about the label?,Связь: несёт ли признак информацию о метке?,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.513.1"">
+       Association
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.514.1"">
+      : Does the feature carry information about the label?
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.513.1"">Связь</span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.514.1"">: несёт ли признак информацию о метке?</span>
+    </li>
+",,,,,,,strong,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+150,CH07,CH07-B0151,151,li,7.3 Univariate feature–label evaluation,/*/*[2]/*/*[104]/*[3],,198,157,Shape : Is the relationship compatible with a plausible mapping from signal to positions?,Форма: совместима ли эта зависимость с правдоподобным отображением сигнала в позиции?,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.515.1"">
+       Shape
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.516.1"">
+      : Is the relationship compatible with a plausible mapping from signal to positions?
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.515.1"">Форма</span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.516.1"">: совместима ли эта зависимость с правдоподобным отображением сигнала в позиции?</span>
+    </li>
+",,,,,,,strong,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+151,CH07,CH07-B0152,152,li,7.3 Univariate feature–label evaluation,/*/*[2]/*/*[104]/*[4],,198,157,Feasibility : Could anything implementable survive the trading setup’s cost and capacity constraints?,Реализуемость: способна ли практически реализуемая схема выдержать ограничения торговой конфигурации по издержкам и ёмкости?,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.517.1"">
+       Feasibility
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.518.1"">
+      : Could anything implementable survive the trading setup’s cost and capacity constraints?
+     </span>
+    </li>
+   ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.517.1"">Реализуемость</span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.518.1"">: способна ли практически реализуемая схема выдержать ограничения торговой конфигурации по издержкам и ёмкости?</span>
+    </li>
+",,,,,,,strong,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+152,CH07,CH07-B0153,153,p,7.3 Univariate feature–label evaluation,/*/*[2]/*/*[105],,198,157,"A feature must clear each screen to advance to the next. All diagnostics are computed within each fold and aggregated across folds: medians, interquartile ranges, and worst-fold views rather than a single pooled statistic.","Чтобы перейти к следующей проверке, признак должен пройти текущую. Все диагностические показатели рассчитываются внутри каждого фолда и агрегируются по фолдам: используются медианы, межквартильные размахи и результаты для худшего фолда, а не единая объединённая статистика.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.519.1"">
+     A feature must clear each screen to advance to the next.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.519.2"">
+     All diagnostics are computed within each fold and aggregated across folds: medians, interquartile ranges, and worst-fold views rather than a single pooled statistic.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.519.1"">Чтобы перейти к следующей проверке, признак должен пройти текущую.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.519.2"">Все диагностические показатели рассчитываются внутри каждого фолда и агрегируются по фолдам: используются медианы, межквартильные размахи и результаты для худшего фолда, а не единая объединённая статистика.</span>
+   </p>
+",,,,,,,,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+153,CH07,CH07-B0154,154,p,7.3 Univariate feature–label evaluation,/*/*[2]/*/*[106],,198,157,"Univariate triage is necessary but not sufficient. A feature that looks promising in isolation may duplicate another candidate, and a feature with weak marginal association may become valuable once conditioned on the right companion. Multivariate model selection ( Chapters 11–12 ) makes the decisive judgments. Section 7.4 addresses the multiple-testing problem that arises when many candidates pass screening.","Одномерный первичный отбор необходим, но недостаточен. Признак, перспективный сам по себе, может дублировать другого кандидата, а признак со слабой предельной связью может оказаться ценным при условии подходящего сопутствующего признака. Решающее заключение даёт многомерный отбор моделей (главы 11–12). В разделе 7.4 рассматривается проблема множественного тестирования, возникающая, когда скрининг проходит много кандидатов.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.520.1"">
+     Univariate triage is necessary but not sufficient.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.520.2"">
+     A feature that looks promising in isolation may duplicate another candidate, and a feature with weak marginal association may become valuable once conditioned on the right companion.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.520.3"">
+     Multivariate model selection (
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.521.1"">
+      Chapters 11–12
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.522.1"">
+     ) makes the decisive judgments.
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.523.1"">
+      Section 7.4
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.524.1"">
+     addresses the multiple-testing problem that arises when many candidates pass screening.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.520.1"">Одномерный первичный отбор необходим, но недостаточен.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.520.2"">Признак, перспективный сам по себе, может дублировать другого кандидата, а признак со слабой предельной связью может оказаться ценным при условии подходящего сопутствующего признака.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.520.3"">Решающее заключение даёт многомерный отбор моделей (</span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.521.1"">главы 11–12</span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.522.1"">).</span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.523.1"">В разделе 7.4</span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.524.1"">рассматривается проблема множественного тестирования, возникающая, когда скрининг проходит много кандидатов.</span>
+   </p>
+",,,,,,,em,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+154,CH07,CH07-B0155,155,h2,7.3 Univariate feature–label evaluation > Correctness screens – The non-negotiable first pass,/*/*[2]/*/*[107],_idParaDest-320,198,157,Correctness screens – The non-negotiable first pass,Проверка корректности — обязательный первый этап,"<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-320"">
+    <a id=""_idTextAnchor311"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.525.1"">
+     Correctness screens – The non-negotiable first pass
+    </span>
+   </h2>
+   ","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-320"">
+    <a id=""_idTextAnchor311"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.525.1"">Проверка корректности — обязательный первый этап</span>
+   </h2>
+",,,,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+155,CH07,CH07-B0156,156,p,7.3 Univariate feature–label evaluation > Correctness screens – The non-negotiable first pass,/*/*[2]/*/*[108],,198,157,"Before evaluating predictive power, verify that the feature and label are usable under the stated protocol. Run these checks on each feature–label bundle:","До оценки прогнозной силы убедитесь, что признак и метка пригодны для использования в рамках заявленного протокола. Выполните следующие проверки для каждой пары «признак–метка»:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.526.1"">
+     Before evaluating predictive power, verify that the feature and label are usable under the stated protocol.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.526.2"">
+     Run these checks on each feature–label bundle:
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.526.1"">До оценки прогнозной силы убедитесь, что признак и метка пригодны для использования в рамках заявленного протокола.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.526.2"">Выполните следующие проверки для каждой пары «признак–метка»:</span>
+   </p>
+",,,,,,,,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+156,CH07,CH07-B0157,157,li,7.3 Univariate feature–label evaluation > Correctness screens – The non-negotiable first pass,/*/*[2]/*/*[109]/*[1],,198,157,"Coverage : What fraction of eligible (asset, decision-time) pairs have non-null feature values? Sparse coverage changes the effective sample size and may indicate stale or lagged inputs.",Покрытие: для какой доли допустимых пар «актив — момент принятия решения» значения признака не являются пропущенными? Низкое покрытие изменяет эффективный размер выборки и может указывать на устаревшие или запаздывающие входные данные.,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"" value=""1"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.527.1"">
+       Coverage
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.528.1"">
+      : What fraction of eligible (asset, decision-time) pairs have non-null feature values?
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.528.2"">
+      Sparse coverage changes the effective sample size and may indicate stale or lagged inputs.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"" value=""1"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.527.1"">Покрытие</span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.528.1"">: для какой доли допустимых пар «актив — момент принятия решения» значения признака не являются пропущенными?</span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.528.2"">Низкое покрытие изменяет эффективный размер выборки и может указывать на устаревшие или запаздывающие входные данные.</span>
+    </li>
+",,,,,,,strong,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+157,CH07,CH07-B0158,158,li,7.3 Univariate feature–label evaluation > Correctness screens – The non-negotiable first pass,/*/*[2]/*/*[109]/*[2],,198,157,"Timing and lag consistency : Verify that the feature uses only information available at the time of decision. Check reporting lags for fundamental data, publication times for third-party signals, and update schedules for derived quantities.","Согласованность времени и задержек: убедитесь, что признак использует только информацию, доступную на момент принятия решения. Проверьте задержки публикации фундаментальных данных, время публикации сторонних сигналов и графики обновления производных величин.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.529.1"">
+       Timing and lag consistency
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.530.1"">
+      : Verify that the feature uses only information available at the time of decision.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.530.2"">
+      Check reporting lags for fundamental data, publication times for third-party signals, and update schedules for derived quantities.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.529.1"">Согласованность времени и задержек</span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.530.1"">: убедитесь, что признак использует только информацию, доступную на момент принятия решения.</span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.530.2"">Проверьте задержки публикации фундаментальных данных, время публикации сторонних сигналов и графики обновления производных величин.</span>
+    </li>
+",,,,,,,strong,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+158,CH07,CH07-B0159,159,li,7.3 Univariate feature–label evaluation > Correctness screens – The non-negotiable first pass,/*/*[2]/*/*[109]/*[3],,198,157,"Mask alignment : Confirm that the eligibility mask is applied identically to feature computation, label computation, and evaluation. Misaligned masks are a common source of leakage.","Согласованность маски: убедитесь, что маска допустимости одинаково применяется при вычислении признака, вычислении метки и оценке. Несогласованные маски — распространённый источник утечки.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.531.1"">
+       Mask alignment
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.532.1"">
+      : Confirm that the eligibility mask is applied identically to feature computation, label computation, and evaluation.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.532.2"">
+      Misaligned masks are a common source of leakage.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.531.1"">Согласованность маски</span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.532.1"">: убедитесь, что маска допустимости одинаково применяется при вычислении признака, вычислении метки и оценке.</span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.532.2"">Несогласованные маски — распространённый источник утечки.</span>
+    </li>
+",,,,,,,strong,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
+159,CH07,CH07-B0160,160,li,7.3 Univariate feature–label evaluation > Correctness screens – The non-negotiable first pass,/*/*[2]/*/*[109]/*[4],,198,157,"Staleness : For features that update infrequently (for example, quarterly fundamentals), check that the feature value changes at appropriate intervals. A feature that never updates may be dominated by asset-specific intercepts rather than a time-varying signal.","Устаревание: для признаков, обновляемых редко (например, квартальных фундаментальных показателей), убедитесь, что значение признака изменяется через надлежащие интервалы. В признаке, который никогда не обновляется, могут преобладать специфичные для активов свободные члены, а не изменяющийся во времени сигнал.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.533.1"">
+       Staleness
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.534.1"">
+      : For features that update infrequently (for example, quarterly fundamentals), check that the feature value changes at appropriate intervals.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.534.2"">
+      A feature that never updates may be dominated by asset-specific intercepts rather than a time-varying signal.
+     </span>
+    </li>
+   ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.533.1"">Устаревание</span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.534.1"">: для признаков, обновляемых редко (например, квартальных фундаментальных показателей), убедитесь, что значение признака изменяется через надлежащие интервалы.</span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.534.2"">В признаке, который никогда не обновляется, могут преобладать специфичные для активов свободные члены, а не изменяющийся во времени сигнал.</span>
+    </li>
+",,,,,,,strong,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH07-BATCH-004,"BATCH-004: перевод и независимая языковая/структурная QA-сверка по EPUB, PDF, глоссарию v1.14 и стилю v1.14; target_html/text PASS; 2026-08-16.",v0.9
