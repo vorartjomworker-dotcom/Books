@@ -19,7 +19,7 @@
     }
   ],
   "registries": [
-    {"chapter": "CH05", "version": "v0.3", "drive_id": "1k3edfdB4aG5lPJhQ4ryn-vLHefRYgXh0", "size_bytes": 128241, "modified_time": "2026-08-15T20:23:56.703Z", "sha256": "ec9167ddfe9759b18be5dadb561810258f7ceb514a82d382d30f34b53363ad23", "hash_scope": "stored XLSX bytes"},
+    {"chapter": "CH05", "version": "v0.3-BATCH-004_QA_PASS", "drive_id": "1k3edfdB4aG5lPJhQ4ryn-vLHefRYgXh0", "size_bytes": 158275, "modified_time": "2026-08-16T16:45:47.504Z", "sha256": "999050b88094b861ca3d962aebf95c803c8936873fac4ebcb2026a35decd9d46", "hash_scope": "stored XLSX bytes"},
     {"chapter": "CH06", "version": "v0.1-BATCH-004_QA_PASS", "drive_id": "11luC00OhnLC7yvnDhBAjGCX6TGKKue6U", "size_bytes": 114004, "modified_time": "2026-08-16T16:44:40.408Z", "sha256": "d6d8dc548e69e2f85365e6291e60e4b5fcba039211f1a6a1bdd7f4f02dfdee71", "hash_scope": "stored XLSX bytes"},
     {"chapter": "CH07", "version": "v0.8-BATCH-003_QA_PASS", "drive_id": "1uqYO_VZ8hQeLdHyiAqNTQdrgQFzFB5O7", "size_bytes": 121858, "modified_time": "2026-08-15T20:33:28.421Z", "sha256": "3a59e4c933bb2ab1e43ecae3efaa0a7b856fa1a682888c274a9b5bcf84a92c8b", "hash_scope": "stored XLSX bytes"},
     {"chapter": "CH08", "version": "v0.2", "drive_id": "13_rS13juXtkN6k1Xf9ZRNg3tpV6EE0Jx_tbEEvTzKYw", "size_bytes": 105010, "modified_time": "2026-08-15T20:17:23.469Z", "sha256": "35a28ad66b98b367496741f213099624b7fed6c15b9eebe5e6b5f344867675c0", "hash_scope": "XLSX export bytes"},
