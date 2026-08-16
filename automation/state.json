@@ -8,7 +8,7 @@
     "start": 201,
     "end": 240,
     "branch": "translation/ch06-b0201-b0240",
-    "status": "TRANSLATING",
+    "status": "QA",
     "attempt": 0,
     "lock": {
       "owner": "codex-integrator",
@@ -45,7 +45,7 @@
       "start": 201,
       "end": 240,
       "branch": "translation/ch06-b0201-b0240",
-      "status": "TRANSLATING"
+      "status": "QA"
     },
     {
       "chapter": "CH07",
@@ -70,6 +70,6 @@
     }
   ],
   "last_run": "CH06-B0201-B0240-20260816T205743Z",
-  "updated_at": "2026-08-16T20:57:43Z",
+  "updated_at": "2026-08-16T21:02:00Z",
   "auto_advance": true
 }
