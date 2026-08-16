@@ -1,0 +1,896 @@
+"chapter_id","block_id","sequence_number","element_type","section_path","xhtml_path","source_element_id","pdf_physical_page","pdf_printed_page","english_text","russian_text","source_html","asset_ids","table_id","formula_id","code_id","link_ids","term_candidates","formatting_markers","translation_status","qa_status","batch_id","version"
+"CH09","CH09-B0121","121","p","9.2 Transforming signals to uncover hidden structure > Path signature features","/*/*[2]/*/*[98]","","253","212","The same general principle will reappear in later chapters in learned form. Temporal convolutional networks, recurrent models, and transformer encoders also transform raw sequences into richer internal representations and then expose hidden states, embeddings, or forecasts as features.","Тот же общий принцип в последующих главах вновь появится уже в обучаемой форме. Временные свёрточные сети, рекуррентные модели и кодировщики-трансформеры также преобразуют исходные последовательности в более содержательные внутренние представления, а затем предоставляют скрытые состояния, векторные представления или прогнозы в качестве признаков.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.382.1"">
+     The same general principle will reappear in later chapters in learned form.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.382.2"">
+     Temporal convolutional networks, recurrent models, and transformer encoders also transform raw sequences into richer internal representations and then expose hidden states, embeddings, or forecasts as features.
+    </span>
+   </p>
+   ","","","","","","","","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0122","122","p","9.2 Transforming signals to uncover hidden structure > Path signature features","/*/*[2]/*/*[99]/*","","242","201","Implementation : See 06_path_signatures for the mathematical formulation (iterated integrals, log-signatures, time augmentation), computation using the esig library, and a head-to-head comparison against traditional lag features.","Реализация: в `06_path_signatures` представлены математическая формулировка (итерированные интегралы, лог-сигнатуры, дополнение временной координатой), вычисления с использованием библиотеки `esig` и прямое сравнение с традиционными лаговыми признаками.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+     <strong class=""screenText"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.383.1"">
+       Implementation
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.384.1"">
+      : See
+     </span>
+     <code class=""inlineCode"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.385.1"">
+       06_path_signatures
+      </span>
+     </code>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.386.1"">
+      for the mathematical formulation (iterated integrals, log-signatures, time augmentation), computation using the
+     </span>
+     <code class=""inlineCode"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.387.1"">
+       esig
+      </span>
+     </code>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.388.1"">
+      library, and a head-to-head comparison against traditional lag features.
+     </span>
+    </p>
+   ","","","","","","","strong,code","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0123","123","p","9.2 Transforming signals to uncover hidden structure > Path signature features","/*/*[2]/*/*[100]","","253","212","With latent state, frequency, scale, and path structure now available as features, the next section turns to volatility—the single most predictable property of financial time series—and shows how fitted models such as GARCH, EGARCH, HAR, and rough-volatility estimators convert that predictability into production features.","Теперь, когда в качестве признаков доступны скрытое состояние, частота, масштаб и структура траектории, в следующем разделе рассматривается волатильность — наиболее предсказуемое свойство финансовых временных рядов — и показывается, как оценённые модели, такие как GARCH, EGARCH и HAR, а также методы оценки шероховатой волатильности преобразуют эту предсказуемость в признаки, пригодные для промышленной эксплуатации.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.389.1"">
+     With latent state, frequency, scale, and path structure now available as features, the next section turns to volatility—the single most predictable property of financial time series—and shows how fitted models such as GARCH, EGARCH, HAR, and rough-volatility estimators convert that predictability into production features.
+    </span>
+   </p>
+   ","","","","","","","","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0124","124","h1","9.3 Volatility Features","/*/*[2]/*/*[101]","_idParaDest-384","253","212","9.3 Volatility Features","9.3 Признаки волатильности","<h1 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-1"" id=""_idParaDest-384"">
+    <a id=""_idTextAnchor373"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.390.1"">
+     9.3 Volatility Features
+    </span>
+   </h1>
+   ","","","","","","","a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0125","125","p","9.3 Volatility Features","/*/*[2]/*/*[102]","","253","212","Chapter 8 introduced direct volatility measures built from observed prices, including close-to-close realized volatility and range-based estimators such as Parkinson (1980), Garman and Klass (1980), and Yang and Zhang (2000). Those measures efficiently summarize price variation, but they remain backward-looking summaries. This section turns to fitted volatility models and treats their outputs as features. The aim is not to replace the direct measures from Chapter 8 , but to model how volatility evolves through time and to extract point-in-time safe summaries from that fitted dynamics.","В главе 8 были представлены непосредственные меры волатильности, построенные по наблюдаемым ценам, включая реализованную волатильность от закрытия до закрытия и диапазонные оценки, такие как оценки Паркинсона (1980), Гармана — Класса (1980) и Янга — Чжана (2000). Эти меры эффективно обобщают изменения цен, но остаются ретроспективными характеристиками. В этом разделе рассматриваются оценённые модели волатильности, а их результаты используются как признаки. Цель состоит не в том, чтобы заменить непосредственные меры из главы 8, а в том, чтобы смоделировать изменение волатильности во времени и извлечь из этой оценённой динамики сводные характеристики, корректные на момент времени.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.391.1"">
+      Chapter 8
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.392.1"">
+     introduced direct volatility measures built from observed prices, including close-to-close realized volatility and range-based estimators such as Parkinson (1980), Garman and Klass (1980), and Yang and Zhang (2000).
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.392.2"">
+     Those measures efficiently summarize price variation, but they remain
+    </span>
+    <a id=""_idIndexMarker1270"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.393.1"">
+     backward-looking summaries.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.393.2"">
+     This section turns to fitted
+    </span>
+    <a id=""_idIndexMarker1271"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.394.1"">
+     volatility models and treats their outputs as features.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.394.2"">
+     The aim is not to replace the direct measures from
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.395.1"">
+      Chapter 8
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.396.1"">
+     , but to model how volatility evolves through time and to extract point-in-time safe summaries from that fitted dynamics.
+    </span>
+   </p>
+   ","","","","","","","em,a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0126","126","p","9.3 Volatility Features","/*/*[2]/*/*[103]","","253","212","Fitted volatility models provide three kinds of information that direct aggregation does not:","Оценённые модели волатильности предоставляют три вида информации, недоступной при непосредственном агрегировании:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.397.1"">
+     Fitted volatility models provide three kinds of information that direct aggregation does not:
+    </span>
+   </p>
+   ","","","","","","","","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0127","127","li","9.3 Volatility Features","/*/*[2]/*/*[104]/*[1]","","253","212","They produce conditional volatility estimates that update as new shocks arrive","Они формируют оценки условной волатильности, которые обновляются по мере поступления новых шоков","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.398.1"">
+      They produce
+     </span>
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.399.1"">
+       conditional volatility
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.400.1"">
+      estimates
+     </span>
+     <a id=""_idIndexMarker1272"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.401.1"">
+      that update as new shocks arrive
+     </span>
+    </li>
+    ","","","","","","","strong,a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0128","128","li","9.3 Volatility Features","/*/*[2]/*/*[104]/*[2]","","253","212","Some models separate short-, medium-, and long-horizon contributions to current volatility","Некоторые модели разделяют вклад краткосрочного, среднесрочного и долгосрочного горизонтов в текущую волатильность","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.402.1"">
+      Some models separate short-, medium-, and long-horizon contributions to current volatility
+     </span>
+    </li>
+    ","","","","","","","","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0129","129","li","9.3 Volatility Features","/*/*[2]/*/*[104]/*[3]","","253","212","They expose parameters that describe persistence and asymmetry, which are often informative in their own right","Они предоставляют параметры, описывающие устойчивость и асимметрию, которые зачастую информативны сами по себе","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.403.1"">
+      They expose parameters that describe persistence and asymmetry, which are often informative in their own right
+     </span>
+    </li>
+   ","","","","","","","","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0130","130","p","9.3 Volatility Features","/*/*[2]/*/*[105]","","253","212","Throughout this section, the model is the feature extractor. Conditional variance paths, persistence measures, leverage parameters, and horizon-specific components are incorporated into later machine learning pipelines alongside the direct features from Chapter 8 .","На протяжении всего этого раздела модель выступает средством извлечения признаков. Траектории условной дисперсии, меры устойчивости, параметры эффекта левериджа и компоненты для отдельных горизонтов включаются в последующие конвейеры машинного обучения наряду с непосредственными признаками из главы 8.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.404.1"">
+     Throughout this section, the model is the feature extractor.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.404.2"">
+     Conditional variance paths, persistence measures, leverage parameters, and horizon-specific components are incorporated into later machine learning pipelines alongside the direct features from
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.405.1"">
+      Chapter 8
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.406.1"">
+     .
+    </span>
+   </p>
+   ","","","","","","","em","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0131","131","h2","9.3 Volatility Features > Autoregressive integrated moving average features","/*/*[2]/*/*[106]","_idParaDest-385","254","213","Autoregressive integrated moving average features","Признаки авторегрессионной интегрированной модели скользящего среднего","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-385"">
+    <a id=""_idTextAnchor374"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.407.1"">
+     Autoregressive integrated moving average features
+    </span>
+   </h2>
+   ","","","","","","","a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0132","132","p","9.3 Volatility Features > Autoregressive integrated moving average features","/*/*[2]/*/*[107]","","254","213","Autoregressive integrated moving average ( ARIMA ) plays a supporting role in this section. Its main use is to remove simple linear structure from a series before volatility modeling or to generate fitted features for ancillary series that are more predictable than daily returns. In practice, residuals are often the most useful output because they provide a de-meaned or de-trended input for later volatility models. For series such as realized volatility, bid-ask spreads, funding rates, or futures basis, the one-step forecast can also be used directly as a feature. For liquid daily returns, however, low-order ARIMA models usually add little as standalone predictors, so ARIMA belongs here mainly as a preprocessing and auxiliary-feature tool.","Авторегрессионная интегрированная модель скользящего среднего (ARIMA) играет в этом разделе вспомогательную роль. В основном она используется для устранения простой линейной структуры ряда перед моделированием волатильности либо для формирования оценённых признаков по вспомогательным рядам, которые лучше поддаются прогнозированию, чем дневные доходности. На практике наиболее полезным результатом часто оказываются остатки, поскольку они дают очищенные от среднего или тренда входные данные для последующих моделей волатильности. Для таких рядов, как реализованная волатильность, спреды между лучшими ценами покупки и продажи, ставки финансирования или базис фьючерсов, одношаговый прогноз также можно непосредственно использовать как признак. Однако для ликвидных дневных доходностей модели ARIMA низкого порядка обычно малоэффективны как самостоятельные предикторы, поэтому здесь ARIMA преимущественно служит инструментом предварительной обработки и формирования вспомогательных признаков.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.408.1"">
+      Autoregressive integrated moving average
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.409.1"">
+     (
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.410.1"">
+      ARIMA
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.411.1"">
+     ) plays
+    </span>
+    <a id=""_idIndexMarker1273"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.412.1"">
+     a supporting role in this section.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.412.2"">
+     Its main use is to remove simple linear structure from a series before volatility modeling or to generate fitted features for ancillary series that are more predictable
+    </span>
+    <a id=""_idIndexMarker1274"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.413.1"">
+     than daily returns.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.413.2"">
+     In practice, residuals are often the most useful output because they provide a de-meaned or de-trended input for later volatility models.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.413.3"">
+     For series such as realized volatility, bid-ask spreads, funding rates, or futures basis, the one-step forecast can also be used directly as a feature.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.413.4"">
+     For liquid daily returns, however, low-order ARIMA models usually add little as standalone predictors, so ARIMA belongs here mainly as a preprocessing and auxiliary-feature tool.
+    </span>
+   </p>
+   ","","","","","","","strong,a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0133","133","p","9.3 Volatility Features > Autoregressive integrated moving average features","/*/*[2]/*/*[108]","","254","213","This distinction matters. For many liquid return series, the direct predictive value of a low-order ARIMA mean equation is modest at best. In those cases, the residual is usually more useful than the forecast because it removes whatever linear dependence is present before the conditional variance model is fit. For series with a clearer autoregressive structure, the fitted ARIMA model can generate two practical features:","Это различие имеет значение. Для многих рядов доходности ликвидных активов непосредственная прогнозная ценность уравнения среднего ARIMA низкого порядка в лучшем случае невелика. В таких случаях остаток обычно полезнее прогноза, поскольку перед оцениванием модели условной дисперсии он устраняет имеющуюся линейную зависимость. Для рядов с более выраженной авторегрессионной структурой оценённая модель ARIMA может сформировать два практически полезных признака:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.414.1"">
+     This distinction matters.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.414.2"">
+     For many liquid return series, the direct predictive value of a low-order ARIMA mean equation is modest at best.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.414.3"">
+     In those cases, the residual is usually more useful than the forecast because it removes whatever linear dependence is present before the conditional variance model is fit.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.414.4"">
+     For series with a clearer autoregressive structure, the fitted ARIMA model can generate two practical features:
+    </span>
+   </p>
+   ","","","","","","","","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0134","134","li","9.3 Volatility Features > Autoregressive integrated moving average features","/*/*[2]/*/*[109]/*[1]","","254","213","The residual, which measures deviation from the model’s expected path","Остаток, измеряющий отклонение от ожидаемой моделью траектории","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.415.1"">
+      The residual, which measures deviation from the model’s expected path
+     </span>
+    </li>
+    ","","","","","","","","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0135","135","li","9.3 Volatility Features > Autoregressive integrated moving average features","/*/*[2]/*/*[109]/*[2]","","254","213","The one-step forecast, which provides a model-based estimate of the next period’s level","Одношаговый прогноз, дающий модельную оценку уровня в следующем периоде","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.416.1"">
+      The one-step forecast, which provides a model-based estimate of the next period’s level
+     </span>
+    </li>
+   ","","","","","","","","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0136","136","p","9.3 Volatility Features > Autoregressive integrated moving average features","/*/*[2]/*/*[110]","","254","213","Order selection should remain conservative. For stationary inputs, low-order models such as ARIMA(1,0,1) or ARIMA(2,0,1) are usually sufficient; for trending inputs, differencing may be required. Automated selection by information criteria can be useful, but any search over orders must be repeated inside each walk-forward training window. Otherwise, the lag structure itself is chosen with knowledge of later data. In this section, the key outputs are therefore arima_residual and, where the series supports it, arima_forecast .","К выбору порядка следует подходить консервативно. Для стационарных входных данных обычно достаточно моделей низкого порядка, таких как ARIMA(1,0,1) или ARIMA(2,0,1); для данных с трендом может потребоваться взятие разностей. Автоматический выбор по информационным критериям может быть полезен, однако поиск по порядкам необходимо повторять внутри каждого обучающего окна пошаговой проверки с продвижением во времени. В противном случае сама лаговая структура выбирается с учётом более поздних данных. Поэтому ключевыми результатами в этом разделе являются `arima_residual` и, если свойства ряда это допускают, `arima_forecast`.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.417.1"">
+     Order selection should remain conservative.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.417.2"">
+     For stationary inputs, low-order models such as ARIMA(1,0,1) or ARIMA(2,0,1) are usually sufficient; for trending inputs, differencing may be required.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.417.3"">
+     Automated selection by information criteria can be useful, but any search over orders must be repeated inside each walk-forward training window.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.417.4"">
+     Otherwise, the lag structure itself is chosen with
+    </span>
+    <a id=""_idIndexMarker1275"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.418.1"">
+     knowledge of later data.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.418.2"">
+     In this section, the
+    </span>
+    <a id=""_idIndexMarker1276"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.419.1"">
+     key outputs are therefore
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.420.1"">
+      arima_residual
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.421.1"">
+     and, where the series supports it,
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.422.1"">
+      arima_forecast
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.423.1"">
+     .
+    </span>
+   </p>
+   ","","","","","","","code,a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0137","137","p","9.3 Volatility Features > Autoregressive integrated moving average features","/*/*[2]/*/*[111]/*","","242","201","Implementation : See 07_arima_features for ARIMA order selection, residual extraction, and walk-forward evaluation.","Реализация: в `07_arima_features` рассматриваются выбор порядка ARIMA, извлечение остатков и пошаговая проверка с продвижением во времени.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+     <strong class=""screenText"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.424.1"">
+       Implementation
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.425.1"">
+      : See
+     </span>
+     <code class=""inlineCode"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.426.1"">
+       07_arima_features
+      </span>
+     </code>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.427.1"">
+      for ARIMA order selection, residual extraction, and walk-forward evaluation.
+     </span>
+    </p>
+   ","","","","","","","strong,code","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0138","138","h2","9.3 Volatility Features > Generalized autoregressive conditional heteroskedasticity features","/*/*[2]/*/*[112]","_idParaDest-386","254","213","Generalized autoregressive conditional heteroskedasticity features","Признаки обобщённой авторегрессионной условной гетероскедастичности","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-386"">
+    <a id=""_idTextAnchor375"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.428.1"">
+     Generalized autoregressive conditional heteroskedasticity features
+    </span>
+   </h2>
+   ","","","","","","","a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0139","139","p","9.3 Volatility Features > Generalized autoregressive conditional heteroskedasticity features","/*/*[2]/*/*[113]","","254","213","The standard workhorse is the generalized autoregressive conditional heteroskedasticity ( GARCH ) model, introduced by Engle (1982) for the ARCH case and generalized by Bollerslev (1986). In a GARCH(1,1) specification, today’s conditional variance depends on a constant term, yesterday’s squared innovation, and yesterday’s conditional variance:","Стандартной рабочей моделью является обобщённая авторегрессионная условная гетероскедастичность (GARCH): Энгл (1982) предложил частный случай ARCH, а Боллерслев (1986) обобщил его. В спецификации GARCH(1,1) сегодняшняя условная дисперсия зависит от постоянного члена, квадрата инновации за предыдущий день и условной дисперсии за предыдущий день:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.429.1"">
+     The standard workhorse is the
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.430.1"">
+      generalized autoregressive conditional heteroskedasticity
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.431.1"">
+     (
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.432.1"">
+      GARCH
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.433.1"">
+     ) model, introduced by
+    </span>
+    <a id=""_idIndexMarker1277"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.434.1"">
+     Engle (1982) for the
+    </span>
+    <a id=""_idIndexMarker1278"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.435.1"">
+     ARCH case and generalized by Bollerslev (1986).
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.435.2"">
+     In a GARCH(1,1) specification, today’s conditional variance depends on a constant term, yesterday’s squared innovation, and yesterday’s conditional variance:
+    </span>
+   </p>
+   ","","","","","","","strong,a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0140","140","p","9.3 Volatility Features > Generalized autoregressive conditional heteroskedasticity features","/*/*[2]/*/*[115]","","254","213","For feature engineering, the model matters less as a forecasting object than as a structured decomposition of volatility dynamics. The fitted conditional standard deviation, often stored as cond_vol , is the central output. It is a model-based estimate of the volatility state at time and is often more responsive than a fixed-window realized-volatility estimate because it updates recursively as new shocks arrive.","При конструировании признаков модель важна не столько как средство прогнозирования, сколько как структурированное разложение динамики волатильности. Центральным результатом является оценённое условное стандартное отклонение, часто сохраняемое как `cond_vol`. Оно представляет собой модельную оценку состояния волатильности в момент [IMG:../Images/B18427_05_074.png] и нередко быстрее реагирует на изменения, чем оценка реализованной волатильности с фиксированным окном, поскольку рекурсивно обновляется при поступлении новых шоков.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.437.1"">
+     For feature engineering, the model matters less as a forecasting object than as a structured decomposition of volatility dynamics.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.437.2"">
+     The fitted conditional standard deviation, often stored as
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.438.1"">
+      cond_vol
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.439.1"">
+     , is the central output.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.439.2"">
+     It is a model-based estimate of the volatility state at time
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.440.1"">
+     <img alt=""img"" src=""../Images/B18427_05_074.png""/>
+    </span>
+    <a id=""_idIndexMarker1280"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.441.1"">
+     and is often more responsive than a fixed-window realized-volatility estimate because it updates recursively as new shocks arrive.
+    </span>
+   </p>
+   ","CH09-ASSET-060","","","","","","code,a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0141","141","li","9.3 Volatility Features > Generalized autoregressive conditional heteroskedasticity features","/*/*[2]/*/*[116]/*[1]","","242","201","The coefficient summarizes how strongly volatility reacts to recent shocks; this is the natural shock_impact feature","Коэффициент [IMG:../Images/B18427_03_014.png] характеризует силу реакции волатильности на недавние шоки; он естественным образом образует признак `shock_impact`","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.442.1"">
+      The coefficient
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.443.1"">
+      <img alt=""img"" src=""../Images/B18427_03_014.png""/>
+     </span>
+     <a id=""_idIndexMarker1281"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.444.1"">
+      summarizes how strongly volatility reacts to recent shocks; this is the natural
+     </span>
+     <code class=""inlineCode"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.445.1"">
+       shock_impact
+      </span>
+     </code>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.446.1"">
+      feature
+     </span>
+    </li>
+    ","CH09-ASSET-030","","","","","","code,a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0142","142","li","9.3 Volatility Features > Generalized autoregressive conditional heteroskedasticity features","/*/*[2]/*/*[116]/*[2]","","242","201","The coefficient summarizes persistence in the volatility process and becomes a vol_persistence feature","Коэффициент [IMG:../Images/B18427_05_030.png] характеризует устойчивость процесса волатильности и становится признаком `vol_persistence`","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.447.1"">
+      The coefficient
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.448.1"">
+      <img alt=""img"" src=""../Images/B18427_05_030.png""/>
+     </span>
+     <a id=""_idIndexMarker1282"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.449.1"">
+      summarizes persistence in the volatility process and becomes a
+     </span>
+     <code class=""inlineCode"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.450.1"">
+       vol_persistence
+      </span>
+     </code>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.451.1"">
+      feature
+     </span>
+    </li>
+   ","CH09-ASSET-031","","","","","","code,a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0143","143","p","9.3 Volatility Features > Generalized autoregressive conditional heteroskedasticity features","/*/*[2]/*/*[117]","","242","201","Their sum, , is especially useful because it captures how slowly a volatility shock decays. When is close to one, volatility is highly persistent.","Особенно полезна их сумма, [IMG:../Images/B18427_09_030.png], поскольку она характеризует скорость затухания шока волатильности. Когда [IMG:../Images/B18427_09_030.png] близка к единице, волатильность обладает высокой устойчивостью.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.452.1"">
+     Their sum,
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.453.1"">
+     <img alt=""img"" src=""../Images/B18427_09_030.png""/>
+    </span>
+    <a id=""_idIndexMarker1283"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.454.1"">
+     , is especially useful because it captures how slowly a volatility shock decays.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.454.2"">
+     When
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.455.1"">
+     <img alt=""img"" src=""../Images/B18427_09_030.png""/>
+    </span>
+    <a id=""_idIndexMarker1284"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.456.1"">
+     is close to one, volatility is highly persistent.
+    </span>
+   </p>
+   ","CH09-ASSET-033,CH09-ASSET-033","","","","","","a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0144","144","p","9.3 Volatility Features > Generalized autoregressive conditional heteroskedasticity features","/*/*[2]/*/*[118]","","255","214","That persistence can be translated into a more intuitive quantity. In a stationary GARCH model, the approximate half-life of a volatility shock is . For SPY, a GARCH(1,1) fit yields and , giving and an implied half-life of about 23 trading days. This helps explain why volatility models often contribute useful features even when mean-return models do not: volatility clusters, and that clustering can be summarized parsimoniously.","Эту устойчивость можно выразить через более интуитивно понятную величину. В стационарной модели GARCH приближённый период полураспада шока волатильности равен [IMG:../Images/B18427_09_032.png]. Для SPY оценка GARCH(1,1) даёт [IMG:../Images/B18427_09_033.png] и [IMG:../Images/B18427_09_034.png], откуда получается [IMG:../Images/B18427_09_035.png] и следует период полураспада около 23 торговых дней. Это помогает понять, почему модели волатильности часто дают полезные признаки даже тогда, когда модели средней доходности этого не делают: волатильность кластеризуется, и эту кластеризацию можно компактно описать.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.457.1"">
+     That persistence can be translated into a more intuitive quantity.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.457.2"">
+     In a stationary GARCH model, the approximate half-life of a volatility shock is
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.458.1"">
+     <img alt=""img"" src=""../Images/B18427_09_032.png""/>
+    </span>
+    <a id=""_idIndexMarker1285"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.459.1"">
+     .
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.459.2"">
+     For SPY, a GARCH(1,1) fit yields
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.460.1"">
+     <img alt=""img"" src=""../Images/B18427_09_033.png""/>
+    </span>
+    <a id=""_idIndexMarker1286"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.461.1"">
+     and
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.462.1"">
+     <img alt=""img"" src=""../Images/B18427_09_034.png""/>
+    </span>
+    <a id=""_idIndexMarker1287"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.463.1"">
+     , giving
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.464.1"">
+     <img alt=""img"" src=""../Images/B18427_09_035.png""/>
+    </span>
+    <a id=""_idIndexMarker1288"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.465.1"">
+     and an implied half-life of about 23 trading days.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.465.2"">
+     This helps explain why volatility models often contribute useful features even when mean-return models do not: volatility clusters, and that clustering can be summarized parsimoniously.
+    </span>
+   </p>
+   ","CH09-ASSET-034,CH09-ASSET-035,CH09-ASSET-036,CH09-ASSET-037","","","","","","a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0145","145","p","9.3 Volatility Features > Generalized autoregressive conditional heteroskedasticity features","/*/*[2]/*/*[119]","","255","214","The model also implies a long-run variance level:","Модель также задаёт долгосрочный уровень дисперсии:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.466.1"">
+     The model also implies a long-run variance level:
+    </span>
+   </p>
+   ","","","","","","","","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0146","146","p","9.3 Volatility Features > Generalized autoregressive conditional heteroskedasticity features","/*/*[2]/*/*[121]","","255","214","which can be used as a long_run_vol feature when the fit is covariance-stationary. That restriction matters. If , the model behaves like an integrated GARCH ( IGARCH ) process and does not imply a finite unconditional variance. In that case, the long-run variance should not be interpreted as a valid feature. In practice, it is safer either to constrain estimation to stationary fits or to explicitly flag nonstationary estimates.","который можно использовать как признак `long_run_vol`, если оценённая модель является ковариационно-стационарной. Это ограничение существенно. Если [IMG:../Images/B18427_09_037.png], модель ведёт себя как интегрированный процесс GARCH (IGARCH) и не предполагает конечной безусловной дисперсии. В таком случае долгосрочную дисперсию не следует интерпретировать как допустимый признак. На практике безопаснее либо ограничить оценивание стационарными моделями, либо явно помечать нестационарные оценки.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.468.1"">
+     which can be used as a
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.469.1"">
+      long_run_vol
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.470.1"">
+     feature when the fit is covariance-stationary.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.470.2"">
+     That restriction matters.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.470.3"">
+     If
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.471.1"">
+     <img alt=""img"" src=""../Images/B18427_09_037.png""/>
+    </span>
+    <a id=""_idIndexMarker1290"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.472.1"">
+     , the model behaves like an
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.473.1"">
+      integrated GARCH
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.474.1"">
+     (
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.475.1"">
+      IGARCH
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.476.1"">
+     ) process and
+    </span>
+    <a id=""_idIndexMarker1291"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.477.1"">
+     does not imply a finite unconditional variance.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.477.2"">
+     In that
+    </span>
+    <a id=""_idIndexMarker1292"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.478.1"">
+     case, the long-run
+    </span>
+    <a id=""_idIndexMarker1293"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.479.1"">
+     variance should not be interpreted as a valid feature.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.479.2"">
+     In practice, it is safer either to constrain estimation to stationary fits or to explicitly flag nonstationary estimates.
+    </span>
+   </p>
+   ","CH09-ASSET-039","","","","","","strong,code,a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0147","147","p","9.3 Volatility Features > Generalized autoregressive conditional heteroskedasticity features","/*/*[2]/*/*[122]/*","","242","201","Implementation : See 08_garch_volatility for GARCH estimation, ARCH-effect testing, and conditional volatility extraction.","Реализация: в `08_garch_volatility` рассматриваются оценивание GARCH, проверка на ARCH-эффект и извлечение условной волатильности.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+     <strong class=""screenText"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.480.1"">
+       Implementation
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.481.1"">
+      : See
+     </span>
+     <code class=""inlineCode"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.482.1"">
+       08_garch_volatility
+      </span>
+     </code>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.483.1"">
+      for GARCH estimation, ARCH-effect testing, and conditional volatility extraction.
+     </span>
+    </p>
+   ","","","","","","","strong,code","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0148","148","h2","9.3 Volatility Features > Asymmetric volatility – Exponential GARCH features","/*/*[2]/*/*[123]","_idParaDest-387","255","214","Asymmetric volatility – Exponential GARCH features","Асимметричная волатильность: признаки экспоненциальной GARCH","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-387"">
+    <a id=""_idTextAnchor376"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.484.1"">
+     Asymmetric volatility – Exponential GARCH features
+    </span>
+   </h2>
+   ","","","","","","","a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0149","149","p","9.3 Volatility Features > Asymmetric volatility – Exponential GARCH features","/*/*[2]/*/*[124]","","255","214","Standard GARCH treats positive and negative shocks symmetrically because it depends on squared innovations. Financial markets often do not behave that way. In many equity markets, negative returns are followed by larger increases in volatility than positive returns of the same magnitude.","Стандартная GARCH симметрично обрабатывает положительные и отрицательные шоки, поскольку зависит от квадратов инноваций. Финансовые рынки часто ведут себя иначе. На многих фондовых рынках за отрицательными доходностями следуют более значительные повышения волатильности, чем за положительными доходностями той же абсолютной величины.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.485.1"">
+     Standard GARCH
+    </span>
+    <a id=""_idIndexMarker1294"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.486.1"">
+     treats positive and negative shocks symmetrically because
+    </span>
+    <a id=""_idIndexMarker1295"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.487.1"">
+     it depends on squared innovations.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.487.2"">
+     Financial markets often do not behave that way.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.487.3"">
+     In many equity markets, negative returns are followed by larger increases in volatility than positive returns of the same magnitude.
+    </span>
+   </p>
+   ","","","","","","","a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0150","150","p","9.3 Volatility Features > Asymmetric volatility – Exponential GARCH features","/*/*[2]/*/*[125]","","242","201","The exponential GARCH ( EGARCH ) model captures this asymmetry by modeling log variance:","Экспоненциальная модель GARCH (EGARCH) учитывает эту асимметрию путём моделирования логарифма дисперсии:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.488.1"">
+     The
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.489.1"">
+      exponential GARCH
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.490.1"">
+     (
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.491.1"">
+      EGARCH
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.492.1"">
+     ) model
+    </span>
+    <a id=""_idIndexMarker1296"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.493.1"">
+     captures this asymmetry by modeling log variance:
+    </span>
+   </p>
+   ","","","","","","","strong,a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0151","151","p","9.3 Volatility Features > Asymmetric volatility – Exponential GARCH features","/*/*[2]/*/*[127]","","242","201","The asymmetry enters through . When is negative, negative shocks raise future volatility more than positive shocks do (Nelson, 1991). That parameter is the natural leverage_effect feature. Its sign and magnitude summarize whether the asset exhibits the familiar equity-style leverage pattern and how strong that pattern is in the current estimation window.","Асимметрия вводится через [IMG:../Images/B18427_09_039.png]. Когда [IMG:../Images/B18427_09_039.png] имеет отрицательное значение, отрицательные шоки повышают будущую волатильность сильнее, чем положительные (Nelson, 1991). Этот параметр естественным образом образует признак `leverage_effect`. Его знак и абсолютная величина показывают, наблюдается ли для данного актива характерный для фондового рынка эффект левериджа и насколько он выражен в текущем окне оценивания.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.495.1"">
+     The asymmetry enters through
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.496.1"">
+     <img alt=""img"" src=""../Images/B18427_09_039.png""/>
+    </span>
+    <a id=""_idIndexMarker1298"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.497.1"">
+     .
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.497.2"">
+     When
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.498.1"">
+     <img alt=""img"" src=""../Images/B18427_09_039.png""/>
+    </span>
+    <a id=""_idIndexMarker1299"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.499.1"">
+     is negative, negative shocks raise future volatility more than positive shocks do (Nelson, 1991).
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.499.2"">
+     That parameter is the natural
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.500.1"">
+      leverage_effect
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.501.1"">
+     feature.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.501.2"">
+     Its sign and magnitude summarize whether the asset exhibits the familiar equity-style leverage pattern and how strong that pattern is in the current estimation window.
+    </span>
+   </p>
+   ","CH09-ASSET-042,CH09-ASSET-042","","","","","","code,a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0152","152","p","9.3 Volatility Features > Asymmetric volatility – Exponential GARCH features","/*/*[2]/*/*[128]","","256","215","This is often more useful as a conditioning variable than as a forecast on its own. A strongly negative leverage parameter indicates that downside shocks have disproportionate consequences for the volatility state. That can matter for risk controls, for feature interactions with momentum or carry signals, and for interpreting whether a recent increase in volatility reflects generic turbulence or specifically downside stress.","Этот параметр зачастую полезнее в качестве обусловливающей переменной, чем в качестве самостоятельного прогноза. Сильно отрицательный параметр левериджа указывает, что шоки снижения оказывают непропорционально сильное влияние на состояние волатильности. Это может иметь значение для механизмов управления риском, взаимодействий признаков с сигналами моментума или кэрри, а также для определения того, отражает ли недавнее повышение волатильности общую турбулентность или именно стресс, связанный со снижением рынка.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.502.1"">
+     This is often more useful as a conditioning variable than as a forecast on its own.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.502.2"">
+     A strongly negative leverage parameter indicates that downside shocks have disproportionate consequences for the volatility state.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.502.3"">
+     That can matter for risk controls, for feature interactions with momentum or carry signals, and for interpreting whether a recent increase in volatility reflects generic turbulence or specifically downside stress.
+    </span>
+   </p>
+   ","","","","","","","","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0153","153","p","9.3 Volatility Features > Asymmetric volatility – Exponential GARCH features","/*/*[2]/*/*[129]","","256","215","An alternative is the Glosten-Jagannathan-Runkle GARCH ( GJR-GARCH ) model (Glosten et al., 1993), which introduces asymmetry through an indicator for negative shocks rather than through the EGARCH log-variance form. For feature extraction, the two models serve a similar purpose: they add a parameter that distinguishes symmetric persistence from downside-sensitive persistence. The choice between them is usually empirical.","Альтернативой служит модель GARCH Глостена — Джаганнатана — Ранкла (GJR-GARCH; Glosten et al., 1993), которая вводит асимметрию с помощью индикатора отрицательных шоков, а не посредством используемой в EGARCH формы логарифма дисперсии. При извлечении признаков обе модели решают сходную задачу: добавляют параметр, позволяющий отличить симметричную устойчивость от устойчивости, чувствительной к шокам снижения. Выбор между ними обычно определяется эмпирически.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.503.1"">
+     An alternative is
+    </span>
+    <a id=""_idIndexMarker1300"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.504.1"">
+     the
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.505.1"">
+      Glosten-Jagannathan-Runkle GARCH
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.506.1"">
+     (
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.507.1"">
+      GJR-GARCH
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.508.1"">
+     ) model (Glosten et al., 1993), which introduces asymmetry through an indicator for negative shocks rather than through the
+    </span>
+    <a id=""_idIndexMarker1301"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.509.1"">
+     EGARCH log-variance form.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.509.2"">
+     For feature extraction, the two models
+    </span>
+    <a id=""_idIndexMarker1302"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.510.1"">
+     serve a similar purpose: they add a parameter that distinguishes symmetric persistence from downside-sensitive persistence.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.510.2"">
+     The choice between them is usually empirical.
+    </span>
+   </p>
+   ","","","","","","","strong,a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0154","154","p","9.3 Volatility Features > Asymmetric volatility – Exponential GARCH features","/*/*[2]/*/*[130]/*","","242","201","Implementation : See 08_garch_volatility for GARCH, EGARCH, and GJR-GARCH estimation and comparison.","Реализация: в `08_garch_volatility` рассматриваются оценивание и сравнение моделей GARCH, EGARCH и GJR-GARCH.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+     <strong class=""screenText"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.511.1"">
+       Implementation
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.512.1"">
+      : See
+     </span>
+     <code class=""inlineCode"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.513.1"">
+       08_garch_volatility
+      </span>
+     </code>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.514.1"">
+      for GARCH, EGARCH, and GJR-GARCH estimation and comparison.
+     </span>
+    </p>
+   ","","","","","","","strong,code","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0155","155","h2","9.3 Volatility Features > Heterogeneous autoregressive volatility features","/*/*[2]/*/*[131]","_idParaDest-388","256","215","Heterogeneous autoregressive volatility features","Признаки гетерогенной авторегрессионной модели волатильности","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-388"">
+    <a id=""_idTextAnchor377"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.515.1"">
+     Heterogeneous autoregressive volatility features
+    </span>
+   </h2>
+   ","","","","","","","a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0156","156","p","9.3 Volatility Features > Heterogeneous autoregressive volatility features","/*/*[2]/*/*[132]","","256","215","The Heterogeneous Autoregressive (HAR) model (Corsi, 2009) captures daily volatility persistence across different horizons. A standard specification is:","Гетерогенная авторегрессионная модель (HAR; Corsi, 2009) описывает устойчивость дневной волатильности на разных горизонтах. Стандартная спецификация имеет следующий вид:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.516.1"">
+     The
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.517.1"">
+      Heterogeneous Autoregressive (HAR) model
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.518.1"">
+     (Corsi, 2009) captures daily volatility persistence
+    </span>
+    <a id=""_idIndexMarker1303"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.519.1"">
+     across different
+    </span>
+    <a id=""_idIndexMarker1304"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.520.1"">
+     horizons.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.520.2"">
+     A standard specification is:
+    </span>
+   </p>
+   ","","","","","","","strong,a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0157","157","p","9.3 Volatility Features > Heterogeneous autoregressive volatility features","/*/*[2]/*/*[134]","","242","201","where , , and denote daily, weekly, and monthly averages of realized volatility ( RV ).","где [IMG:../Images/B18427_09_042.png], [IMG:../Images/B18427_09_043.png] и [IMG:../Images/B18427_09_044.png] обозначают дневное, недельное и месячное средние реализованной волатильности (RV).","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.522.1"">
+     where
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.523.1"">
+     <img alt=""img"" src=""../Images/B18427_09_042.png""/>
+    </span>
+    <a id=""_idIndexMarker1306"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.524.1"">
+     ,
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.525.1"">
+     <img alt=""img"" src=""../Images/B18427_09_043.png""/>
+    </span>
+    <a id=""_idIndexMarker1307"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.526.1"">
+     , and
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.527.1"">
+     <img alt=""img"" src=""../Images/B18427_09_044.png""/>
+    </span>
+    <a id=""_idIndexMarker1308"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.528.1"">
+     denote daily, weekly, and monthly averages of
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.529.1"">
+      realized volatility
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.530.1"">
+     (
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.531.1"">
+      RV
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.532.1"">
+     ).
+    </span>
+   </p>
+   ","CH09-ASSET-044,CH09-ASSET-045,CH09-ASSET-046","","","","","","strong,a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0158","158","p","9.3 Volatility Features > Heterogeneous autoregressive volatility features","/*/*[2]/*/*[135]","","256","215","The horizon-specific volatility measures are inputs of the kind introduced in Chapter 8 . What HAR adds is a fitted layer on top of them. The coefficients , , and measure how strongly short-, medium-, and longer-horizon volatility contribute to the next day’s volatility forecast. A larger monthly coefficient indicates more persistent volatility conditions, whereas a larger daily coefficient indicates greater sensitivity to recent shocks.","Меры волатильности для отдельных горизонтов представляют собой входные данные того типа, который был введён в главе 8. Модель HAR добавляет над ними оценённый слой. Коэффициенты [IMG:../Images/B18427_09_045.png], [IMG:../Images/B18427_09_046.png] и [IMG:../Images/B18427_09_047.png] показывают, насколько сильно волатильность на краткосрочном, среднесрочном и более долгосрочном горизонтах влияет на прогноз волатильности следующего дня. Более высокий месячный коэффициент указывает на более устойчивые условия волатильности, тогда как более высокий дневной коэффициент означает большую чувствительность к недавним шокам.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.533.1"">
+     The horizon-specific volatility measures are inputs of the kind introduced in
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.534.1"">
+      Chapter 8
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.535.1"">
+     .
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.535.2"">
+     What HAR adds is a fitted layer on top of them.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.535.3"">
+     The coefficients
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.536.1"">
+     <img alt=""img"" src=""../Images/B18427_09_045.png""/>
+    </span>
+    <a id=""_idIndexMarker1309"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.537.1"">
+     ,
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.538.1"">
+     <img alt=""img"" src=""../Images/B18427_09_046.png""/>
+    </span>
+    <a id=""_idIndexMarker1310"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.539.1"">
+     , and
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.540.1"">
+     <img alt=""img"" src=""../Images/B18427_09_047.png""/>
+    </span>
+    <a id=""_idIndexMarker1311"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.541.1"">
+     measure how strongly short-, medium-, and longer-horizon volatility contribute to the next day’s volatility forecast.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.541.2"">
+     A larger monthly coefficient indicates more persistent volatility conditions, whereas a larger daily coefficient indicates greater sensitivity to recent shocks.
+    </span>
+   </p>
+   ","CH09-ASSET-047,CH09-ASSET-048,CH09-ASSET-049","","","","","","em,a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0159","159","p","9.3 Volatility Features > Heterogeneous autoregressive volatility features","/*/*[2]/*/*[136]","","256","215","HAR is naturally specified on a daily realized-volatility series, ideally constructed from intraday returns. When only daily open-high-low-close-volume data are available, range-based estimators such as Garman-Klass or Yang-Zhang can serve as practical proxies. The model remains the same; only the volatility input changes.","Модель HAR естественным образом задаётся для дневного ряда реализованной волатильности, который в идеале строится по внутридневным доходностям. Если доступны только дневные данные об открытии, максимуме, минимуме, закрытии и объёме, практическими заменителями могут служить диапазонные оценки, такие как оценки Гармана — Класса или Янга — Чжана. Сама модель остаётся неизменной; меняются только входные данные волатильности.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.542.1"">
+     HAR is naturally specified on a daily realized-volatility series, ideally constructed from intraday returns.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.542.2"">
+     When only daily open-high-low-close-volume data are available, range-based estimators such as Garman-Klass or Yang-Zhang can serve as practical proxies.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.542.3"">
+     The model remains the same; only the volatility input changes.
+    </span>
+   </p>
+   ","","","","","","","","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
+"CH09","CH09-B0160","160","p","9.3 Volatility Features > Heterogeneous autoregressive volatility features","/*/*[2]/*/*[137]","","256","215","On SPY, the weekly component dominates ( ), consistent with institutional-frequency dynamics driving index volatility. In an out-of-sample comparison, HAR achieves roughly half the RMSE of GARCH (0.061 compared to 0.111), confirming that the multi-horizon decomposition captures persistence structure that a single-lag recursion misses.","Для SPY доминирует недельная компонента ([IMG:../Images/B18427_09_048.png]), что согласуется с влиянием динамики на институциональных временных горизонтах на волатильность индекса. При сравнении вне выборки HAR обеспечивает примерно вдвое меньшую среднеквадратическую ошибку (RMSE), чем GARCH (0,061 против 0,111), подтверждая, что разложение по нескольким горизонтам отражает структуру устойчивости, которую не учитывает рекурсия с одним лагом.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.543.1"">
+     On SPY, the weekly component dominates (
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.544.1"">
+     <img alt=""img"" src=""../Images/B18427_09_048.png""/>
+    </span>
+    <a id=""_idIndexMarker1312"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.545.1"">
+     ), consistent with institutional-frequency dynamics driving index volatility.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.545.2"">
+     In an out-of-sample comparison, HAR achieves roughly half the RMSE of GARCH (0.061 compared to 0.111), confirming that the
+    </span>
+    <a id=""_idIndexMarker1313"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.546.1"">
+     multi-horizon decomposition captures
+    </span>
+    <a id=""_idIndexMarker1314"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.547.1"">
+     persistence structure that a single-lag recursion misses.
+    </span>
+   </p>
+   ","CH09-ASSET-050","","","","","","a","TRANSLATED","QA_PASS","CH09-BATCH-004","v0.4-pilot"
