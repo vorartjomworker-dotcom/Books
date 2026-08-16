@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "enabled": true,
+  "enabled": false,
   "mode": "pilot",
   "merge_policy": "manual",
   "active": {
@@ -8,27 +8,59 @@
     "start": 121,
     "end": 160,
     "branch": "translation/ch05-b0121-b0160",
-    "status": "QA",
-    "attempt": 0,
-    "lock": {
-      "run_id": "auto-20260816T025751+0300",
-      "acquired_at": "2026-08-15T23:57:51Z",
-      "expires_at": "2026-08-16T02:57:51Z"
-    },
+    "status": "AWAITING_REVIEW",
+    "attempt": 2,
+    "lock": null,
     "stop_reason": null
   },
   "queue": [
-    {"chapter": "CH05", "start": 121, "end": 160, "branch": "translation/ch05-b0121-b0160", "status": "QA"},
-    {"chapter": "CH06", "start": 81, "end": 120, "branch": "translation/ch06-b0081-b0120", "status": "READY"},
-    {"chapter": "CH07", "start": 121, "end": 160, "branch": "translation/ch07-b0121-b0160", "status": "READY"},
-    {"chapter": "CH08", "start": 81, "end": 120, "branch": "translation/ch08-b0081-b0120", "status": "READY"},
-    {"chapter": "CH09", "start": 121, "end": 160, "branch": "translation/ch09-b0121-b0160", "status": "READY"}
+    {
+      "chapter": "CH05",
+      "start": 121,
+      "end": 160,
+      "branch": "translation/ch05-b0121-b0160",
+      "status": "AWAITING_REVIEW"
+    },
+    {
+      "chapter": "CH06",
+      "start": 81,
+      "end": 120,
+      "branch": "translation/ch06-b0081-b0120",
+      "status": "READY"
+    },
+    {
+      "chapter": "CH07",
+      "start": 121,
+      "end": 160,
+      "branch": "translation/ch07-b0121-b0160",
+      "status": "READY"
+    },
+    {
+      "chapter": "CH08",
+      "start": 81,
+      "end": 120,
+      "branch": "translation/ch08-b0081-b0120",
+      "status": "READY"
+    },
+    {
+      "chapter": "CH09",
+      "start": 121,
+      "end": 160,
+      "branch": "translation/ch09-b0121-b0160",
+      "status": "READY"
+    }
   ],
   "last_run": {
     "batch": "CH05-B0121-B0160",
-    "result": "QA",
+    "result": "AWAITING_REVIEW",
     "deterministic_validation": "PASS",
-    "open_high_critical": 1
+    "language_qa": "PASS",
+    "structural_qa": "PASS",
+    "issues_closed": 19,
+    "open_high_critical": 0,
+    "batch_commit": "4f0800db7aa25646077104055ebff9693bc2788e",
+    "human_gate": "CANONICAL_DRIVE_SYNC_AND_MERGE"
   },
-  "updated_at": "2026-08-15T23:57:51Z"
+  "updated_at": "2026-08-16T15:30:00Z",
+  "pause_reason": "Awaiting human review; scheduled automation is paused."
 }
