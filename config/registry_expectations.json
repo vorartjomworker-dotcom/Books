@@ -4,8 +4,8 @@
       "chapter": "CH05",
       "path": "chapters/CH05/registry/CH05_registry_v0.3.xlsx",
       "expected_count": 303,
-      "qa_pass_through": 120,
-      "next_batch": "CH05-B0121-CH05-B0160"
+      "qa_pass_through": 160,
+      "next_batch": "CH05-B0161-CH05-B0200"
     },
     {
       "chapter": "CH06",
@@ -54,13 +54,22 @@
     "CLOSED",
     "OPEN"
   ],
-  "translated_statuses": ["TRANSLATED", "QA_PASS", "ACCEPTED"],
+  "translated_statuses": [
+    "TRANSLATED",
+    "QA_PASS",
+    "ACCEPTED"
+  ],
   "issue_registry_globs": [
     "qa/issues/CH06/*.xlsx",
     "qa/issues/CH07/*.xlsx",
     "qa/issues/CH08/*.xlsx",
     "qa/issues/CH09/*.csv"
   ],
-  "forbidden_source_globs": ["source/**/*.epub", "source/**/*.pdf"],
-  "checksum_manifests": ["manifests/SHA256SUMS_ERRORS_2026-08-16.txt"]
+  "forbidden_source_globs": [
+    "source/**/*.epub",
+    "source/**/*.pdf"
+  ],
+  "checksum_manifests": [
+    "manifests/SHA256SUMS_ERRORS_2026-08-16.txt"
+  ]
 }
