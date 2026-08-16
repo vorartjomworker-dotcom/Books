@@ -33,7 +33,7 @@
       "path": "chapters/CH09/registry/CH09_registry_v0.2_NATIVE.xlsx",
       "expected_count": 289,
       "qa_pass_through": 120,
-      "next_batch": "CH09-B0121-CH09-B0160"
+      "next_batch": "CH09-B0161-CH09-B0200"
     }
   ],
   "allowed_statuses": [

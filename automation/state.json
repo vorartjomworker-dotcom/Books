@@ -8,7 +8,7 @@
     "CH06": {"chapter": "CH06", "start": 201, "end": 240, "branch": "translation/ch06-b0201-b0240", "status": "READY", "attempt": 0, "lock": null, "stop_reason": null},
     "CH07": {"chapter": "CH07", "start": 121, "end": 160, "branch": "translation/ch07-b0121-b0160", "status": "AWAITING_REVIEW", "attempt": 1, "lock": null, "stop_reason": null},
     "CH08": {"chapter": "CH08", "start": 81, "end": 120, "branch": "translation/ch08-b0081-b0120", "status": "READY", "attempt": 0, "lock": null, "stop_reason": null},
-    "CH09": {"chapter": "CH09", "start": 121, "end": 160, "branch": "translation/ch09-b0121-b0160", "status": "AWAITING_REVIEW", "attempt": 1, "lock": null, "stop_reason": null}
+    "CH09": {"chapter": "CH09", "start": 161, "end": 200, "branch": "translation/ch09-b0161-b0200", "status": "READY", "attempt": 0, "lock": null, "stop_reason": null}
   },
   "queue": [
     {"chapter": "CH05", "start": 121, "end": 160, "branch": "translation/ch05-b0121-b0160", "status": "COMPLETED"},
@@ -18,9 +18,10 @@
     {"chapter": "CH06", "start": 201, "end": 240, "branch": "translation/ch06-b0201-b0240", "status": "READY"},
     {"chapter": "CH07", "start": 121, "end": 160, "branch": "translation/ch07-b0121-b0160", "status": "AWAITING_REVIEW"},
     {"chapter": "CH08", "start": 81, "end": 120, "branch": "translation/ch08-b0081-b0120", "status": "READY"},
-    {"chapter": "CH09", "start": 121, "end": 160, "branch": "translation/ch09-b0121-b0160", "status": "AWAITING_REVIEW"}
+    {"chapter": "CH09", "start": 121, "end": 160, "branch": "translation/ch09-b0121-b0160", "status": "COMPLETED"},
+    {"chapter": "CH09", "start": 161, "end": 200, "branch": "translation/ch09-b0161-b0200", "status": "READY"}
   ],
-  "last_run": "CH06-B0161-B0200-20260816T184256Z",
-  "updated_at": "2026-08-16T21:12:50Z",
+  "last_run": "CH09-B0121-B0160-ACCEPT-20260816T212842Z",
+  "updated_at": "2026-08-16T23:23:08Z",
   "auto_advance": true
 }
