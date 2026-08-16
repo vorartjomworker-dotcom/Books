@@ -19,9 +19,13 @@
       "start": 281,
       "end": 314,
       "branch": "translation/ch06-b0281-b0314",
-      "status": "READY",
-      "attempt": 0,
-      "lock": null,
+      "status": "TRANSLATING",
+      "attempt": 1,
+      "lock": {
+        "owner": "automation-CH06-final",
+        "acquired_at": "2026-08-16T23:16:00Z",
+        "expires_at": "2026-08-17T02:16:00Z"
+      },
       "stop_reason": null
     },
     "CH07": {
@@ -103,7 +107,7 @@
       "start": 281,
       "end": 314,
       "branch": "translation/ch06-b0281-b0314",
-      "status": "READY"
+      "status": "TRANSLATING"
     },
     {
       "chapter": "CH07",
@@ -127,7 +131,7 @@
       "status": "AWAITING_REVIEW"
     }
   ],
-  "last_run": "CH06-B0241-B0280-20260816T214814Z",
-  "updated_at": "2026-08-16T23:00:00Z",
+  "last_run": "CH06-B0281-B0314-20260816T231600Z",
+  "updated_at": "2026-08-16T23:16:00Z",
   "auto_advance": true
 }
