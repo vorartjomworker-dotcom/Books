@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "run_id": "CH09-B0121-B0160-20260816T190652+0300",
+  "chapter": "CH09",
+  "start": 121,
+  "end": 160,
+  "branch": "translation/ch09-b0121-b0160",
+  "status": "AWAITING_REVIEW",
+  "attempt": 1,
+  "mode": "pilot",
+  "merge_policy": "manual",
+  "source_registry": {
+    "title": "CH09 — Канонический двуязычный реестр — v0.2 — NATIVE",
+    "spreadsheet_id": "1gEuN0ZoRT4hK_sMAgLAnB1upB7zprVTvCB8X2YlV2Bw",
+    "expected_count": 289,
+    "qa_pass_through": 120
+  },
+  "transitions": [
+    {
+      "state": "READY",
+      "at": "2026-08-16T19:06:52+03:00"
+    },
+    {
+      "state": "TRANSLATING",
+      "at": "2026-08-16T19:06:52+03:00"
+    },
+    {
+      "state": "QA",
+      "at": "2026-08-16T19:13:00+03:00"
+    },
+    {
+      "state": "FIXING",
+      "at": "2026-08-16T19:14:00+03:00",
+      "issue": "CH09-ERR-020"
+    },
+    {
+      "state": "RECHECK",
+      "at": "2026-08-16T19:15:00+03:00",
+      "result": "PASS"
+    },
+    {
+      "state": "CI_PENDING",
+      "at": "2026-08-16T19:16:00+03:00"
+    },
+    {
+      "state": "AWAITING_REVIEW",
+      "at": "2026-08-16T19:18:00+03:00",
+      "workflow_run_id": 31958167927,
+      "result": "PASS"
+    }
+  ],
+  "outputs": {
+    "batch": "chapters/CH09/batches/CH09_B0121_B0160.csv",
+    "qa_report": "qa/reports/CH09_B0121_B0160_QA.md",
+    "issues": "qa/issues/CH09/CH09_errors_B0121_B0160.csv"
+  },
+  "qa": {
+    "language": "PASS",
+    "structural": "PASS",
+    "registry_validator": "PASS",
+    "unit_tests": "PASS",
+    "pipeline_state_validator": "PASS",
+    "open_critical_high": 0,
+    "fix_cycles": 1
+  },
+  "canonical_drive_written": false,
+  "stop_reason": null
+}
