@@ -5,13 +5,13 @@
   "start": 161,
   "end": 200,
   "branch": "translation/ch06-b0161-b0200",
-  "status": "AWAITING_REVIEW",
+  "status": "COMPLETED",
   "attempt": 1,
   "mode": "autonomous",
   "merge_policy": "manual",
   "started_at": "2026-08-16T18:42:56.139Z",
-  "completed_at": "2026-08-16T19:40:50Z",
-  "stop_reason": "Human acceptance corrections CH06-ERR-068–080 verified; all gates passed; awaiting final human merge decision.",
+  "completed_at": "2026-08-16T20:10:11.697Z",
+  "stop_reason": null,
   "qa": {
     "epub_source": "PASS",
     "language": "PASS",
@@ -30,5 +30,15 @@
     "issues": "qa/issues/CH06/CH06_errors_B0161_B0200.csv"
   },
   "canonical_registry_id": "11luC00OhnLC7yvnDhBAjGCX6TGKKue6U",
-  "canonical_drive_written": false
+  "canonical_drive_written": false,
+  "acceptance": {
+    "decision": "ACCEPTED",
+    "approved_by": "human",
+    "approved_at": "2026-08-16T20:10:11.697Z",
+    "pull_request": 4,
+    "merge_commit": "795a94d406ffdca0103c0cd05a346980c98aa71a",
+    "merge_method": "squash",
+    "main_ci_run": 31969639800,
+    "main_ci_conclusion": "success"
+  }
 }
