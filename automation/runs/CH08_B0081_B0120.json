@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "run_id": "CH08-B0081-B0120-20260816T222900Z",
+  "chapter": "CH08",
+  "start": 81,
+  "end": 120,
+  "branch": "translation/ch08-b0081-b0120",
+  "status": "STOPPED",
+  "attempt": 1,
+  "mode": "autonomous",
+  "merge_policy": "manual",
+  "source_registry": {
+    "repository_path": "chapters/CH08/registry/CH08_registry_v0.2.xlsx",
+    "repository_sha256": "24480433ab30b0c9ad5fd661a3a4c647f4cf07d98728431d3219e8c4185510fd",
+    "drive_spreadsheet_id": "13_rS13juXtkN6k1Xf9ZRNg3tpV6EE0Jx_tbEEvTzKYw",
+    "manifest_export_sha256": "35a28ad66b98b367496741f213099624b7fed6c15b9eebe5e6b5f344867675c0",
+    "expected_count": 408
+  },
+  "transitions": [
+    {
+      "state": "READY",
+      "at": "2026-08-16T22:29:00Z"
+    },
+    {
+      "state": "TRANSLATING",
+      "at": "2026-08-16T22:29:00Z"
+    },
+    {
+      "state": "STOPPED",
+      "at": "2026-08-16T22:31:00Z",
+      "issue": "CH08-AUTO-REG-001"
+    }
+  ],
+  "outputs": {
+    "batch": null,
+    "qa_report": "qa/reports/CH08_B0081_B0120_QA.md",
+    "issues": "qa/issues/CH08/CH08_errors_B0081_B0120.csv"
+  },
+  "preflight": {
+    "main_slot": "READY B0081-B0120",
+    "repository_ledger": "40 PENDING_TRANSLATION/PENDING; russian_text and target_html empty",
+    "canonical_drive_ledger": "40 TRANSLATED/QA_PASS; all four QA fields PASS; russian_text and target_html populated",
+    "range_check": "40 unique contiguous IDs",
+    "epub_sha256": "e22359c1e148ecdebcee4d24e4d5506e8a9dbd94b59d88c4ab574e4995ba0da2",
+    "pdf_sha256": "2931e9657a2f7a3b0343d8e10bf29dc9fe92ccc6a36714ce12eae2c7e6f7b65e"
+  },
+  "qa": {
+    "translator": "NOT_RUN",
+    "language": "NOT_RUN",
+    "structural": "NOT_RUN",
+    "registry_validator": "BLOCKED",
+    "unit_tests": "PASS (16/16 local)",
+    "pipeline_state_validator": "PASS (local)",
+    "open_critical_high": 1,
+    "fix_cycles": 0
+  },
+  "canonical_drive_written": false,
+  "translation_merge_to_main": false,
+  "next_range_scheduled": false,
+  "stop_reason": "CH08-AUTO-REG-001: authoritative ledger/status mismatch. Accepted QA_PASS blocks cannot be translated or overwritten without a registered error and human resolution."
+}

@@ -39,14 +39,10 @@
       "start": 81,
       "end": 120,
       "branch": "translation/ch08-b0081-b0120",
-      "status": "TRANSLATING",
+      "status": "STOPPED",
       "attempt": 1,
-      "lock": {
-        "owner": "automation-CH08",
-        "acquired_at": "2026-08-16T22:29:00Z",
-        "expires_at": "2026-08-17T01:29:00Z"
-      },
-      "stop_reason": null
+      "lock": null,
+      "stop_reason": "Canonical registry conflict: repository CH08 v0.2 has B0081-B0120 PENDING_TRANSLATION/PENDING and empty targets, while canonical Drive spreadsheet 13_rS13juXtkN6k1Xf9ZRNg3tpV6EE0Jx_tbEEvTzKYw has the same 40 IDs TRANSLATED/QA_PASS; source_manifest export SHA-256 also differs from repository XLSX bytes."
     },
     "CH09": {
       "chapter": "CH09",
@@ -107,7 +103,7 @@
       "start": 81,
       "end": 120,
       "branch": "translation/ch08-b0081-b0120",
-      "status": "TRANSLATING"
+      "status": "STOPPED"
     },
     {
       "chapter": "CH09",
@@ -118,6 +114,7 @@
     }
   ],
   "last_run": "CH08-B0081-B0120-20260816T222900Z",
-  "updated_at": "2026-08-16T22:29:00Z",
+  "updated_at": "2026-08-16T22:31:00Z",
   "auto_advance": true
 }
+
