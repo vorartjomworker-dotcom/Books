@@ -1,21 +1,25 @@
 {
   "schema_version": 1,
+  "run_id": "pilot-ch05-b0121-b0160-20260816",
   "batch_id": "CH05-BATCH-004",
   "chapter": "CH05",
   "start": 121,
   "end": 160,
   "branch": "translation/ch05-b0121-b0160",
-  "status": "QA",
-  "attempt": 0,
-  "lock": {
-    "run_id": "auto-20260816T025751+0300",
-    "acquired_at": "2026-08-15T23:57:51Z",
-    "expires_at": "2026-08-16T02:57:51Z"
-  },
+  "status": "AWAITING_REVIEW",
+  "attempt": 2,
+  "lock": null,
   "started_at": "2026-08-15T23:34:58Z",
-  "updated_at": "2026-08-15T23:57:51Z",
+  "updated_at": "2026-08-16T15:30:00Z",
+  "source": {
+    "registry": "CH05 v0.3",
+    "epub_sha256": "e22359c1e148ecdebcee4d24e4d5506e8a9dbd94b59d88c4ab574e4995ba0da2",
+    "pdf_sha256": "2931e9657a2f7a3b0343d8e10bf29dc9fe92ccc6a36714ce12eae2c7e6f7b65e"
+  },
   "artifacts": {
     "batch": "chapters/CH05/batches/CH05_B0121_B0160.csv",
+    "metadata_overlay": "chapters/CH05/batches/CH05_B0121_B0160_metadata_overlay.json",
+    "visual_relationships": "chapters/CH05/batches/CH05_B0121_B0160_visual_relationships.json",
     "qa_report": "qa/reports/CH05_B0121_B0160_QA.md",
     "issues": "qa/issues/CH05/CH05_errors_B0121_B0160.csv"
   },
@@ -23,14 +27,14 @@
     "exact_range": "PASS",
     "immutable_source": "PASS",
     "complete_translation": "PASS",
+    "target_html": "PASS",
     "protected_tokens": "PASS",
-    "unit_tests": "PASS",
+    "language_qa": "PASS",
+    "structural_qa": "PASS",
     "registry_validator": "PASS",
-    "glossary": "PENDING",
-    "language_qa": "PENDING",
-    "structural_qa": "BLOCKED",
-    "zero_open_high_critical": "FAIL"
+    "unit_tests": "PASS",
+    "zero_open_high_critical": "PASS"
   },
-  "open_issues": ["CH05-QA-0001"],
-  "next_action": "Run independent language QA and structural QA; create and verify target_html; resolve the PDF page mapping issue; rerun validators."
+  "open_issues": [],
+  "next_action": "Human approval for canonical Google Drive synchronization and merge; do not auto-advance queue."
 }
