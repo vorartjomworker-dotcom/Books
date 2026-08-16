@@ -8,8 +8,8 @@
     "start": 161,
     "end": 200,
     "branch": "translation/ch06-b0161-b0200",
-    "status": "READY",
-    "attempt": 0,
+    "status": "AWAITING_REVIEW",
+    "attempt": 1,
     "lock": null,
     "stop_reason": null
   },
@@ -33,7 +33,7 @@
       "start": 161,
       "end": 200,
       "branch": "translation/ch06-b0161-b0200",
-      "status": "READY"
+      "status": "AWAITING_REVIEW"
     },
     {
       "chapter": "CH07",
@@ -57,7 +57,7 @@
       "status": "AWAITING_REVIEW"
     }
   ],
-  "last_run": "CH06-B0081-B0160-HISTORICAL-QA-IMPORT-20260816",
-  "updated_at": "2026-08-16T19:14:00Z",
+  "last_run": "CH06-B0161-B0200-20260816T184256Z",
+  "updated_at": "2026-08-16T19:40:50Z",
   "auto_advance": true
 }

@@ -1,0 +1,523 @@
+﻿chapter_id,block_id,sequence_number,element_type,section_path,xhtml_path,source_element_id,pdf_physical_page,pdf_printed_page,english_text,russian_text,source_html,target_html,asset_ids,table_id,formula_id,code_id,link_ids,term_candidates,formatting_markers,translation_status,qa_semantic,qa_terminology,qa_numbers_code_links,qa_structure_formatting,qa_status,batch_id,notes,version
+CH06,CH06-B0161,161,li,6.3 Defining the trading setup > Decision schedule and admissible information > Score-to-trade mapping,/*/*[2]/*/*[92]/*[4],,174,133,"Position sizing: How scores translate into exposures (for example, equal weight, volatility targeting).","Определение размера позиции: как оценки преобразуются в величины подверженности риску (например, равные веса, таргетирование волатильности).","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.375.1"">
+       Position sizing:
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.376.1"">
+      How scores translate into exposures (for example, equal weight, volatility targeting).
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.375.1"">Определение размера позиции: </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.376.1"">как оценки преобразуются в величины подверженности риску (например, равные веса, таргетирование волатильности).</span></li>",,,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Human acceptance corrections CH06-ERR-068–080; independently rechecked and verified,v0.2
+CH06,CH06-B0162,162,li,6.3 Defining the trading setup > Decision schedule and admissible information > Score-to-trade mapping,/*/*[2]/*/*[92]/*[5],,174,133,"Order timing: When orders are placed (at open, intraday window, execution delay).","Время размещения заявок: когда размещаются заявки (на открытии, в течение внутридневного окна, с задержкой исполнения).","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.377.1"">
+       Order timing:
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.378.1"">
+      When orders are placed (at open, intraday window, execution delay).
+     </span>
+    </li>
+   ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.377.1"">Время размещения заявок: </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.378.1"">когда размещаются заявки (на открытии, в течение внутридневного окна, с задержкой исполнения).</span></li>",,,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Human acceptance corrections CH06-ERR-068–080; independently rechecked and verified,v0.2
+CH06,CH06-B0163,163,p,6.3 Defining the trading setup > Decision schedule and admissible information > Score-to-trade mapping,/*/*[2]/*/*[93],,175,134,"The specifics will likely evolve, but when they do, the reference for comparison will as well.","Конкретные параметры, вероятно, будут меняться, но вместе с ними будет меняться и база сравнения.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.379.1"">
+     The specifics will likely evolve, but when they do, the reference for comparison will as well.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.379.1"">Конкретные параметры, вероятно, будут меняться, но вместе с ними будет меняться и база сравнения.</span></p>",,,,,,,,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0164,164,h3,6.3 Defining the trading setup > Decision schedule and admissible information > Constraints and risk controls in scope,/*/*[2]/*/*[94],_idParaDest-279,175,134,Constraints and risk controls in scope,"Ограничения и меры контроля риска, учитываемые в исследовании","<h3 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-3"" id=""_idParaDest-279"">
+    <a id=""_idTextAnchor271"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.380.1"">
+     Constraints and risk controls in scope
+    </span>
+   </h3>
+   ","<h3 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-3"" id=""_idParaDest-279""><a id=""_idTextAnchor271""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.380.1"">Ограничения и меры контроля риска, учитываемые в исследовании</span></h3>",,,,,,,a,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0165,165,p,6.3 Defining the trading setup > Decision schedule and admissible information > Constraints and risk controls in scope,/*/*[2]/*/*[95],,175,134,"Specify the constraints treated as binding: exposure and leverage limits, concentration rules, and any liquidity or capacity limits enforced. Risk controls that alter trading actions (for example, a de-risking overlay or a kill switch) must be explicit and versioned, as they alter the effective strategy.","Укажите ограничения, считающиеся обязательными: лимиты подверженности риску и кредитного плеча, правила концентрации, а также применяемые ограничения ликвидности или ёмкости стратегии. Меры контроля риска, изменяющие торговые действия (например, дополнительный механизм снижения риска или механизм аварийной остановки торговли), должны быть заданы явно и версионироваться, поскольку они изменяют фактическую стратегию.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.381.1"">
+     Specify the constraints treated
+    </span>
+    <a id=""_idIndexMarker692"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.382.1"">
+     as binding: exposure and leverage limits, concentration rules, and any liquidity or capacity limits enforced.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.382.2"">
+     Risk controls that alter trading actions (for example, a de-risking overlay or a kill switch) must be explicit and versioned, as they alter the effective strategy.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.381.1"">Укажите ограничения, считающиеся обязательными: лимиты подверженности риску и кредитного плеча, правила концентрации, а также применяемые ограничения ликвидности или ёмкости стратегии. Меры контроля риска, изменяющие торговые действия (например, дополнительный механизм снижения риска или механизм аварийной остановки торговли), должны быть заданы явно и версионироваться, поскольку они изменяют фактическую стратегию.</span><a id=""_idIndexMarker692""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.382.1""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.382.2""/></p>",,,,,,,a,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0166,166,h3,6.3 Defining the trading setup > Decision schedule and admissible information > Cost model class and components,/*/*[2]/*/*[96],_idParaDest-280,175,134,Cost model class and components,Класс и компоненты модели издержек,"<h3 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-3"" id=""_idParaDest-280"">
+    <a id=""_idTextAnchor272"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.383.1"">
+     Cost model class and components
+    </span>
+   </h3>
+   ","<h3 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-3"" id=""_idParaDest-280""><a id=""_idTextAnchor272""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.383.1"">Класс и компоненты модели издержек</span></h3>",,,,,,,a,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0167,167,p,6.3 Defining the trading setup > Decision schedule and admissible information > Cost model class and components,/*/*[2]/*/*[97],,175,134,"Early research does not need a perfect simulator, but it does require consistency about which frictions are treated as material. State the cost components included (fees, spreads, slippage/impact, financing or funding, borrow, roll) and how conservative the assumptions are. Later chapters expand the cost model; early screens use conservative, coarse assumptions.","Исследованию на ранней стадии не нужен идеальный симулятор, однако необходимо последовательно определить, какие рыночные трения считаются существенными. Укажите включённые компоненты издержек (комиссии, спреды, проскальзывание и влияние на рынок, затраты на финансирование или выплаты по ставке финансирования, стоимость заимствования, издержки роллирования) и степень консервативности допущений. В последующих главах модель издержек уточняется; при предварительном отборе используются консервативные укрупнённые допущения.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.384.1"">
+     Early research does not need a
+    </span>
+    <a id=""_idIndexMarker693"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.385.1"">
+     perfect simulator, but it does require consistency about which frictions are treated as material.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.385.2"">
+     State the cost components included (fees, spreads, slippage/impact, financing or funding, borrow, roll) and how conservative the assumptions are.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.385.3"">
+     Later chapters expand the cost model; early screens use conservative, coarse assumptions.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.384.1"">Исследованию на ранней стадии не нужен идеальный симулятор, однако необходимо последовательно определить, какие рыночные трения считаются существенными. Укажите включённые компоненты издержек (комиссии, спреды, проскальзывание и влияние на рынок, затраты на финансирование или выплаты по ставке финансирования, стоимость заимствования, издержки роллирования) и степень консервативности допущений. В последующих главах модель издержек уточняется; при предварительном отборе используются консервативные укрупнённые допущения.</span><a id=""_idIndexMarker693""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.385.1""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.385.2""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.385.3""/></p>",,,,,,,a,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0168,168,p,6.3 Defining the trading setup > Decision schedule and admissible information > Cost model class and components,/*/*[2]/*/*[98],,175,134,"Example (perpetual futures) : in crypto_perps_funding , funding is a position-dependent cash flow that is part of the total return stream: a cost when paid and a benefit when received. Because it accrues only when a position is held at the funding timestamp and is settled under venue-specific conventions, the trading setup must specify (i) how trades and position changes are aligned to the funding snapshot, (ii) which pricing and funding formula (including any caps/floors) and fee schedule are assumed, and (iii) how convention changes are versioned. Otherwise, the same backtest can imply different effective exposures and produce materially different PnL.","Пример (бессрочные фьючерсы): в crypto_perps_funding платежи по ставке финансирования представляют собой зависящий от позиции денежный поток, входящий в совокупную доходность: издержки при выплате и доход при получении. Поскольку он начисляется только при наличии позиции в момент фиксации ставки финансирования, а расчёты проводятся по правилам конкретной торговой площадки, параметры торговли должны определять: (i) как сделки и изменения позиций согласуются с моментом фиксации ставки финансирования; (ii) какие формулы ценообразования и расчёта ставки финансирования предполагаются (включая верхние и нижние ограничения), а также какая тарифная сетка комиссий используется; (iii) как версионируются изменения правил. Иначе один и тот же бэктест может подразумевать разную фактическую подверженность риску и давать существенно различающиеся PnL.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.386.1"">
+      Example (perpetual futures)
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.387.1"">
+     : in
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.388.1"">
+      crypto_perps_funding
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.389.1"">
+     , funding is a position-dependent cash flow that is part of the total return stream: a cost when paid and a benefit when received.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.389.2"">
+     Because it accrues only when a position is held at the funding timestamp and is settled under venue-specific conventions, the trading setup must specify (i) how trades and position changes are aligned to the funding snapshot, (ii) which pricing and funding formula (including any caps/floors) and fee schedule are assumed, and (iii) how convention changes are versioned.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.389.3"">
+     Otherwise, the same backtest can imply different effective exposures and produce materially different PnL.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.386.1"">Пример (бессрочные фьючерсы)</span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.387.1"">: в </span><code class=""inlineCode""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.388.1"">crypto_perps_funding </span></code><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.389.1"">платежи по ставке финансирования представляют собой зависящий от позиции денежный поток, входящий в совокупную доходность: издержки при выплате и доход при получении. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.389.2"">Поскольку он начисляется только при наличии позиции в момент фиксации ставки финансирования, а расчёты проводятся по правилам конкретной торговой площадки, параметры торговли должны определять: (i) как сделки и изменения позиций согласуются с моментом фиксации ставки финансирования; (ii) какие формулы ценообразования и расчёта ставки финансирования предполагаются (включая верхние и нижние ограничения), а также какая тарифная сетка комиссий используется; (iii) как версионируются изменения правил. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.389.3"">Иначе один и тот же бэктест может подразумевать разную фактическую подверженность риску и давать существенно различающиеся PnL.</span></p>",,,,,,,"em,code",QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0169,169,p,6.3 Defining the trading setup > Decision schedule and admissible information > Cost model class and components,/*/*[2]/*/*[99],,175,134,Example : The ETF cross-asset momentum setup (v1) defines the following invariants:,Пример: параметры моментум-стратегии по различным классам активов на основе ETF (v1) задают следующие инварианты:,"<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.390.1"">
+      Example
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.391.1"">
+     : The
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.392.1"">
+      ETF cross-asset momentum setup (v1)
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.393.1"">
+     defines the following invariants:
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.390.1"">Пример</span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.391.1"">: </span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.392.1"">параметры моментум-стратегии по различным классам активов на основе ETF (v1) </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.393.1"">задают следующие инварианты:</span></p>",,,,,,,"strong,em",QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Human acceptance corrections CH06-ERR-068–080; independently rechecked and verified,v0.2
+CH06,CH06-B0170,170,li,6.3 Defining the trading setup > Decision schedule and admissible information > Cost model class and components,/*/*[2]/*/*[100]/*[1],,175,134,"Universe: 100 cross-asset ETFs with point-in-time eligibility based on trailing annual ADV ≥ $10M. The lenient threshold preserves cross-sectional breadth in early sample years (70–95 eligible ETFs per year). Note that the universe composition has survivorship bias that cannot be fully resolved without historical constituent data, while within-universe eligibility is point-in-time correct.","Совокупность активов: 100 ETF по различным классам активов, для которых допуск определяется на соответствующий момент времени на основе среднего дневного объёма торгов (ADV) за предшествующий год ≥ 10 млн долларов США. Мягкий порог сохраняет широту поперечного сечения в первые годы выборки (70–95 допустимых ETF в год). Следует учитывать, что состав совокупности активов подвержен смещению выживших, которое невозможно полностью устранить без исторических данных о её составе, тогда как критерии допуска внутри совокупности корректно применяются на соответствующий момент времени.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.394.1"">
+       Universe:
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.395.1"">
+      100 cross-asset ETFs with point-in-time eligibility based on trailing annual ADV ≥ $10M.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.395.2"">
+      The
+     </span>
+     <a id=""_idIndexMarker694"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.396.1"">
+      lenient threshold preserves cross-sectional breadth in early sample years (70–95 eligible ETFs per year).
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.396.2"">
+      Note that the universe composition has survivorship bias that cannot be fully resolved without historical constituent data, while within-universe eligibility is point-in-time correct.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.394.1"">Совокупность активов: </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.395.1"">100 ETF по различным классам активов, для которых допуск определяется на соответствующий момент времени на основе среднего дневного объёма торгов (ADV) за предшествующий год ≥ 10 млн долларов США. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.395.2"">Мягкий порог сохраняет широту поперечного сечения в первые годы выборки (70–95 допустимых ETF в год). </span><a id=""_idIndexMarker694""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.396.1""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.396.2"">Следует учитывать, что состав совокупности активов подвержен смещению выживших, которое невозможно полностью устранить без исторических данных о её составе, тогда как критерии допуска внутри совокупности корректно применяются на соответствующий момент времени.</span></li>",,,,,,,"strong,a",QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Human acceptance corrections CH06-ERR-068–080; independently rechecked and verified,v0.2
+CH06,CH06-B0171,171,li,6.3 Defining the trading setup > Decision schedule and admissible information > Cost model class and components,/*/*[2]/*/*[100]/*[2],,175,134,Decision schedule: Monthly month-end close snapshot with execution at the next-day bar open. This aligns with momentum literature for benchmark comparability. Weekly (5-day) cadence is tested as a variant.,График принятия решений: ежемесячный снимок цен закрытия на конец месяца с исполнением по цене открытия бара следующего дня. Это соответствует литературе о моментуме и обеспечивает сопоставимость с эталонными результатами исследований моментума. В качестве варианта тестируется недельная (5-дневная) периодичность.,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.397.1"">
+       Decision schedule:
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.398.1"">
+      Monthly
+     </span>
+     <a id=""_idIndexMarker695"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.399.1"">
+      month-end close snapshot with execution at the next-day bar open.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.399.2"">
+      This aligns with momentum literature for benchmark comparability.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.399.3"">
+      Weekly (5-day) cadence is tested as a variant.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.397.1"">График принятия решений: </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.398.1"">ежемесячный </span><a id=""_idIndexMarker695""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.399.1"">снимок цен закрытия на конец месяца с исполнением по цене открытия бара следующего дня. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.399.2"">Это соответствует литературе о моментуме и обеспечивает сопоставимость с эталонными результатами исследований моментума. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.399.3"">В качестве варианта тестируется недельная (5-дневная) периодичность.</span></li>",,,,,,,"strong,a",QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Human acceptance corrections CH06-ERR-068–080; independently rechecked and verified,v0.2
+CH06,CH06-B0172,172,li,6.3 Defining the trading setup > Decision schedule and admissible information > Cost model class and components,/*/*[2]/*/*[100]/*[3],,175,134,"Mapping: Long-only, rank-select top-N, equal-weight, rebalanced on cadence. Long-only because ETFs are expensive to short; equal-weight because it isolates the ranking signal from sizing optimization that would confound evaluation.","Преобразование: только длинные позиции, отбор top-N по рангу, равные веса, ребалансировка с заданной периодичностью. Только длинные позиции — потому что открывать короткие позиции по ETF дорого; равные веса — потому что они позволяют отделить сигнал ранжирования от оптимизации размеров позиций, которая затруднила бы интерпретацию результатов оценки.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.400.1"">
+       Mapping:
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.401.1"">
+      Long-only, rank-select top-N, equal-weight, rebalanced on cadence.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.401.2"">
+      Long-only because
+     </span>
+     <a id=""_idIndexMarker696"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.402.1"">
+      ETFs are expensive to short; equal-weight because it isolates the ranking signal from sizing optimization that would confound evaluation.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.400.1"">Преобразование: </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.401.1"">только длинные позиции, отбор top-N по рангу, равные веса, ребалансировка с заданной периодичностью. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.401.2"">Только длинные позиции — потому что </span><a id=""_idIndexMarker696""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.402.1"">открывать короткие позиции по ETF дорого; равные веса — потому что они позволяют отделить сигнал ранжирования от оптимизации размеров позиций, которая затруднила бы интерпретацию результатов оценки.</span></li>",,,,,,,"strong,a",QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Human acceptance corrections CH06-ERR-068–080; independently rechecked and verified,v0.2
+CH06,CH06-B0173,173,li,6.3 Defining the trading setup > Decision schedule and admissible information > Cost model class and components,/*/*[2]/*/*[100]/*[4],,175,134,"Constraints: Fully invested long-only with no leverage, a minimal constraint set appropriate for a pedagogical baseline.","Ограничения: полностью инвестированный портфель только с длинными позициями, без кредитного плеча — минимальный набор ограничений, подходящий для учебного базового варианта.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.403.1"">
+       Constraints:
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.404.1"">
+      Fully
+     </span>
+     <a id=""_idIndexMarker697"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.405.1"">
+      invested long-only with no leverage, a minimal constraint set appropriate for a pedagogical baseline.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.403.1"">Ограничения: </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.404.1"">полностью </span><a id=""_idIndexMarker697""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.405.1"">инвестированный портфель только с длинными позициями, без кредитного плеча — минимальный набор ограничений, подходящий для учебного базового варианта.</span></li>",,,,,,,"strong,a",QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Human acceptance corrections CH06-ERR-068–080; independently rechecked and verified,v0.2
+CH06,CH06-B0174,174,li,6.3 Defining the trading setup > Decision schedule and admissible information > Cost model class and components,/*/*[2]/*/*[100]/*[5],,175,134,"Cost model: Material is a per-share commission ($0.0035/share, IBKR Pro Tiered) plus tiered half-spread slippage (0.5¢ for the most liquid mega-ETFs, 1¢ for sector ETFs, 2¢ default for thematic and regional ETFs). The horizon feasibility analysis uses a 5–15 bps-per-leg reference cost line to screen cadences and confirms that monthly moves exceed 30 bps round-trip costs in over 90% of observations; daily trading operates in the gray zone where feasibility depends on signal strength and turnover.","Модель издержек: к существенным издержкам относятся комиссия в размере 0,0035 доллара США за акцию (тариф IBKR Pro Tiered) и дифференцированное проскальзывание в размере половины спреда (0,5 цента для наиболее ликвидных крупнейших ETF, 1 цент для отраслевых ETF и 2 цента по умолчанию для тематических и региональных ETF). При анализе осуществимости горизонта для отбора вариантов периодичности используется контрольная линия издержек 5–15 базисных пунктов (б.п.) на одну сторону сделки. Анализ подтверждает, что месячные ценовые движения превышают издержки полного цикла сделки, равные 30 б.п., более чем в 90 % наблюдений; ежедневная торговля находится в серой зоне, где осуществимость зависит от силы сигнала и оборота портфеля.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.406.1"">
+       Cost model:
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.407.1"">
+      Material
+     </span>
+     <a id=""_idIndexMarker698"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.408.1"">
+      is a per-share commission ($0.0035/share, IBKR Pro Tiered) plus tiered half-spread slippage (0.5¢ for the most liquid mega-ETFs, 1¢ for sector ETFs, 2¢ default for thematic and regional ETFs).
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.408.2"">
+      The horizon feasibility analysis uses a 5–15 bps-per-leg reference cost line to screen cadences and confirms that monthly moves exceed 30 bps round-trip costs in over 90% of observations; daily trading operates in the gray zone
+     </span>
+     <a id=""_idIndexMarker699"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.409.1"">
+      where feasibility depends on signal strength and turnover.
+     </span>
+    </li>
+   ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.406.1"">Модель издержек: </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.407.1"">к существенным издержкам относятся </span><a id=""_idIndexMarker698""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.408.1"">комиссия в размере 0,0035 доллара США за акцию (тариф IBKR Pro Tiered) и дифференцированное проскальзывание в размере половины спреда (0,5 цента для наиболее ликвидных крупнейших ETF, 1 цент для отраслевых ETF и 2 цента по умолчанию для тематических и региональных ETF). </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.408.2"">При анализе осуществимости горизонта для отбора вариантов периодичности используется контрольная линия издержек 5–15 базисных пунктов (б.п.) на одну сторону сделки. Анализ подтверждает, что месячные ценовые движения превышают издержки полного цикла сделки, равные 30 б.п., более чем в 90 % наблюдений; ежедневная торговля находится в серой зоне, </span><a id=""_idIndexMarker699""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.409.1"">где осуществимость зависит от силы сигнала и оборота портфеля.</span></li>",,,,,,,"strong,a",QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Human acceptance corrections CH06-ERR-068–080; independently rechecked and verified,v0.2
+CH06,CH06-B0175,175,p,6.3 Defining the trading setup > Decision schedule and admissible information > Cost model class and components,/*/*[2]/*/*[101],,176,135,"The setup notebook writes these choices to versioned YAML artifacts ( setup.yaml ) that downstream chapters consume programmatically. Changing the mapping from long-only to long/short would require setup_version: v2 and a new baseline checkpoint; parameter changes, such as adjusting top-N from 10 to 20, remain within v1 .","Ноутбук параметров торговли записывает эти решения в версионируемые артефакты YAML (setup.yaml), которые программно используются в последующих главах. Для изменения преобразования с только длинных позиций на длинные/короткие потребовались бы setup_version: v2 и новая контрольная точка базового варианта; изменения параметров, например увеличение top-N с 10 до 20, остаются в рамках v1.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.410.1"">
+     The setup notebook writes these choices to versioned YAML artifacts (
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.411.1"">
+      setup.yaml
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.412.1"">
+     ) that downstream chapters consume programmatically.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.412.2"">
+     Changing the mapping from long-only to long/short would require
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.413.1"">
+      setup_version: v2
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.414.1"">
+     and a new baseline checkpoint; parameter changes, such as adjusting top-N from 10 to 20, remain within
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.415.1"">
+      v1
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.416.1"">
+     .
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.410.1"">Ноутбук параметров торговли записывает эти решения в версионируемые артефакты YAML (</span><code class=""inlineCode""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.411.1"">setup.yaml</span></code><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.412.1"">), которые программно используются в последующих главах. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.412.2"">Для изменения преобразования с только длинных позиций на длинные/короткие потребовались бы </span><code class=""inlineCode""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.413.1"">setup_version: v2 </span></code><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.414.1"">и новая контрольная точка базового варианта; изменения параметров, например увеличение top-N с 10 до 20, остаются в рамках </span><code class=""inlineCode""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.415.1"">v1</span></code><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.416.1"">.</span></p>",,,,,,,code,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0176,176,h2,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[102],_idParaDest-281,176,135,When a change requires a new setup version,Когда изменение требует новой версии параметров торговли,"<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-281"">
+    <a id=""_idTextAnchor273"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.417.1"">
+     When a change requires a new setup version
+    </span>
+   </h2>
+   ","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-281""><a id=""_idTextAnchor273""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.417.1"">Когда изменение требует новой версии параметров торговли</span></h2>",,,,,,,a,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0177,177,p,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[103],,176,135,Treat the trading setup as versioned. Bump the setup version on any change that alters the strategy’s decision-time meaning or shifts its dominant frictions and constraints. Parameter tuning stays within a setup; changes to mechanics define a new setup. A change is a new setup version if it changes at least one of:,"Рассматривайте параметры торговли как версионируемый объект. Повышайте номер версии при любом изменении, которое меняет интерпретацию стратегии в момент принятия решения либо её преобладающие рыночные трения и ограничения. Настройка параметров выполняется в рамках одной версии; изменения торгового механизма определяют новую версию. Изменение требует новой версии параметров торговли, если затрагивает хотя бы один из следующих элементов:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.418.1"">
+     Treat the trading
+    </span>
+    <a id=""_idIndexMarker700"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.419.1"">
+     setup as versioned.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.419.2"">
+     Bump the setup version on any change that alters the strategy’s decision-time meaning or shifts its dominant frictions and constraints.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.419.3"">
+     Parameter tuning stays within a setup; changes to mechanics define a new setup.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.419.4"">
+     A change is a new setup version if it changes at least one of:
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.418.1"">Рассматривайте параметры торговли как версионируемый объект. Повышайте номер версии при любом изменении, которое меняет интерпретацию стратегии в момент принятия решения либо её преобладающие рыночные трения и ограничения. Настройка параметров выполняется в рамках одной версии; изменения торгового механизма определяют новую версию. Изменение требует новой версии параметров торговли, если затрагивает хотя бы один из следующих элементов:</span><a id=""_idIndexMarker700""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.419.1""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.419.2""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.419.3""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.419.4""/></p>",,,,,,,a,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0178,178,li,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[104]/*[1],,176,135,"Universe or tradability rules , for example, eligibility, membership mechanics, instrument scope.","Совокупность активов или правила торгуемости, например критерии включения, механизм изменения состава, охват инструментов.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.420.1"">
+       Universe or tradability rules
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.421.1"">
+      , for example, eligibility, membership mechanics, instrument scope.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.420.1"">Совокупность активов или правила торгуемости</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.421.1"">, например критерии включения, механизм изменения состава, охват инструментов.</span></li>",,,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0179,179,li,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[104]/*[2],,176,135,"Decision schedule or admissible information , for example, rebalance snapshot, cadence, execution delay, and input availability rules.","График принятия решений или допустимая информация, например момент снимка для ребалансировки, периодичность, задержка исполнения и правила доступности входных данных.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.422.1"">
+       Decision schedule or admissible information
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.423.1"">
+      , for example, rebalance snapshot, cadence, execution delay, and input availability rules.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.422.1"">График принятия решений или допустимая информация</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.423.1"">, например момент снимка для ребалансировки, периодичность, задержка исполнения и правила доступности входных данных.</span></li>",,,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0180,180,li,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[104]/*[3],,176,135,"Score-to-trade mapping at the level of state space, entry or exit form, sizing normalization, or order timing.","Преобразование оценки модели в сделку на уровне пространства состояний, способа входа или выхода, нормализации размера позиции либо времени размещения заявок.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.424.1"">
+       Score-to-trade mapping
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.425.1"">
+      at the level of state space, entry or exit form, sizing normalization, or order timing.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.424.1"">Преобразование оценки модели в сделку </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.425.1"">на уровне пространства состояний, способа входа или выхода, нормализации размера позиции либо времени размещения заявок.</span></li>",,,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0181,181,li,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[104]/*[4],,176,135,"Constraint regime , such as binding exposure/leverage limits, concentration rules, capacity or liquidity constraints, action-changing overlays.","Режим ограничений, например обязательные лимиты подверженности риску или кредитного плеча, правила концентрации, ограничения ёмкости стратегии или ликвидности, а также дополнительные механизмы, изменяющие торговые действия.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.426.1"">
+       Constraint regime
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.427.1"">
+      , such as binding exposure/leverage limits, concentration rules, capacity or liquidity constraints, action-changing overlays.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.426.1"">Режим ограничений</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.427.1"">, например обязательные лимиты подверженности риску или кредитного плеча, правила концентрации, ограничения ёмкости стратегии или ликвидности, а также дополнительные механизмы, изменяющие торговые действия.</span></li>",,,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0182,182,li,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[104]/*[5],,176,135,"Cost model class or included components , for example, adding funding or roll mechanics, or changing the slippage model in a way that affects feasibility.","Класс модели издержек или включённые компоненты, например добавление механизма выплат по ставке финансирования или роллирования либо изменение модели проскальзывания, влияющее на осуществимость.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.428.1"">
+       Cost model class or included components
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.429.1"">
+      , for example, adding funding or roll mechanics, or changing the slippage model in a way that affects feasibility.
+     </span>
+    </li>
+   ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.428.1"">Класс модели издержек или включённые компоненты</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.429.1"">, например добавление механизма выплат по ставке финансирования или роллирования либо изменение модели проскальзывания, влияющее на осуществимость.</span></li>",,,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0183,183,p,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[105],,176,135,"To keep this boundary unambiguous, separate mechanics from parameters :","Чтобы эта граница была однозначной, отделяйте торговый механизм от параметров:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.430.1"">
+     To keep this boundary unambiguous, separate
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.431.1"">
+      mechanics
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.432.1"">
+     from
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.433.1"">
+      parameters
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.434.1"">
+     :
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.430.1"">Чтобы эта граница была однозначной, отделяйте </span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.431.1"">торговый механизм </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.432.1"">от </span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.433.1"">параметров</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.434.1"">:</span></p>",,,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0184,184,th,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[106]/*[1]/*/*[1],,176,135,Same setup version (parameter tuning),Та же версия параметров торговли (настройка параметров),"<th xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-head"" scope=""col"">
+       <p class=""normal"">
+        <strong class=""keyWord"">
+         <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.435.1"">
+          Same setup version (parameter tuning)
+         </span>
+        </strong>
+       </p>
+      </th>
+      ","<th xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-head"" scope=""col""><p class=""normal""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.435.1"">Та же версия параметров торговли (настройка параметров)</span></strong></p></th>",,CH06-TABLE-002,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0185,185,th,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[106]/*[1]/*/*[2],,176,135,New setup version (mechanics changed),Новая версия параметров торговли (изменён торговый механизм),"<th xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-head"" scope=""col"">
+       <p class=""normal"">
+        <strong class=""keyWord"">
+         <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.436.1"">
+          New setup version (mechanics changed)
+         </span>
+        </strong>
+       </p>
+      </th>
+     ","<th xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-head"" scope=""col""><p class=""normal""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.436.1"">Новая версия параметров торговли (изменён торговый механизм)</span></strong></p></th>",,CH06-TABLE-002,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0186,186,td,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[106]/*[2]/*[1]/*[1],,176,135,Threshold 1.8 → 2.0,"Порог 1,8 → 2,0","<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell"">
+       <p class=""normal"">
+        <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.437.1"">
+         Threshold 1.8 → 2.0
+        </span>
+       </p>
+      </td>
+      ","<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell""><p class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.437.1"">Порог 1,8 → 2,0</span></p></td>",,CH06-TABLE-002,,,,,,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Human acceptance corrections CH06-ERR-068–080; independently rechecked and verified,v0.2
+CH06,CH06-B0187,187,td,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[106]/*[2]/*[1]/*[2],,176,135,Rank selection → threshold gating,Отбор по рангу → применение порогового условия,"<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell"">
+       <p class=""normal"">
+        <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.438.1"">
+         Rank selection → threshold gating
+        </span>
+       </p>
+      </td>
+     ","<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell""><p class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.438.1"">Отбор по рангу → применение порогового условия</span></p></td>",,CH06-TABLE-002,,,,,,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0188,188,td,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[106]/*[2]/*[2]/*[1],,176,135,Top 10% → top 20%,Верхние 10 % по рангу → верхние 20 % по рангу,"<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell"">
+       <p class=""normal"">
+        <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.439.1"">
+         Top 10% → top 20%
+        </span>
+       </p>
+      </td>
+      ","<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell""><p class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.439.1"">Верхние 10 % по рангу → верхние 20 % по рангу</span></p></td>",,CH06-TABLE-002,,,,,,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Human acceptance corrections CH06-ERR-068–080; independently rechecked and verified,v0.2
+CH06,CH06-B0189,189,td,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[106]/*[2]/*[2]/*[2],,176,135,Long-only → long/short,Только длинные позиции → длинные/короткие позиции,"<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell"">
+       <p class=""normal"">
+        <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.440.1"">
+         Long-only → long/short
+        </span>
+       </p>
+      </td>
+     ","<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell""><p class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.440.1"">Только длинные позиции → длинные/короткие позиции</span></p></td>",,CH06-TABLE-002,,,,,,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0190,190,td,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[106]/*[2]/*[3]/*[1],,176,135,20-day → 60-day normalization window,20-дневное → 60-дневное окно нормализации,"<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell"">
+       <p class=""normal"">
+        <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.441.1"">
+         20-day → 60-day normalization window
+        </span>
+       </p>
+      </td>
+      ","<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell""><p class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.441.1"">20-дневное → 60-дневное окно нормализации</span></p></td>",,CH06-TABLE-002,,,,,,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0191,191,td,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[106]/*[2]/*[3]/*[2],,176,135,Adding a stop rule when none existed,"Добавление правила принудительного выхода, которого раньше не было","<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell"">
+       <p class=""normal"">
+        <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.442.1"">
+         Adding a stop rule when none existed
+        </span>
+       </p>
+      </td>
+     ","<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell""><p class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.442.1"">Добавление правила принудительного выхода, которого раньше не было</span></p></td>",,CH06-TABLE-002,,,,,,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0192,192,td,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[106]/*[2]/*[4]/*[1],,176,135,Different lookback horizon,Другой ретроспективный горизонт,"<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell"">
+       <p class=""normal"">
+        <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.443.1"">
+         Different lookback horizon
+        </span>
+       </p>
+      </td>
+      ","<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell""><p class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.443.1"">Другой ретроспективный горизонт</span></p></td>",,CH06-TABLE-002,,,,,,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0193,193,td,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[106]/*[2]/*[4]/*[2],,176,135,Changing rebalance cadence or execution delay,Изменение периодичности ребалансировки или задержки исполнения,"<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell"">
+       <p class=""normal"">
+        <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.444.1"">
+         Changing rebalance cadence or execution delay
+        </span>
+       </p>
+      </td>
+     ","<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell""><p class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.444.1"">Изменение периодичности ребалансировки или задержки исполнения</span></p></td>",,CH06-TABLE-002,,,,,,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0194,194,td,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[106]/*[2]/*[5]/*[1],,176,135,Cost assumption 10 bps → 15 bps per leg,Допущение об издержках: 10 б.п. → 15 б.п. на одну сторону сделки,"<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell"">
+       <p class=""normal"">
+        <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.445.1"">
+         Cost assumption 10 bps → 15 bps per leg
+        </span>
+       </p>
+      </td>
+      ","<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell""><p class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.445.1"">Допущение об издержках: 10 б.п. → 15 б.п. на одну сторону сделки</span></p></td>",,CH06-TABLE-002,,,,,,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Human acceptance corrections CH06-ERR-068–080; independently rechecked and verified,v0.2
+CH06,CH06-B0195,195,td,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[106]/*[2]/*[5]/*[2],,176,135,Adding funding/roll as a cost component,Добавление платежей по ставке финансирования или роллирования как компонента издержек,"<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell"">
+       <p class=""normal"">
+        <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.446.1"">
+         Adding funding/roll as a cost component
+        </span>
+       </p>
+      </td>
+     ","<td xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""table-cell""><p class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.446.1"">Добавление платежей по ставке финансирования или роллирования как компонента издержек</span></p></td>",,CH06-TABLE-002,,,,,,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0196,196,p,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[107],,176,135,Table 6.2: Comparing mechanics and parameters,Таблица 6.2. Сопоставление механизмов и параметров,"<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""packt_figref"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.447.1"">
+     Table 6.2: Comparing mechanics and parameters
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""packt_figref""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.447.1"">Таблица 6.2. Сопоставление механизмов и параметров</span></p>",,,,,,,,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0197,197,p,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[108],,176,135,"Results across setup versions can still be informative, but they are not direct competitors within a single research program. The next section defines what counts as improvement within a fixed setup, separating development diagnostics from strategy-level evaluation.","Результаты разных версий параметров торговли по-прежнему могут быть информативными, однако они не подлежат прямому сопоставлению в рамках одной исследовательской программы. В следующем разделе определяется, что считается улучшением при фиксированных параметрах торговли, с отделением диагностики процесса разработки от оценки стратегии.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.448.1"">
+     Results across setup versions can still be informative, but they are not direct competitors within a single research program.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.448.2"">
+     The next section defines what counts as improvement within a fixed setup, separating development diagnostics from strategy-level evaluation.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.448.1"">Результаты разных версий параметров торговли по-прежнему могут быть информативными, однако они не подлежат прямому сопоставлению в рамках одной исследовательской программы. В следующем разделе определяется, что считается улучшением при фиксированных параметрах торговли, с отделением диагностики процесса разработки от оценки стратегии.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.448.2""/></p>",,,,,,,,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0198,198,p,6.3 Defining the trading setup > When a change requires a new setup version,/*/*[2]/*/*[109]/*,,176,135,"Implementation : 02_case_study_overview inventories the trading setup for each of the nine case studies (universe, decision schedule, mapping, constraints, cost model) and is the source of the worked examples above.","Реализация: 02_case_study_overview систематизирует параметры торговли для каждого из девяти практических примеров (совокупность активов, график принятия решений, преобразование, ограничения, модель издержек) и служит источником рассмотренных выше примеров.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+     <strong class=""screenText"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.449.1"">
+       Implementation
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.450.1"">
+      :
+     </span>
+     <code class=""inlineCode"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.451.1"">
+       02_case_study_overview
+      </span>
+     </code>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.452.1"">
+      inventories the trading setup for each of the nine case studies (universe, decision schedule, mapping, constraints, cost model) and is the source of the worked examples above.
+     </span>
+    </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><strong class=""screenText""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.449.1"">Реализация</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.450.1"">: </span><code class=""inlineCode""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.451.1"">02_case_study_overview </span></code><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.452.1"">систематизирует параметры торговли для каждого из девяти практических примеров (совокупность активов, график принятия решений, преобразование, ограничения, модель издержек) и служит источником рассмотренных выше примеров.</span></p>",,,,,,,"strong,code",QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0199,199,h1,6.4 Setting objectives and evaluation metrics,/*/*[2]/*/*[110],_idParaDest-282,177,136,6.4 Setting objectives and evaluation metrics,6.4 Постановка целей и определение метрик оценки,"<h1 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-1"" id=""_idParaDest-282"">
+    <a id=""_idTextAnchor274"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.453.1"">
+     6.4 Setting objectives and evaluation metrics
+    </span>
+   </h1>
+   ","<h1 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-1"" id=""_idParaDest-282""><a id=""_idTextAnchor274""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.453.1"">6.4 Постановка целей и определение метрик оценки</span></h1>",,,,,,,a,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
+CH06,CH06-B0200,200,p,6.4 Setting objectives and evaluation metrics,/*/*[2]/*/*[111],,177,136,"A research program needs an explicit definition of “better” before running large experiment grids. Here, “better” means economic value under a fixed trading setup : portfolio returns produced by mapping model outputs into positions and applying constraints and costs. This section specifies three important rules:","До запуска крупных сеток экспериментов исследовательская программа должна явно определить, что означает «лучше». Здесь под «лучше» понимается экономическая ценность при фиксированных параметрах торговли: доходность портфеля, получаемая путём преобразования выходных данных модели в позиции с последующим применением ограничений и учётом издержек. В этом разделе устанавливаются три важных правила:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.454.1"">
+     A research program needs an explicit definition of “better” before running large experiment grids.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.454.2"">
+     Here, “better” means
+    </span>
+    <strong class=""screenText"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.455.1"">
+      economic value under a fixed trading setup
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.456.1"">
+     : portfolio returns produced by mapping model outputs into positions and applying constraints and costs.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.456.2"">
+     This section specifies three important rules:
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.454.1"">До запуска крупных сеток экспериментов исследовательская программа должна явно определить, что означает «лучше». </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.454.2"">Здесь под «лучше» понимается </span><strong class=""screenText""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.455.1"">экономическая ценность при фиксированных параметрах торговли</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.456.1"">: доходность портфеля, получаемая путём преобразования выходных данных модели в позиции с последующим применением ограничений и учётом издержек. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.456.2"">В этом разделе устанавливаются три важных правила:</span></p>",,,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,PASS,CH06-BATCH-005,Autonomous translation run CH06-B0161-B0200-20260816T184256Z,v0.1
