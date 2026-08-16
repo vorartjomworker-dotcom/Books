@@ -4,13 +4,18 @@
   "mode": "pilot",
   "merge_policy": "manual",
   "active": {
-    "chapter": "CH05",
+    "chapter": "CH09",
     "start": 121,
     "end": 160,
-    "branch": "translation/ch05-b0121-b0160",
-    "status": "READY",
-    "attempt": 0,
-    "lock": null,
+    "branch": "translation/ch09-b0121-b0160",
+    "status": "TRANSLATING",
+    "attempt": 1,
+    "lock": {
+      "run_id": "CH09-B0121-B0160-20260816T190652+0300",
+      "owner": "codex-integrator",
+      "acquired_at": "2026-08-16T19:06:52+03:00",
+      "expires_at": "2026-08-16T22:06:52+03:00"
+    },
     "stop_reason": null
   },
   "queue": [
@@ -18,8 +23,8 @@
     {"chapter": "CH06", "start": 81, "end": 120, "branch": "translation/ch06-b0081-b0120", "status": "READY"},
     {"chapter": "CH07", "start": 121, "end": 160, "branch": "translation/ch07-b0121-b0160", "status": "READY"},
     {"chapter": "CH08", "start": 81, "end": 120, "branch": "translation/ch08-b0081-b0120", "status": "READY"},
-    {"chapter": "CH09", "start": 121, "end": 160, "branch": "translation/ch09-b0121-b0160", "status": "READY"}
+    {"chapter": "CH09", "start": 121, "end": 160, "branch": "translation/ch09-b0121-b0160", "status": "TRANSLATING"}
   ],
   "last_run": null,
-  "updated_at": "2026-08-16T00:00:00+03:00"
+  "updated_at": "2026-08-16T19:06:52+03:00"
 }
