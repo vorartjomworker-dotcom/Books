@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 
-BRANCH_RE = re.compile(r"^translation/(ch\\d{2})-b(\\d{4})-b(\\d{4})$")
+BRANCH_RE = re.compile(r"^translation/(ch\d{2})-b(\d{4})-b(\d{4})$")
 VALID_MODES = {"pilot", "autonomous"}
 
 
