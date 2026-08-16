@@ -8,14 +8,9 @@
     "start": 121,
     "end": 160,
     "branch": "translation/ch09-b0121-b0160",
-    "status": "AWAITING_REVIEW",
+    "status": "COMPLETED",
     "attempt": 1,
-    "lock": {
-      "run_id": "CH09-B0121-B0160-ACCEPT-20260816T212842Z",
-      "owner": "integrator",
-      "acquired_at": "2026-08-16T21:28:42.920Z",
-      "expires_at": "2026-08-17T00:28:42.920Z"
-    },
+    "lock": null,
     "stop_reason": null
   },
   "queue": [
@@ -52,9 +47,9 @@
       "start": 121,
       "end": 160,
       "branch": "translation/ch09-b0121-b0160",
-      "status": "AWAITING_REVIEW"
+      "status": "COMPLETED"
     }
   ],
-  "last_run": "CH09-B0121-B0160-20260816T190652+0300",
-  "updated_at": "2026-08-16T21:28:42.920Z"
+  "last_run": "CH09-B0121-B0160-ACCEPT-20260816T212842Z",
+  "updated_at": "2026-08-16T21:29:09.107Z"
 }
