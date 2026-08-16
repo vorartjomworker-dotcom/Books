@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "run_id": "CH06-B0081-B0120-20260816T204124+0300",
+  "chapter": "CH06",
+  "start": 81,
+  "end": 120,
+  "branch": "translation/ch06-b0081-b0120",
+  "status": "STOPPED",
+  "attempt": 1,
+  "mode": "autonomous",
+  "merge_policy": "manual",
+  "source_registry": {
+    "title": "CH06 — Канонический двуязычный реестр — v0.1.xlsx",
+    "spreadsheet_id": "11luC00OhnLC7yvnDhBAjGCX6TGKKue6U",
+    "expected_count": 314,
+    "qa_pass_through": 80,
+    "repository_path": "chapters/CH06/registry/CH06_registry_v0.1_current.xlsx",
+    "pinned_size_bytes": 101774,
+    "pinned_modified_time": "2026-08-15T20:28:13.585Z",
+    "pinned_sha256": "13ea123b05d16bb401d20e31c2ac1f8de953c2ae91019b949cb3524bcfff8227",
+    "observed_drive_size_bytes": 114004,
+    "observed_drive_modified_time": "2026-08-16T16:44:40.408Z"
+  },
+  "transitions": [
+    {
+      "state": "READY",
+      "at": "2026-08-16T17:41:24Z"
+    },
+    {
+      "state": "TRANSLATING",
+      "at": "2026-08-16T17:41:24Z"
+    },
+    {
+      "state": "STOPPED",
+      "at": "2026-08-16T17:49:00Z",
+      "reason": "Canonical registry mismatch: current Google Drive CH06 registry metadata differs from the source snapshot pinned in main; translation cannot proceed without an authoritative registry decision."
+    }
+  ],
+  "outputs": {
+    "batch": null,
+    "qa_report": "qa/reports/CH06_B0081_B0120_QA.md",
+    "issues": "qa/issues/CH06/CH06_errors_B0081_B0120.csv"
+  },
+  "qa": {
+    "language": "NOT_RUN",
+    "structural": "NOT_RUN",
+    "registry_validator": "NOT_RUN",
+    "unit_tests": "NOT_RUN",
+    "pipeline_state_validator": "NOT_RUN",
+    "open_critical_high": 1,
+    "fix_cycles": 0
+  },
+  "canonical_drive_written": false,
+  "stop_reason": "Canonical registry mismatch: current Google Drive CH06 registry metadata differs from the source snapshot pinned in main; translation cannot proceed without an authoritative registry decision."
+}
