@@ -51,10 +51,16 @@
     "registry_validator": "BLOCKED",
     "unit_tests": "PASS (16/16 local)",
     "pipeline_state_validator": "PASS (local)",
+    "ci": "PASS",
     "open_critical_high": 1,
     "fix_cycles": 0
   },
   "canonical_drive_written": false,
+  "ci_run": {
+    "id": 31976646826,
+    "url": "https://github.com/vorartjomworker-dotcom/Machine-Learning-for-Trading/actions/runs/31976646826",
+    "conclusion": "success"
+  },
   "translation_merge_to_main": false,
   "next_range_scheduled": false,
   "stop_reason": "CH08-AUTO-REG-001: authoritative ledger/status mismatch. Accepted QA_PASS blocks cannot be translated or overwritten without a registered error and human resolution."
