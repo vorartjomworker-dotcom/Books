@@ -1,0 +1,753 @@
+﻿chapter_id,block_id,sequence_number,element_type,section_path,xhtml_path,source_element_id,pdf_physical_page,pdf_printed_page,english_text,russian_text,source_html,target_html,asset_ids,table_id,formula_id,code_id,link_ids,term_candidates,formatting_markers,translation_status,qa_semantic,qa_terminology,qa_numbers_code_links,qa_structure_formatting,qa_status,batch_id,notes,version
+CH06,CH06-B0201,201,li,6.4 Setting objectives and evaluation metrics,/*/*[2]/*/*[112]/*[1],,177,136,"Evaluate strategy candidates in economic terms , based on a consistent PnL definition","Оценивайте рассматриваемые стратегии в экономических показателях, используя единообразное определение PnL.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.457.1"">
+      Evaluate strategy candidates in
+     </span>
+     <strong class=""screenText"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.458.1"">
+       economic terms
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.459.1"">
+      , based on a consistent PnL definition
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.457.1"">Оценивайте рассматриваемые стратегии в</span><strong class=""screenText""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.458.1""> экономических показателях,</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.459.1""> используя единообразное определение PnL.</span></li>",,,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0202,202,li,6.4 Setting objectives and evaluation metrics,/*/*[2]/*/*[112]/*[2],,177,136,Keep metric roles separate for model and strategy evaluation,Разделяйте назначение метрик при оценке модели и стратегии.,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""screenText"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.460.1"">
+       Keep metric roles separate
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.461.1"">
+      for model and strategy evaluation
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""screenText""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.460.1"">Разделяйте назначение метрик</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.461.1""> при оценке модели и стратегии.</span></li>",,,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0203,203,li,6.4 Setting objectives and evaluation metrics,/*/*[2]/*/*[112]/*[3],,177,136,Choose one primary selection metric for development and a separate reporting set for strategy outcomes,Выберите одну основную метрику отбора для разработки и отдельный набор отчётных метрик для результатов стратегии.,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.462.1"">
+      Choose
+     </span>
+     <strong class=""screenText"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.463.1"">
+       one primary selection metric for development
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.464.1"">
+      and a
+     </span>
+     <strong class=""screenText"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.465.1"">
+       separate reporting set
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.466.1"">
+      for strategy outcomes
+     </span>
+    </li>
+   ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.462.1"">Выберите</span><strong class=""screenText""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.463.1""> одну основную метрику отбора для разработки</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.464.1""> и</span><strong class=""screenText""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.465.1""> отдельный набор отчётных метрик</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.466.1""> для результатов стратегии.</span></li>",,,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0204,204,p,6.4 Setting objectives and evaluation metrics,/*/*[2]/*/*[113],,177,136,"Specific metrics appear in later chapters on features, models, and backtests; here, we establish the framework for how these metric layers interact.","Конкретные метрики рассматриваются в последующих главах, посвящённых признакам, моделям и бэктестам; здесь же мы задаём схему взаимодействия этих уровней метрик.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.467.1"">
+     Specific metrics appear in later chapters on features, models, and backtests; here, we establish the framework for how these metric layers interact.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.467.1"">Конкретные метрики рассматриваются в последующих главах, посвящённых признакам, моделям и бэктестам; здесь же мы задаём схему взаимодействия этих уровней метрик.</span></p>",,,,,,,,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0205,205,h2,"6.4 Setting objectives and evaluation metrics > Three metric layers, each with a different role",/*/*[2]/*/*[114],_idParaDest-283,177,136,"Three metric layers, each with a different role","Три уровня метрик, у каждого своя роль","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-283"">
+    <a id=""_idTextAnchor275"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.468.1"">
+     Three metric layers, each with a different role
+    </span>
+   </h2>
+   ","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-283""><a id=""_idTextAnchor275""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.468.1"">Три уровня метрик, у каждого своя роль</span></h2>",,,,,,,a,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0206,206,p,"6.4 Setting objectives and evaluation metrics > Three metric layers, each with a different role",/*/*[2]/*/*[115],,177,136,"Confusion in ML-driven strategy research often arises from relying on a single metric to address multiple questions. Treat metrics as three distinct layers, each tied to a specific decision:","Путаница при исследовании стратегий на основе ML часто возникает, когда одной метрикой пытаются ответить на несколько вопросов. Рассматривайте метрики как три отдельных уровня, каждый из которых связан с конкретным решением:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.469.1"">
+     Confusion in ML-driven strategy research often arises from relying on a single metric to address multiple questions.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.469.2"">
+     Treat metrics as three distinct layers, each tied to a specific decision:
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.469.1"">Путаница при исследовании стратегий на основе ML часто возникает, когда одной метрикой пытаются ответить на несколько вопросов.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.469.2""> Рассматривайте метрики как три отдельных уровня, каждый из которых связан с конкретным решением:</span></p>",,,,,,,,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0207,207,li,"6.4 Setting objectives and evaluation metrics > Three metric layers, each with a different role",/*/*[2]/*/*[116]/*[1],,177,136,"Model diagnostics answer a narrow question: can the model learn the label in a way that generalizes across time splits? Typical checks include loss or error, calibration, and stability across folds. If these fail, treat downstream trading results as difficult to interpret because the predictor is unstable. These checks do not require a cost model, position sizing, or portfolio simulation; they serve as an early gate that prevents overinterpreting noise.","Диагностика модели отвечает на узкий вопрос: может ли модель научиться предсказывать целевую метку так, чтобы её качество сохранялось при разных разбиениях по времени? Типичные проверки охватывают значение функции потерь или ошибки, калибровку вероятностей и устойчивость по блокам разбиения. Если эти проверки не пройдены, последующие результаты торговли трудно интерпретировать из-за нестабильности предиктора. Для таких проверок не требуются модель издержек, определение размера позиции или симуляция портфеля; они служат ранним фильтром, не позволяющим переоценить шум.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.470.1"">
+       Model diagnostics
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.471.1"">
+      answer
+     </span>
+     <a id=""_idIndexMarker701"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.472.1"">
+      a narrow question: can the model learn the label in a way that generalizes across time splits?
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.472.2"">
+      Typical checks include loss or error, calibration, and stability across folds.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.472.3"">
+      If these fail, treat downstream trading results as difficult to interpret because the predictor is unstable.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.472.4"">
+      These checks do not require a cost model, position sizing, or portfolio simulation; they serve as an early gate that prevents overinterpreting noise.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.470.1"">Диагностика модели</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.471.1""> отвечает</span><a id=""_idIndexMarker701""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.472.1""> на узкий вопрос: может ли модель научиться предсказывать целевую метку так, чтобы её качество сохранялось при разных разбиениях по времени?</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.472.2""> Типичные проверки охватывают значение функции потерь или ошибки, калибровку вероятностей и устойчивость по блокам разбиения.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.472.3""> Если эти проверки не пройдены, последующие результаты торговли трудно интерпретировать из-за нестабильности предиктора.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.472.4""> Для таких проверок не требуются модель издержек, определение размера позиции или симуляция портфеля; они служат ранним фильтром, не позволяющим переоценить шум.</span></li>",,,,,,,"strong,a",QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0208,208,li,"6.4 Setting objectives and evaluation metrics > Three metric layers, each with a different role",/*/*[2]/*/*[116]/*[2],,177,136,"Signal diagnostics test whether the model output behaves like a tradable signal under the chosen mapping class. A common choice is the information coefficient (IC), the Spearman rank correlation between predicted scores and subsequent realized returns (see Chapter 7 ). Signal diagnostics treat the output as a score to be traded ; model diagnostics treat it as a predictor to be trusted . Chapter 7 covers both in detail.","Диагностика сигнала проверяет, ведут ли себя выходные данные модели как пригодный для торговли сигнал при выбранном классе преобразования. Распространённый вариант — информационный коэффициент (IC): это ранговая корреляция Спирмена между прогнозными оценками и последующей реализованной доходностью (см. главу 7). При диагностике сигнала выходные данные рассматриваются как оценка для торговли; при диагностике модели — как надёжный предиктор. В главе 7 оба вида диагностики рассматриваются подробно.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.473.1"">
+       Signal diagnostics
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.474.1"">
+      test
+     </span>
+     <a id=""_idIndexMarker702"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.475.1"">
+      whether the model output behaves like a tradable signal under the chosen mapping class.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.475.2"">
+      A common choice is the
+     </span>
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.476.1"">
+       information coefficient (IC),
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.477.1"">
+      the
+     </span>
+     <a id=""_idIndexMarker703"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.478.1"">
+      Spearman rank correlation between predicted scores and subsequent realized returns (see
+     </span>
+     <em class=""italic"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.479.1"">
+       Chapter 7
+      </span>
+     </em>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.480.1"">
+      ).
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.480.2"">
+      Signal diagnostics treat the output
+     </span>
+     <strong class=""screenText"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.481.1"">
+       as a score to be traded
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.482.1"">
+      ; model diagnostics treat it
+     </span>
+     <strong class=""screenText"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.483.1"">
+       as a predictor to be trusted
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.484.1"">
+      .
+     </span>
+     <em class=""italic"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.485.1"">
+       Chapter 7
+      </span>
+     </em>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.486.1"">
+      covers both in detail.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.473.1"">Диагностика сигнала</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.474.1""> проверяет,</span><a id=""_idIndexMarker702""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.475.1""> ведут ли себя выходные данные модели как пригодный для торговли сигнал при выбранном классе преобразования.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.475.2""> Распространённый вариант —</span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.476.1""> информационный коэффициент (IC):</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.477.1""> это</span><a id=""_idIndexMarker703""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.478.1""> ранговая корреляция Спирмена между прогнозными оценками и последующей реализованной доходностью (см.</span><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.479.1""> главу 7).</span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.480.1""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.480.2""> При диагностике сигнала выходные данные рассматриваются</span><strong class=""screenText""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.481.1""> как оценка для торговли;</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.482.1""> при диагностике модели —</span><strong class=""screenText""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.483.1""> как надёжный предиктор.</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.484.1""/><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.485.1""> В главе 7</span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.486.1""> оба вида диагностики рассматриваются подробно.</span></li>",,,,,,,"strong,em,a",QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0209,209,li,"6.4 Setting objectives and evaluation metrics > Three metric layers, each with a different role",/*/*[2]/*/*[116]/*[3],,177,136,"Strategy outcomes evaluate the end-to-end process under costs and constraints, in terms of risk and return. Typical reporting includes risk-adjusted returns, volatility and drawdowns, exposure and concentration behavior, and realized turnover (see Chapter 17 ). The failure mode is to use these outcomes as the objective for every small design choice during development, which encourages overfitting to the simulator’s degrees of freedom and will likely disappoint out-of-sample.","Результаты стратегии используются для оценки сквозного процесса с учётом издержек и ограничений по показателям риска и доходности. Обычно в отчёт включают доходность с учётом риска, волатильность и просадки, показатели подверженности риску и концентрации, а также фактический оборот портфеля (см. главу 17). Ошибка состоит в том, чтобы использовать эти результаты как целевую метрику при каждом небольшом проектном решении в ходе разработки: это способствует переобучению на степенях свободы симулятора и, вероятно, приведёт к разочаровывающим результатам вне обучающей выборки.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.487.1"">
+       Strategy outcomes
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.488.1"">
+      evaluate the end-to-end process under costs and constraints, in terms of
+     </span>
+     <a id=""_idIndexMarker704"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.489.1"">
+      risk and return.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.489.2"">
+      Typical reporting includes risk-adjusted returns, volatility and drawdowns, exposure and concentration behavior, and realized turnover (see
+     </span>
+     <em class=""italic"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.490.1"">
+       Chapter 17
+      </span>
+     </em>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.491.1"">
+      ).
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.491.2"">
+      The failure mode is to use these outcomes as the objective for every small design choice during development, which encourages overfitting to the simulator’s degrees of freedom and will likely disappoint out-of-sample.
+     </span>
+    </li>
+   ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.487.1"">Результаты стратегии</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.488.1""> используются для оценки сквозного процесса с учётом издержек и ограничений по показателям</span><a id=""_idIndexMarker704""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.489.1""> риска и доходности.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.489.2""> Обычно в отчёт включают доходность с учётом риска, волатильность и просадки, показатели подверженности риску и концентрации, а также фактический оборот портфеля (см.</span><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.490.1""> главу 17).</span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.491.1""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.491.2""> Ошибка состоит в том, чтобы использовать эти результаты как целевую метрику при каждом небольшом проектном решении в ходе разработки: это способствует переобучению на степенях свободы симулятора и, вероятно, приведёт к разочаровывающим результатам вне обучающей выборки.</span></li>",,,,,,,"strong,em,a",QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0210,210,p,"6.4 Setting objectives and evaluation metrics > Three metric layers, each with a different role",/*/*[2]/*/*[117],,177,136,"A complementary diagnostic, conformal prediction intervals, provides calibrated uncertainty estimates without distributional assumptions. Chapter 11 introduces conformal methods for time-series prediction; here, note that well-calibrated prediction intervals can flag when a model’s confidence is misaligned with realized outcomes, serving as an early warning alongside the three layers mentioned earlier.","Дополнительный диагностический инструмент — конформные интервалы прогнозирования — даёт калиброванные оценки неопределённости без предположений о распределении. В главе 11 представлены методы конформного прогнозирования временных рядов; здесь важно отметить, что хорошо откалиброванные интервалы прогнозирования позволяют выявить несоответствие уверенности модели фактически реализованным результатам и служат ранним предупреждением наряду с тремя описанными выше уровнями.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.492.1"">
+     A complementary diagnostic,
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.493.1"">
+      conformal prediction intervals,
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.494.1"">
+     provides calibrated uncertainty estimates without distributional
+    </span>
+    <a id=""_idIndexMarker705"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.495.1"">
+     assumptions.
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.496.1"">
+      Chapter 11
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.497.1"">
+     introduces conformal methods for time-series prediction; here, note that well-calibrated prediction intervals can flag when a model’s confidence is misaligned with realized outcomes, serving as an early warning alongside the three layers mentioned earlier.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.492.1"">Дополнительный диагностический инструмент —</span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.493.1""> конформные интервалы прогнозирования —</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.494.1""> даёт калиброванные оценки неопределённости без предположений о</span><a id=""_idIndexMarker705""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.495.1""> распределении.</span><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.496.1""> В главе 11</span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.497.1""> представлены методы конформного прогнозирования временных рядов; здесь важно отметить, что хорошо откалиброванные интервалы прогнозирования позволяют выявить несоответствие уверенности модели фактически реализованным результатам и служат ранним предупреждением наряду с тремя описанными выше уровнями.</span></p>",,,,,,,"strong,em,a",QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0211,211,p,"6.4 Setting objectives and evaluation metrics > Three metric layers, each with a different role",/*/*[2]/*/*[118],,178,137,"Use model diagnostics to assess learnability, signal diagnostics to assess tradability under the mapping, and strategy outcomes to determine whether the declared setup produces economic value. Keep strategy outcomes “late-stage”: when they drive every micro-decision, the risk of overfitting to implementation details rises, masking a robust edge. We now turn to evaluating our target metrics in a time-series context.","Используйте диагностику модели для оценки обучаемости, диагностику сигнала — для оценки пригодности к торговле при данном преобразовании, а результаты стратегии — чтобы определить, создают ли заданные параметры торговли экономическую ценность. Оставляйте результаты стратегии на позднюю стадию: когда на их основании принимается каждое малое решение, возрастает риск переобучения на деталях реализации, скрывающего устойчивое преимущество. Теперь рассмотрим оценку целевых метрик в контексте временных рядов.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.498.1"">
+     Use model diagnostics to assess learnability, signal diagnostics to assess tradability under the mapping, and strategy outcomes to determine whether the declared setup produces economic value.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.498.2"">
+     Keep strategy outcomes “late-stage”: when they drive every micro-decision, the risk of overfitting to implementation details rises, masking a robust edge.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.498.3"">
+     We now turn to evaluating our target metrics in a time-series context.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.498.1"">Используйте диагностику модели для оценки обучаемости, диагностику сигнала — для оценки пригодности к торговле при данном преобразовании, а результаты стратегии — чтобы определить, создают ли заданные параметры торговли экономическую ценность.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.498.2""> Оставляйте результаты стратегии на позднюю стадию: когда на их основании принимается каждое малое решение, возрастает риск переобучения на деталях реализации, скрывающего устойчивое преимущество.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.498.3""> Теперь рассмотрим оценку целевых метрик в контексте временных рядов.</span></p>",,,,,,,,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0212,212,h1,6.5 Evaluation protocol for time series,/*/*[2]/*/*[119],_idParaDest-284,178,137,6.5 Evaluation protocol for time series,6.5 Протокол оценки для временных рядов,"<h1 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-1"" id=""_idParaDest-284"">
+    <a id=""_idTextAnchor276"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.499.1"">
+     6.5 Evaluation protocol for time series
+    </span>
+   </h1>
+   ","<h1 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-1"" id=""_idParaDest-284""><a id=""_idTextAnchor276""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.499.1"">6.5 Протокол оценки для временных рядов</span></h1>",,,,,,,a,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0213,213,p,6.5 Evaluation protocol for time series,/*/*[2]/*/*[120],,178,137,"Evaluation answers a simple question: how will a procedure learned from historical data behave on data it has not seen? We estimate this by testing decisions on data unavailable when those decisions were made. The notebook 01_cv_foundations illustrates these concepts using the ml4t-diagnostic library. The core discipline: separate selection from performance estimation, and enforce a fixed decision time so no future information leaks into training or simulation.","Оценка отвечает на простой вопрос: как процедура, обученная на исторических данных, поведёт себя на данных, которых она не видела? Мы оцениваем это, проверяя решения на данных, недоступных в момент их принятия. В ноутбуке 01_cv_foundations эти понятия иллюстрируются с помощью библиотеки ml4t-diagnostic. Главное правило: отделяйте отбор от оценки эффективности и фиксируйте момент принятия решения, чтобы информация из будущего не проникала в обучение или симуляцию.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.500.1"">
+     Evaluation answers a simple question: how will a procedure learned from historical data behave on data it has not seen?
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.500.2"">
+     We estimate this by testing decisions on data unavailable when those decisions were made.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.500.3"">
+     The notebook
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.501.1"">
+      01_cv_foundations
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.502.1"">
+     illustrates these concepts using the
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.503.1"">
+      ml4t-diagnostic
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.504.1"">
+     library.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.504.2"">
+     The core discipline: separate selection from performance estimation, and enforce a fixed decision time so no future information leaks into training or simulation.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.500.1"">Оценка отвечает на простой вопрос: как процедура, обученная на исторических данных, поведёт себя на данных, которых она не видела?</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.500.2""> Мы оцениваем это, проверяя решения на данных, недоступных в момент их принятия.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.500.3""> В ноутбуке</span> <code class=""inlineCode""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.501.1"">01_cv_foundations</span></code><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.502.1""> эти понятия иллюстрируются с помощью библиотеки</span> <code class=""inlineCode""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.503.1"">ml4t-diagnostic</span></code>.<span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.504.1""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.504.2""> Главное правило: отделяйте отбор от оценки эффективности и фиксируйте момент принятия решения, чтобы информация из будущего не проникала в обучение или симуляцию.</span></p>",,,,,,,code,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0214,214,h2,6.5 Evaluation protocol for time series > Data leakage and estimation bias,/*/*[2]/*/*[121],_idParaDest-285,178,137,Data leakage and estimation bias,Утечка информации и смещение оценки,"<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-285"">
+    <a id=""_idTextAnchor277"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.505.1"">
+     Data leakage and estimation bias
+    </span>
+   </h2>
+   ","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-285""><a id=""_idTextAnchor277""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.505.1"">Утечка информации и смещение оценки</span></h2>",,,,,,,a,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0215,215,p,6.5 Evaluation protocol for time series > Data leakage and estimation bias,/*/*[2]/*/*[122],,178,137,"Look-ahead bias occurs when any component of the pipeline uses information that would not have been available at the time of the trading decision. It is the most dangerous form of data leakage because it produces spectacular backtest results that cannot be replicated in live trading. Look-ahead bias manifests in several forms in the context of time-series evaluation (in addition to source data problems like survivorship bias or point-in-time errors, as discussed in Chapters 2 and 4 ):","Смещение из-за использования будущей информации возникает, когда какой-либо компонент конвейера использует сведения, которые не были бы доступны в момент принятия торгового решения. Это наиболее опасная форма утечки информации: она даёт впечатляющие результаты бэктеста, которые невозможно воспроизвести в торговле в реальном режиме. При оценке временных рядов смещение из-за использования будущей информации проявляется в нескольких формах (помимо проблем с исходными данными, таких как смещение выживших или ошибки привязки к соответствующему моменту времени, рассмотренные в главах 2 и 4):","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.506.1"">
+      Look-ahead bias
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.507.1"">
+     occurs
+    </span>
+    <a id=""_idIndexMarker706"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.508.1"">
+     when any
+    </span>
+    <a id=""_idIndexMarker707"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.509.1"">
+     component of the pipeline uses information that would not have been available at the time of the trading decision.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.509.2"">
+     It is the most dangerous form of data
+    </span>
+    <a id=""_idIndexMarker708"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.510.1"">
+     leakage because it produces spectacular backtest results that cannot be replicated in live trading.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.510.2"">
+     Look-ahead bias manifests in several forms in the context of time-series evaluation (in addition to source data problems like survivorship bias or point-in-time errors, as discussed in
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.511.1"">
+      Chapters 2
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.512.1"">
+     and
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.513.1"">
+      4
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.514.1"">
+     ):
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.506.1"">Смещение из-за использования будущей информации</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.507.1""> возникает,</span><a id=""_idIndexMarker706""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.508.1""> когда какой-либо</span><a id=""_idIndexMarker707""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.509.1""> компонент конвейера использует сведения, которые не были бы доступны в момент принятия торгового решения.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.509.2""> Это наиболее опасная форма</span><a id=""_idIndexMarker708""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.510.1""> утечки информации: она даёт впечатляющие результаты бэктеста, которые невозможно воспроизвести в торговле в реальном режиме.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.510.2""> При оценке временных рядов смещение из-за использования будущей информации проявляется в нескольких формах (помимо проблем с исходными данными, таких как смещение выживших или ошибки привязки к соответствующему моменту времени, рассмотренные в</span><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.511.1""> главах 2</span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.512.1""> и</span><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.513.1""> 4):</span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.514.1""/></p>",,,,,,,"strong,em,a",QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0216,216,li,6.5 Evaluation protocol for time series > Data leakage and estimation bias,/*/*[2]/*/*[123]/*[1],,178,137,"Label leakage: Using future returns in the same observation’s features (for example, computing 5-day-forward returns and accidentally including next-day returns in a feature).","Утечка целевой метки: использование будущей доходности в признаках того же наблюдения (например, расчёт доходности за последующие 5 дней с ошибочным включением доходности за следующий день в состав признака).","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.515.1"">
+       Label leakage:
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.516.1"">
+      Using
+     </span>
+     <a id=""_idIndexMarker709"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.517.1"">
+      future returns in the same observation’s features (for example, computing 5-day-forward returns and accidentally including next-day returns in a feature).
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.515.1"">Утечка целевой метки:</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.516.1""> использование</span><a id=""_idIndexMarker709""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.517.1""> будущей доходности в признаках того же наблюдения (например, расчёт доходности за последующие 5 дней с ошибочным включением доходности за следующий день в состав признака).</span></li>",,,,,,,"strong,a",QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0217,217,li,6.5 Evaluation protocol for time series > Data leakage and estimation bias,/*/*[2]/*/*[123]/*[2],,178,137,"Standardization leakage: For derived features, computing inputs on the full dataset, instead of the training set alone. For example, using the mean and standard deviation to compute z-scores from the full data may reveal a distribution shift during the validation period.","Утечка при стандартизации: для производных признаков входные значения вычисляются по всему набору данных, а не только по обучающей выборке. Например, использование среднего значения и стандартного отклонения по всем данным для расчёта z-оценок может выдать информацию о сдвиге распределения в период проверки.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.518.1"">
+       Standardization leakage:
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.519.1"">
+      For derived features, computing inputs on the full dataset, instead of
+     </span>
+     <a id=""_idIndexMarker710"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.520.1"">
+      the training set alone.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.520.2"">
+      For example, using the mean and standard deviation to compute z-scores from the full data may reveal a distribution shift during the validation period.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.518.1"">Утечка при стандартизации:</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.519.1""> для производных признаков входные значения вычисляются по всему набору данных, а не только</span><a id=""_idIndexMarker710""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.520.1""> по обучающей выборке.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.520.2""> Например, использование среднего значения и стандартного отклонения по всем данным для расчёта z-оценок может выдать информацию о сдвиге распределения в период проверки.</span></li>",,,,,,,"strong,a",QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0218,218,li,6.5 Evaluation protocol for time series > Data leakage and estimation bias,/*/*[2]/*/*[123]/*[3],,178,137,"Threshold leakage: Setting thresholds using statistics computed from validation or test data. For example, choosing “enter when the z-score exceeds 2.0” after observing that 2.0 maximizes returns on the test period embeds future information in the trading rule.","Утечка при выборе порога: пороговые значения задаются по статистикам, рассчитанным на проверочных или тестовых данных. Например, если, увидев, что на тестовом периоде порог 2,0 максимизирует доходность, выбрать правило «входить в позицию, когда z-оценка превышает 2,0», то в торговое правило будет встроена информация из будущего.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.521.1"">
+       Threshold leakage:
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.522.1"">
+      Setting
+     </span>
+     <a id=""_idIndexMarker711"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.523.1"">
+      thresholds using statistics computed from validation or test data.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.523.2"">
+      For example, choosing “enter when the z-score exceeds 2.0” after observing that 2.0 maximizes returns on the test period embeds future information in the trading rule.
+     </span>
+    </li>
+   ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.521.1"">Утечка при выборе порога:</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.522.1""> пороговые значения задаются</span><a id=""_idIndexMarker711""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.523.1""> по статистикам, рассчитанным на проверочных или тестовых данных.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.523.2""> Например, если, увидев, что на тестовом периоде порог 2,0 максимизирует доходность, выбрать правило «входить в позицию, когда z-оценка превышает 2,0», то в торговое правило будет встроена информация из будущего.</span></li>",,,,,,,"strong,a",QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0219,219,p,6.5 Evaluation protocol for time series > Data leakage and estimation bias,/*/*[2]/*/*[124],,178,137,"Every component of the ML pipeline must respect point-in-time constraints: labels ( Chapter 7 ), features ( Chapters 8-10 ), validation splits, and signal calibration. A backtest that assumes access to information before it was knowable produces fictional performance.","Каждый компонент ML-конвейера должен соблюдать ограничения доступности на соответствующий момент времени: целевые метки (глава 7), признаки (главы 8–10), разбиения для проверки и калибровка сигнала. Бэктест, предполагающий доступ к информации до того, как она могла стать известна, показывает вымышленные результаты.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.524.1"">
+     Every component of the ML pipeline must respect point-in-time constraints: labels (
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.525.1"">
+      Chapter 7
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.526.1"">
+     ), features (
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.527.1"">
+      Chapters 8-10
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.528.1"">
+     ), validation splits, and signal calibration.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.528.2"">
+     A backtest that assumes access to information before it was knowable produces fictional performance.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.524.1"">Каждый компонент ML-конвейера должен соблюдать ограничения доступности на соответствующий момент времени: целевые метки</span><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.525.1""> (глава 7),</span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.526.1""> признаки</span><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.527.1""> (главы 8–10),</span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.528.1""> разбиения для проверки и калибровка сигнала.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.528.2""> Бэктест, предполагающий доступ к информации до того, как она могла стать известна, показывает вымышленные результаты.</span></p>",,,,,,,em,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0220,220,h2,6.5 Evaluation protocol for time series > From k-fold cross-validation to time series evaluation,/*/*[2]/*/*[125],_idParaDest-286,178,137,From k-fold cross-validation to time series evaluation,От k-блочной перекрёстной проверки к оценке временных рядов,"<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-286"">
+    <a id=""_idTextAnchor278"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.529.1"">
+     From k-fold cross-validation to time series evaluation
+    </span>
+   </h2>
+   ","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-286""><a id=""_idTextAnchor278""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.529.1"">От k-блочной перекрёстной проверки к оценке временных рядов</span></h2>",,,,,,,a,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0221,221,p,6.5 Evaluation protocol for time series > From k-fold cross-validation to time series evaluation,/*/*[2]/*/*[126],,178,137,"Standard k-fold cross-validation trains on, say, 80% of randomly selected observations and validates on the remaining 20%, repeating k times (Kohavi, 1995). This works when observations are IID, which implies they are exchangeable draws from a stable distribution. Financial time series break that assumption in two ways:","Стандартная k-блочная перекрёстная проверка обучает модель, например, на 80 % случайно выбранных наблюдений и проверяет её на оставшихся 20 %, повторяя процедуру k раз (Kohavi, 1995). Такой подход работает, когда наблюдения являются IID, то есть представляют собой взаимозаменяемые реализации из устойчивого распределения. Финансовые временные ряды нарушают это предположение по двум причинам:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.530.1"">
+     Standard
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.531.1"">
+      k-fold cross-validation
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.532.1"">
+     trains
+    </span>
+    <a id=""_idIndexMarker712"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.533.1"">
+     on, say, 80% of randomly selected observations and validates on the remaining 20%, repeating k times (Kohavi, 1995).
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.533.2"">
+     This works when observations are IID, which implies they are exchangeable draws from a stable distribution.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.533.3"">
+     Financial time series break that assumption in two ways:
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.530.1"">Стандартная</span><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.531.1""> k-блочная перекрёстная проверка</span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.532.1""> обучает модель,</span><a id=""_idIndexMarker712""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.533.1""> например, на 80 % случайно выбранных наблюдений и проверяет её на оставшихся 20 %, повторяя процедуру k раз (Kohavi, 1995).</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.533.2""> Такой подход работает, когда наблюдения являются IID, то есть представляют собой взаимозаменяемые реализации из устойчивого распределения.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.533.3""> Финансовые временные ряды нарушают это предположение по двум причинам:</span></p>",,,,,,,"em,a",QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0222,222,li,6.5 Evaluation protocol for time series > From k-fold cross-validation to time series evaluation,/*/*[2]/*/*[127]/*[1],,178,137,"The live procedure is directional. In production, at time t, only information available at or before t can be used. A random split almost always trains on timestamps after the validation point, which means it estimates a procedure that cannot be executed in real time. Nearby observations are also dependent due to autocorrelation and slow-moving regimes, so random shuffling inflates apparent performance.","Рабочая процедура направлена во времени. В промышленной среде в момент t можно использовать только информацию, доступную в момент t или ранее. При случайном разбиении модель почти всегда обучается на наблюдениях с временными метками после точки проверки, а значит, оценивается процедура, которую нельзя выполнить в реальном времени. Кроме того, соседние наблюдения зависимы из-за автокорреляции и медленно меняющихся рыночных режимов, поэтому случайное перемешивание завышает видимое качество.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""screenText"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.534.1"">
+       The live procedure is directional.
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.535.1"">
+      In production, at time t, only information available at or before
+     </span>
+     <em class=""italic"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.536.1"">
+       t
+      </span>
+     </em>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.537.1"">
+      can be used.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.537.2"">
+      A random split almost always trains on timestamps after the validation point, which means it estimates a procedure that cannot be executed in real time.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.537.3"">
+      Nearby observations are also dependent due to autocorrelation and slow-moving regimes, so random shuffling inflates apparent performance.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""screenText""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.534.1"">Рабочая процедура направлена во времени.</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.535.1""> В промышленной среде в момент t можно использовать только информацию, доступную в момент</span><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.536.1""> t</span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.537.1""> или ранее.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.537.2""> При случайном разбиении модель почти всегда обучается на наблюдениях с временными метками после точки проверки, а значит, оценивается процедура, которую нельзя выполнить в реальном времени.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.537.3""> Кроме того, соседние наблюдения зависимы из-за автокорреляции и медленно меняющихся рыночных режимов, поэтому случайное перемешивание завышает видимое качество.</span></li>",,,,,,,"strong,em",QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0223,223,li,6.5 Evaluation protocol for time series > From k-fold cross-validation to time series evaluation,/*/*[2]/*/*[127]/*[2],,179,138,"Rows are coupled through windows. Features and labels are computed from lookback and forward windows (rolling volatility, trailing returns, h-day forward returns). Even with chronological splits, overlapping windows across the boundary can leak information.","Строки данных связаны из-за использования окон. Признаки и целевые метки рассчитываются по ретроспективным и будущим окнам (скользящая волатильность, доходность за предшествующий период, h-дневная доходность за последующий период). Даже при хронологических разбиениях перекрывающиеся по обе стороны границы окна могут привести к утечке информации.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""screenText"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.538.1"">
+       Rows are coupled through windows.
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.539.1"">
+      Features and labels are computed from lookback and forward windows (rolling volatility, trailing returns, h-day forward returns).
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.539.2"">
+      Even with chronological splits, overlapping windows across the boundary can leak information.
+     </span>
+    </li>
+   ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""screenText""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.538.1"">Строки данных связаны из-за использования окон.</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.539.1""> Признаки и целевые метки рассчитываются по ретроспективным и будущим окнам (скользящая волатильность, доходность за предшествующий период, h-дневная доходность за последующий период).</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.539.2""> Даже при хронологических разбиениях перекрывающиеся по обе стороны границы окна могут привести к утечке информации.</span></li>",,,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0224,224,p,6.5 Evaluation protocol for time series > From k-fold cross-validation to time series evaluation,/*/*[2]/*/*[128],,179,138,"Time-series evaluation requires split rules that preserve chronology and prevent window overlap, matching a decision-time procedure that could actually be run. Bergmeir, Hyndman, and Koo (2018) show that standard k-fold CV can produce unbiased error estimates for autoregressive models when residuals are uncorrelated, a condition that often fails when model misspecification leaves exploitable structure in the errors.","Оценка временных рядов требует правил разбиения, которые сохраняют хронологию и предотвращают перекрытие окон, тем самым соответствуя процедуре принятия решений, которую действительно можно выполнить. Bergmeir, Hyndman и Koo (2018) показывают, что стандартная k-блочная перекрёстная проверка может давать несмещённые оценки ошибки для авторегрессионных моделей, если остатки не коррелируют; это условие часто не выполняется, когда из-за неверной спецификации модели в ошибках остаётся структура, которую можно использовать.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.540.1"">
+     Time-series evaluation
+    </span>
+    <a id=""_idIndexMarker713"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.541.1"">
+     requires split rules that preserve chronology and prevent window overlap, matching a decision-time procedure that could actually be run.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.541.2"">
+     Bergmeir, Hyndman, and Koo (2018) show that standard k-fold CV can produce unbiased error estimates for autoregressive models when residuals are uncorrelated, a condition that often fails when model misspecification leaves exploitable structure in the errors.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.540.1"">Оценка временных рядов</span><a id=""_idIndexMarker713""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.541.1""> требует правил разбиения, которые сохраняют хронологию и предотвращают перекрытие окон, тем самым соответствуя процедуре принятия решений, которую действительно можно выполнить.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.541.2""> Bergmeir, Hyndman и Koo (2018) показывают, что стандартная k-блочная перекрёстная проверка может давать несмещённые оценки ошибки для авторегрессионных моделей, если остатки не коррелируют; это условие часто не выполняется, когда из-за неверной спецификации модели в ошибках остаётся структура, которую можно использовать.</span></p>",,,,,,,a,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0225,225,h2,6.5 Evaluation protocol for time series > Walk-forward cross-validation as the baseline,/*/*[2]/*/*[129],_idParaDest-287,179,138,Walk-forward cross-validation as the baseline,Пошаговая перекрёстная проверка с продвижением во времени (walk-forward) как базовый подход,"<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-287"">
+    <a id=""_idTextAnchor279"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.542.1"">
+     Walk-forward cross-validation as the baseline
+    </span>
+   </h2>
+   ","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-287""><a id=""_idTextAnchor279""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.542.1"">Пошаговая перекрёстная проверка с продвижением во времени (walk-forward) как базовый подход</span></h2>",,,,,,,a,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0226,226,p,6.5 Evaluation protocol for time series > Walk-forward cross-validation as the baseline,/*/*[2]/*/*[130],,179,138,"Walk-forward CV mirrors deployment: fit on a past window, predict on a future window, score, roll forward, and repeat. Figure 6.3 compares k-fold with walk-forward CV. A minimal CV design:","Пошаговая перекрёстная проверка с продвижением во времени (walk-forward CV) имитирует работу после развёртывания: обучите модель на прошлом окне, постройте прогнозы для будущего окна, рассчитайте метрику, продвиньтесь вперёд и повторите. На рисунке 6.3 сопоставляются k-блочная и пошаговая перекрёстная проверка с продвижением во времени. Минимальная схема перекрёстной проверки:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.543.1"">
+      Walk-forward CV
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.544.1"">
+     mirrors
+    </span>
+    <a id=""_idIndexMarker714"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.545.1"">
+     deployment: fit on a past window, predict on a future window, score, roll forward, and repeat.
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.546.1"">
+      Figure 6.3
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.547.1"">
+     compares k-fold with walk-forward CV.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.547.2"">
+     A minimal CV design:
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.543.1"">Пошаговая перекрёстная проверка с продвижением во времени (walk-forward CV)</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.544.1""> имитирует работу после</span><a id=""_idIndexMarker714""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.545.1""> развёртывания: обучите модель на прошлом окне, постройте прогнозы для будущего окна, рассчитайте метрику, продвиньтесь вперёд и повторите.</span><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.546.1""> На рисунке 6.3</span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.547.1""> сопоставляются k-блочная и пошаговая перекрёстная проверка с продвижением во времени.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.547.2""> Минимальная схема перекрёстной проверки:</span></p>",,,,,,,"strong,em,a",QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0227,227,li,6.5 Evaluation protocol for time series > Walk-forward cross-validation as the baseline,/*/*[2]/*/*[131]/*[1],,179,138,Choose a training window .,Выберите обучающее окно.,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"" value=""1"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.548.1"">
+      Choose a
+     </span>
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.549.1"">
+       training window
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.550.1"">
+      .
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"" value=""1""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.548.1"">Выберите</span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.549.1""> обучающее окно.</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.550.1""/></li>",,,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0228,228,li,6.5 Evaluation protocol for time series > Walk-forward cross-validation as the baseline,/*/*[2]/*/*[131]/*[2],,179,138,Choose a validation window (a future block for prediction).,Выберите проверочное окно (будущий блок для прогнозирования).,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.551.1"">
+      Choose a
+     </span>
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.552.1"">
+       validation window
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.553.1"">
+      (a future block for prediction).
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.551.1"">Выберите</span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.552.1""> проверочное окно</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.553.1""> (будущий блок для прогнозирования).</span></li>",,,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0229,229,li,6.5 Evaluation protocol for time series > Walk-forward cross-validation as the baseline,/*/*[2]/*/*[131]/*[3],,179,138,Enforce decision-time admissibility at the boundary: training data must end early enough that every training label is already resolved before validation begins.,"Обеспечьте допустимость данных на момент принятия решения на границе разбиения: обучающие данные должны завершаться достаточно рано, чтобы к началу проверки все целевые метки обучающих наблюдений уже стали известны.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.554.1"">
+      Enforce
+     </span>
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.555.1"">
+       decision-time admissibility
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.556.1"">
+      at the boundary: training data must end early enough that every training label is already resolved before validation begins.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.554.1"">Обеспечьте</span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.555.1""> допустимость данных на момент принятия решения</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.556.1""> на границе разбиения: обучающие данные должны завершаться достаточно рано, чтобы к началу проверки все целевые метки обучающих наблюдений уже стали известны.</span></li>",,,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0230,230,li,6.5 Evaluation protocol for time series > Walk-forward cross-validation as the baseline,/*/*[2]/*/*[131]/*[4],,179,138,Fit on the admissible training window.,Обучите модель на допустимом обучающем окне.,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.557.1"">
+      Fit on the admissible training window.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.557.1"">Обучите модель на допустимом обучающем окне.</span></li>",,,,,,,,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0231,231,li,6.5 Evaluation protocol for time series > Walk-forward cross-validation as the baseline,/*/*[2]/*/*[131]/*[5],,179,138,Predict on the validation window.,Постройте прогнозы для проверочного окна.,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.558.1"">
+      Predict on the validation window.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.558.1"">Постройте прогнозы для проверочного окна.</span></li>",,,,,,,,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0232,232,li,6.5 Evaluation protocol for time series > Walk-forward cross-validation as the baseline,/*/*[2]/*/*[131]/*[6],,179,138,Score with the selection metric.,Рассчитайте метрику отбора.,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.559.1"">
+      Score with the selection metric.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.559.1"">Рассчитайте метрику отбора.</span></li>",,,,,,,,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0233,233,li,6.5 Evaluation protocol for time series > Walk-forward cross-validation as the baseline,/*/*[2]/*/*[131]/*[7],,179,138,Advance by a fixed step and repeat.,Продвиньтесь на фиксированный шаг и повторите.,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.560.1"">
+      Advance by a fixed step and repeat.
+     </span>
+    </li>
+   ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.560.1"">Продвиньтесь на фиксированный шаг и повторите.</span></li>",,,,,,,,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0234,234,p,6.5 Evaluation protocol for time series > Walk-forward cross-validation as the baseline,/*/*[2]/*/*[133],,179,138,Figure 6.3: Comparing k-fold and walk-forward cross-validation,Рисунок 6.3. Сопоставление k-блочной и пошаговой перекрёстной проверки с продвижением во времени,"<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""packt_figref"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.562.1"">
+     Figure 6.3: Comparing k-fold and walk-forward cross-validation
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""packt_figref""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.562.1"">Рисунок 6.3. Сопоставление k-блочной и пошаговой перекрёстной проверки с продвижением во времени</span></p>",,,,,,,,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0235,235,p,6.5 Evaluation protocol for time series > Walk-forward cross-validation as the baseline,/*/*[2]/*/*[134],,179,138,"The protocol can be checked with one question: At decision time t, which labeled samples were actually available? A sample indexed at time is admissible for training at decision time t only if its:","Протокол можно проверить одним вопросом: Какие размеченные наблюдения были фактически доступны в момент принятия решения t? Наблюдение с индексом времени τ допустимо использовать для обучения в момент принятия решения t, только если выполняются следующие условия:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.563.1"">
+     The protocol can be checked with one question:
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.564.1"">
+      At decision time t, which labeled samples were actually available?
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.565.1"">
+     A sample indexed at time
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.566.1"">
+     <img alt=""img"" src=""../Images/B18427_06_001.png""/>
+    </span>
+    <a id=""_idIndexMarker715"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.567.1"">
+     is admissible for training at decision time t only if its:
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.563.1"">Протокол можно проверить одним вопросом:</span><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.564.1""> Какие размеченные наблюдения были фактически доступны в момент принятия решения t?</span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.565.1""> Наблюдение с индексом времени</span> <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.566.1""><img alt=""img"" src=""../Images/B18427_06_001.png""/></span><a id=""_idIndexMarker715""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.567.1""> допустимо использовать для обучения в момент принятия решения t, только если выполняются следующие условия:</span></p>",CH06-ASSET-005,,,,,,"em,a",QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0236,236,li,6.5 Evaluation protocol for time series > Walk-forward cross-validation as the baseline,/*/*[2]/*/*[135]/*[1],,179,138,Features are computable using information available at or before t,"Признаки можно вычислить с использованием информации, доступной в момент t или ранее.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.568.1"">
+       Features
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.569.1"">
+      are computable using information available at or before t
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.568.1"">Признаки</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.569.1""> можно вычислить с использованием информации, доступной в момент t или ранее.</span></li>",,,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0237,237,li,6.5 Evaluation protocol for time series > Walk-forward cross-validation as the baseline,/*/*[2]/*/*[135]/*[2],,179,138,The label is already known by t,Целевая метка уже известна к моменту t.,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.570.1"">
+      The
+     </span>
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.571.1"">
+       label
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.572.1"">
+      is already known by t
+     </span>
+    </li>
+   ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.570.1"">Целевая</span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.571.1""> метка</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.572.1""> уже известна к моменту t.</span></li>",,,,,,,strong,QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0238,238,p,6.5 Evaluation protocol for time series > Walk-forward cross-validation as the baseline,/*/*[2]/*/*[136],,180,139,"Example (FX 4-hour bars) : For an FX strategy that decides on 4-hour bars, “the close” depends on the venue and bar construction. If the decision snapshot is the 4-hour bar close, features must be computable from prices available at that close, and the execution assumption must specify whether the trade fires at the same close, the next bar open, or with a fixed delay. A one-bar shift can turn a realistic rule into leakage.","Пример (4-часовые бары FX): для стратегии FX, принимающей решения по 4-часовым барам, «цена закрытия» зависит от торговой площадки и способа формирования баров. Если снимок данных для принятия решения привязан к закрытию 4-часового бара, признаки должны быть вычислимы по ценам, доступным на момент этого закрытия, а допущение об исполнении должно указывать, совершается ли сделка по той же цене закрытия, по цене открытия следующего бара или с фиксированной задержкой. Сдвиг на один бар способен превратить реалистичное правило в правило с утечкой информации.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.573.1"">
+      Example (FX 4-hour bars)
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.574.1"">
+     : For an
+    </span>
+    <a id=""_idIndexMarker716"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.575.1"">
+     FX strategy that decides on 4-hour bars, “the close” depends on the venue and bar construction.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.575.2"">
+     If the decision snapshot is the 4-hour bar close, features must be computable from prices available at that close, and the execution assumption must specify whether the trade fires at the same close, the next bar open, or with a fixed delay.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.575.3"">
+     A one-bar shift can turn a realistic rule into leakage.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.573.1"">Пример (4-часовые бары FX):</span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.574.1""> для</span><a id=""_idIndexMarker716""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.575.1""> стратегии FX, принимающей решения по 4-часовым барам, «цена закрытия» зависит от торговой площадки и способа формирования баров.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.575.2""> Если снимок данных для принятия решения привязан к закрытию 4-часового бара, признаки должны быть вычислимы по ценам, доступным на момент этого закрытия, а допущение об исполнении должно указывать, совершается ли сделка по той же цене закрытия, по цене открытия следующего бара или с фиксированной задержкой.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.575.3""> Сдвиг на один бар способен превратить реалистичное правило в правило с утечкой информации.</span></p>",,,,,,,"em,a",QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0239,239,p,6.5 Evaluation protocol for time series > Walk-forward cross-validation as the baseline,/*/*[2]/*/*[137],,180,139,"The second condition is a common failure mode. If the label is an h-day forward return, then the label for is not known until . So, training “as of t” must exclude the most recent h timestamps. This is the label buffer (called “purging” by López de Prado, 2018). For example, with 5-trading-day forward-return labels and a five-day trading week, suppose decision time is Tuesday, Feb 10. Then, the latest eligible training timestamp is Tuesday, Feb 3. Interim timestamps are ineligible because their labels have not yet resolved as of Feb 10.","Второе условие часто не выполняется. Если целевая метка представляет собой h-дневную доходность за последующий период, то метка для τ становится известна только в момент τ + h. Поэтому при обучении «на момент t» необходимо исключить h последних временных меток. Это так называемый буфер целевой метки (López de Prado, 2018, называет его «purging»). Например, пусть для целевых меток доходности за последующие 5 торговых дней при пятидневной торговой неделе момент принятия решения приходится на вторник, 10 февраля. Тогда последняя допустимая временная метка обучающих данных — вторник, 3 февраля. Промежуточные временные метки недопустимы, поскольку к 10 февраля соответствующие им целевые метки ещё не стали известны.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.576.1"">
+     The second condition is a common failure mode.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.576.2"">
+     If the label is an h-day forward return, then the label for
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.577.1"">
+     <img alt=""img"" src=""../Images/B18427_06_001.png""/>
+    </span>
+    <a id=""_idIndexMarker717"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.578.1"">
+     is not known until
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.579.1"">
+     <img alt=""img"" src=""../Images/B18427_06_003.png""/>
+    </span>
+    <a id=""_idIndexMarker718"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.580.1"">
+     .
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.580.2"">
+     So, training “as of t” must exclude the most recent h timestamps.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.580.3"">
+     This is
+    </span>
+    <a id=""_idIndexMarker719"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.581.1"">
+     the
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.582.1"">
+      label buffer
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.583.1"">
+     (called “purging” by López de Prado, 2018).
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.583.2"">
+     For example, with 5-trading-day forward-return labels and a five-day trading week, suppose decision time is Tuesday, Feb 10.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.583.3"">
+     Then, the latest eligible training timestamp is Tuesday, Feb 3.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.583.4"">
+     Interim timestamps are ineligible because their labels have not yet resolved as of Feb 10.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.576.1"">Второе условие часто не выполняется.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.576.2""> Если целевая метка представляет собой h-дневную доходность за последующий период, то метка для</span> <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.577.1""><img alt=""img"" src=""../Images/B18427_06_001.png""/></span><a id=""_idIndexMarker717""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.578.1""> становится известна только в момент</span> <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.579.1""><img alt=""img"" src=""../Images/B18427_06_003.png""/></span>.<a id=""_idIndexMarker718""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.580.1""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.580.2""> Поэтому при обучении «на момент t» необходимо исключить h последних временных меток.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.580.3""> Это</span><a id=""_idIndexMarker719""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.581.1""> так называемый</span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.582.1""> буфер целевой метки</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.583.1""> (López de Prado, 2018, называет его «purging»).</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.583.2""> Например, пусть для целевых меток доходности за последующие 5 торговых дней при пятидневной торговой неделе момент принятия решения приходится на вторник, 10 февраля.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.583.3""> Тогда последняя допустимая временная метка обучающих данных — вторник, 3 февраля.</span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.583.4""> Промежуточные временные метки недопустимы, поскольку к 10 февраля соответствующие им целевые метки ещё не стали известны.</span></p>","CH06-ASSET-005,CH06-ASSET-006",,,,,,"strong,a",QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
+CH06,CH06-B0240,240,p,6.5 Evaluation protocol for time series > Walk-forward cross-validation as the baseline,/*/*[2]/*/*[138],,180,139,"Walk-forward evaluation uses either an expanding window (all admissible history, which may have lower variance but may introduce bias from stale data) or a rolling window (the most recent L admissible observations, which offers faster adaptation but may produce higher variance).","Пошаговая оценка с продвижением во времени использует либо расширяющееся окно (вся допустимая история; это может снижать дисперсию, но вносить смещение из-за устаревших данных), либо скользящее окно (L последних допустимых наблюдений; оно быстрее адаптируется, но может давать более высокую дисперсию).","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.584.1"">
+     Walk-forward evaluation uses either
+    </span>
+    <a id=""_idIndexMarker720"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.585.1"">
+     an
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.586.1"">
+      expanding window
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.587.1"">
+     (all admissible history, which
+    </span>
+    <a id=""_idIndexMarker721"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.588.1"">
+     may have lower variance but may introduce bias from stale data) or a
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.589.1"">
+      rolling window
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.590.1"">
+     (the most recent L admissible observations, which offers faster adaptation but may produce higher variance).
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.584.1"">Пошаговая оценка с продвижением во времени использует либо</span><a id=""_idIndexMarker720""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.585.1""/><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.586.1""> расширяющееся окно</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.587.1""> (вся допустимая история; это</span><a id=""_idIndexMarker721""/><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.588.1""> может снижать дисперсию, но вносить смещение из-за устаревших данных), либо</span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.589.1""> скользящее окно</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.590.1""> (L последних допустимых наблюдений; оно быстрее адаптируется, но может давать более высокую дисперсию).</span></p>",,,,,,,"strong,a",QA_PASS,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-006,Autonomous translation run CH06-B0201-B0240-20260816T205743Z; integrator correction cycle 1; all QA gates PASS.,v0.1
