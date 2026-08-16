@@ -11,8 +11,8 @@
       "chapter": "CH06",
       "path": "chapters/CH06/registry/CH06_registry_v0.1_current.xlsx",
       "expected_count": 314,
-      "qa_pass_through": 160,
-      "next_batch": "CH06-B0161-CH06-B0200"
+      "qa_pass_through": 200,
+      "next_batch": "CH06-B0201-CH06-B0240"
     },
     {
       "chapter": "CH07",
