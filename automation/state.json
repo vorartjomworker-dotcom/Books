@@ -5,9 +5,9 @@
   "merge_policy": "manual",
   "active": {
     "chapter": "CH06",
-    "start": 81,
-    "end": 120,
-    "branch": "translation/ch06-b0081-b0120",
+    "start": 161,
+    "end": 200,
+    "branch": "translation/ch06-b0161-b0200",
     "status": "READY",
     "attempt": 0,
     "lock": null,
@@ -26,6 +26,13 @@
       "start": 81,
       "end": 120,
       "branch": "translation/ch06-b0081-b0120",
+      "status": "COMPLETED"
+    },
+    {
+      "chapter": "CH06",
+      "start": 161,
+      "end": 200,
+      "branch": "translation/ch06-b0161-b0200",
       "status": "READY"
     },
     {
@@ -50,7 +57,7 @@
       "status": "AWAITING_REVIEW"
     }
   ],
-  "last_run": "CH09-B0121-B0160-20260816T190652+0300",
-  "updated_at": "2026-08-16T17:24:42.164Z",
+  "last_run": "CH06-B0081-B0160-HISTORICAL-QA-IMPORT-20260816",
+  "updated_at": "2026-08-16T19:14:00Z",
   "auto_advance": true
 }
