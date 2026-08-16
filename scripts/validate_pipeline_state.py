@@ -10,7 +10,8 @@ import sys
 from pathlib import Path
 
 
-BRANCH_RE = re.compile(r"^translation/(ch\d{2})-b(\d{4})-b(\d{4})$")
+BRANCH_RE = re.compile(r"^translation/(ch\\d{2})-b(\\d{4})-b(\\d{4})$")
+VALID_MODES = {"pilot", "autonomous"}
 
 
 def load_json(path: Path) -> dict:
@@ -24,10 +25,24 @@ def validate(root: Path) -> list[str]:
     state = load_json(root / "automation" / "state.json")
     expectations = load_json(root / "config" / "registry_expectations.json")
 
+    config_mode = config.get("mode")
+    state_mode = state.get("mode")
+    if config_mode not in VALID_MODES or state_mode not in VALID_MODES:
+        errors.append("mode must be pilot or autonomous")
+    elif config_mode != state_mode:
+        errors.append("config and state modes must match")
+
     if config.get("merge_policy") != "manual" or state.get("merge_policy") != "manual":
-        errors.append("pilot requires manual merge policy")
-    if config.get("mode") != "pilot" or state.get("mode") != "pilot":
-        errors.append("initial autonomous mode must be pilot")
+        errors.append("manual merge policy is required")
+
+    config_auto_advance = config.get("auto_advance", False)
+    state_auto_advance = state.get("auto_advance", False)
+    if config_auto_advance != state_auto_advance:
+        errors.append("config and state auto_advance values must match")
+    if config_mode == "pilot" and config_auto_advance:
+        errors.append("pilot mode cannot auto-advance")
+    if config_mode == "autonomous" and not config_auto_advance:
+        errors.append("autonomous mode requires auto_advance")
 
     allowed = set(config.get("allowed_states", []))
     queue = state.get("queue", [])
@@ -36,7 +51,7 @@ def validate(root: Path) -> list[str]:
 
     seen: set[tuple[str, int]] = set()
     queue_keys: set[tuple[str, int, int, str]] = set()
-    chapter_ranges: dict[str, list[tuple[int, int]]] = {}
+    queue_status: dict[tuple[str, int, int, str], str] = {}
     expected_chapters = {
         item["chapter"]: item for item in expectations.get("chapters", [])
     }
@@ -66,14 +81,17 @@ def validate(root: Path) -> list[str]:
             if key in seen:
                 errors.append(f"{label}: overlaps {chapter}-B{block:04d}")
             seen.add(key)
-        chapter_ranges.setdefault(chapter, []).append((start, end))
-        queue_keys.add((chapter, start, end, branch))
+        queue_key = (chapter, start, end, branch)
+        queue_keys.add(queue_key)
+        queue_status[queue_key] = status
 
     active = state.get("active")
     if active:
         active_key = (active.get("chapter"), active.get("start"), active.get("end"), active.get("branch"))
         if active_key not in queue_keys:
             errors.append("active range is not present in queue")
+        elif queue_status[active_key] != active.get("status"):
+            errors.append("active status does not match queue status")
         if active.get("status") not in allowed:
             errors.append("active status is invalid")
         attempt = active.get("attempt")
@@ -81,7 +99,7 @@ def validate(root: Path) -> list[str]:
             errors.append("active attempt exceeds max_fix_cycles")
 
     if config.get("max_batches_per_run") != 1:
-        errors.append("pilot must process exactly one batch per run")
+        errors.append("pipeline must process exactly one batch per run")
     if config.get("canonical_write_policy") != "integrator_only":
         errors.append("canonical registries must be integrator-only")
 
