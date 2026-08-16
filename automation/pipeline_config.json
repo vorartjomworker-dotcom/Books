@@ -1,19 +1,20 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "repository": "vorartjomworker-dotcom/Machine-Learning-for-Trading",
   "mode": "autonomous",
   "merge_policy": "manual",
+  "translation_merge_to_main": false,
+  "review_policy": "chapter_end_only",
+  "intermediate_human_approval": false,
   "canonical_write_policy": "integrator_only",
+  "canonical_drive_write_policy": "after_chapter_approval_only",
   "batch_size": 40,
   "max_batches_per_run": 1,
+  "max_parallel_chapters": 5,
+  "parallel_chapters": ["CH05", "CH06", "CH07", "CH08", "CH09"],
   "max_fix_cycles": 3,
   "lock_ttl_minutes": 180,
-  "roles": [
-    "translator",
-    "language_qa",
-    "structural_qa",
-    "integrator"
-  ],
+  "roles": ["translator", "language_qa", "structural_qa", "integrator"],
   "allowed_states": [
     "READY",
     "TRANSLATING",
@@ -42,5 +43,6 @@
     "unit_tests",
     "zero_open_high_critical"
   ],
-  "auto_advance": true
+  "auto_advance": true,
+  "stop_policy": ["unresolved_critical", "chapter_ready_for_human_review"]
 }

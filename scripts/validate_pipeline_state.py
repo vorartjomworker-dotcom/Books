@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the autonomous translation queue and state without network access."""
+"""Validate the autonomous translation queue and parallel chapter state."""
 
 from __future__ import annotations
 
@@ -34,6 +34,10 @@ def validate(root: Path) -> list[str]:
 
     if config.get("merge_policy") != "manual" or state.get("merge_policy") != "manual":
         errors.append("manual merge policy is required")
+    if config.get("translation_merge_to_main") is not False:
+        errors.append("translation results must not merge automatically to main")
+    if config.get("canonical_drive_write_policy") != "after_chapter_approval_only":
+        errors.append("canonical Drive writes require chapter approval")
 
     config_auto_advance = config.get("auto_advance", False)
     state_auto_advance = state.get("auto_advance", False)
@@ -52,9 +56,7 @@ def validate(root: Path) -> list[str]:
     seen: set[tuple[str, int]] = set()
     queue_keys: set[tuple[str, int, int, str]] = set()
     queue_status: dict[tuple[str, int, int, str], str] = {}
-    expected_chapters = {
-        item["chapter"]: item for item in expectations.get("chapters", [])
-    }
+    expected_chapters = {item["chapter"]: item for item in expectations.get("chapters", [])}
 
     for index, item in enumerate(queue):
         label = f"queue[{index}]"
@@ -85,24 +87,37 @@ def validate(root: Path) -> list[str]:
         queue_keys.add(queue_key)
         queue_status[queue_key] = status
 
-    active = state.get("active")
-    if active:
+    configured_chapters = config.get("parallel_chapters", [])
+    active_by_chapter = state.get("active_by_chapter", {})
+    max_parallel = config.get("max_parallel_chapters")
+    if not isinstance(configured_chapters, list) or len(set(configured_chapters)) != len(configured_chapters):
+        errors.append("parallel_chapters must be a unique list")
+    if not isinstance(max_parallel, int) or max_parallel < 1:
+        errors.append("max_parallel_chapters must be a positive integer")
+    elif len(active_by_chapter) > max_parallel:
+        errors.append("active_by_chapter exceeds max_parallel_chapters")
+    if set(active_by_chapter) != set(configured_chapters):
+        errors.append("active_by_chapter keys must match parallel_chapters")
+
+    for slot, active in active_by_chapter.items():
+        label = f"active_by_chapter[{slot}]"
+        if active.get("chapter") != slot:
+            errors.append(f"{label}: chapter does not match slot")
         active_key = (active.get("chapter"), active.get("start"), active.get("end"), active.get("branch"))
         if active_key not in queue_keys:
-            errors.append("active range is not present in queue")
+            errors.append(f"{label}: active range is not present in queue")
         elif queue_status[active_key] != active.get("status"):
-            errors.append("active status does not match queue status")
+            errors.append(f"{label}: active status does not match queue status")
         if active.get("status") not in allowed:
-            errors.append("active status is invalid")
+            errors.append(f"{label}: active status is invalid")
         attempt = active.get("attempt")
         if not isinstance(attempt, int) or attempt < 0 or attempt > config.get("max_fix_cycles", 0):
-            errors.append("active attempt exceeds max_fix_cycles")
+            errors.append(f"{label}: attempt exceeds max_fix_cycles")
 
     if config.get("max_batches_per_run") != 1:
-        errors.append("pipeline must process exactly one batch per run")
+        errors.append("pipeline must process exactly one batch per chapter run")
     if config.get("canonical_write_policy") != "integrator_only":
         errors.append("canonical registries must be integrator-only")
-
     return errors
 
 
@@ -115,7 +130,7 @@ def main() -> int:
         for error in errors:
             print(f"ERROR: {error}")
         return 1
-    print("Autonomous pipeline state: PASS")
+    print("Autonomous parallel pipeline state: PASS")
     return 0
 
 
