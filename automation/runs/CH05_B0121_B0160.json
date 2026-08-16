@@ -6,11 +6,11 @@
   "start": 121,
   "end": 160,
   "branch": "translation/ch05-b0121-b0160",
-  "status": "AWAITING_REVIEW",
+  "status": "COMPLETED",
   "attempt": 2,
   "lock": null,
   "started_at": "2026-08-15T23:34:58Z",
-  "updated_at": "2026-08-16T15:30:00Z",
+  "updated_at": "2026-08-16T16:46:00Z",
   "source": {
     "registry": "CH05 v0.3",
     "epub_sha256": "e22359c1e148ecdebcee4d24e4d5506e8a9dbd94b59d88c4ab574e4995ba0da2",
@@ -33,8 +33,19 @@
     "structural_qa": "PASS",
     "registry_validator": "PASS",
     "unit_tests": "PASS",
-    "zero_open_high_critical": "PASS"
+    "zero_open_high_critical": "PASS",
+    "canonical_registry_sync": "PASS",
+    "human_approval": "PASS"
+  },
+  "canonical_sync": {
+    "drive_file_id": "1k3edfdB4aG5lPJhQ4ryn-vLHefRYgXh0",
+    "registry_version": "v0.3",
+    "xlsx_sha256": "999050b88094b861ca3d962aebf95c803c8936873fac4ebcb2026a35decd9d46",
+    "synchronized_at": "2026-08-16T16:45:47Z",
+    "accepted_rows": 40,
+    "issues_appended": 19,
+    "archive_file_id": "1Ty7nuNySBnxNch-tJUf314kQ_q_8WECN"
   },
   "open_issues": [],
-  "next_action": "Human approval for canonical Google Drive synchronization and merge; do not auto-advance queue."
+  "next_action": "Advance automatically to CH06-B0081–CH06-B0120."
 }
