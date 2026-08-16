@@ -5,13 +5,13 @@
   "start": 201,
   "end": 240,
   "branch": "translation/ch06-b0201-b0240",
-  "status": "AWAITING_REVIEW",
+  "status": "COMPLETED",
   "attempt": 2,
   "mode": "autonomous",
   "merge_policy": "manual",
   "started_at": "2026-08-16T20:57:43Z",
-  "completed_at": "2026-08-16T21:24:30Z",
-  "stop_reason": "All gates and CI passed; awaiting human review decision.",
+  "completed_at": "2026-08-16T21:33:00Z",
+  "stop_reason": null,
   "qa": {
     "epub_source": "PASS",
     "language": "PASS",
@@ -33,5 +33,7 @@
   },
   "canonical_registry_id": "11luC00OhnLC7yvnDhBAjGCX6TGKKue6U",
   "canonical_drive_written": false,
-  "ci_url": "https://github.com/vorartjomworker-dotcom/Machine-Learning-for-Trading/actions/runs/31973361300"
+  "ci_url": "https://github.com/vorartjomworker-dotcom/Machine-Learning-for-Trading/actions/runs/31973462436",
+  "internal_completed_at": "2026-08-16T21:33:00Z",
+  "completion_reason": "All required gates and final CI passed with zero open Critical/High issues; internally completed for autonomous chapter progression."
 }
