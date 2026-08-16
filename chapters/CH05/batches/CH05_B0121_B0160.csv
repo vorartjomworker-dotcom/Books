@@ -1,5 +1,5 @@
 ﻿chapter_id,block_id,sequence_number,element_type,section_path,xhtml_path,source_element_id,pdf_physical_page,pdf_printed_page,english_text,russian_text,source_html,target_html,asset_ids,table_id,formula_id,code_id,link_ids,term_candidates,formatting_markers,translation_status,qa_semantic,qa_terminology,qa_numbers_code_links,qa_structure_formatting,qa_status,batch_id,notes,version
-CH05,CH05-B0121,121,li,5.5 GANs for financial time series > Using TimeGAN for sequential data > Architecture,/*/*[2]/*/*[111]/*[1],,149,108,Embedding network : maps a raw sequence to a latent representation .,Сеть встраивания (e): преобразует исходную последовательность x в скрытое представление h.,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"" value=""1"">
+CH05,CH05-B0121,121,li,5.5 GANs for financial time series > Using TimeGAN for sequential data > Architecture,/*/*[2]/*/*[111]/*[1],,149,108,Embedding network : maps a raw sequence to a latent representation .,Сеть формирования векторного представления (e): преобразует исходную последовательность x в скрытое представление h.,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"" value=""1"">
      <strong class=""keyWord"">
       <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.380.1"">
        Embedding network
@@ -32,7 +32,7 @@ CH05,CH05-B0121,121,li,5.5 GANs for financial time series > Using TimeGAN for se
     </li>
     ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"" value=""1"">
      <strong class=""keyWord"">
-      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.380.1"">Сеть встраивания</span>
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.380.1"">Сеть формирования векторного представления</span>
      </strong>
      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.381.1"">
       <img alt=""img"" src=""../Images/B18427_05_035.png""/>
@@ -52,7 +52,7 @@ CH05,CH05-B0121,121,li,5.5 GANs for financial time series > Using TimeGAN for se
      <a id=""_idIndexMarker521"">
      </a>
      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.386.1"">.</span>
-    </li>","CH05-ASSET-038,CH05-ASSET-042,CH05-ASSET-043",,,,,,"strong,a",READY_FOR_RECHECK,PENDING,PENDING,PENDING,PENDING,PENDING,CH05-BATCH-004,Autonomous pilot draft; pending independent QA. Corrected autonomous pilot; target_html generated and pending independent recheck.,v0.3
+    </li>","CH05-ASSET-038,CH05-ASSET-042,CH05-ASSET-043",,,,,,"strong,a",READY_FOR_RECHECK,PENDING,PENDING,PENDING,PENDING,PENDING,CH05-BATCH-004,Autonomous pilot draft; pending independent QA. Corrected autonomous pilot; target_html generated and pending independent recheck. Minor language correction applied; pending final recheck.,v0.3
 CH05,CH05-B0122,122,li,5.5 GANs for financial time series > Using TimeGAN for sequential data > Architecture,/*/*[2]/*/*[111]/*[2],,149,108,"Recovery network : reconstructs from ; together, form an autoencoder trained to minimize reconstruction error.","Сеть восстановления (r): восстанавливает x по h; вместе (e, r) образуют автоэнкодер, обучаемый минимизировать ошибку реконструкции.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
      <strong class=""keyWord"">
       <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.387.1"">
@@ -255,7 +255,7 @@ CH05,CH05-B0127,127,p,5.5 GANs for financial time series > Using TimeGAN for seq
    ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.411.1"">Обучение обычно проходит в три этапа:</span>
    </p>",,,,,,,,READY_FOR_RECHECK,PENDING,PENDING,PENDING,PENDING,PENDING,CH05-BATCH-004,Autonomous pilot draft; pending independent QA. Corrected autonomous pilot; target_html generated and pending independent recheck.,v0.3
-CH05,CH05-B0128,128,li,5.5 GANs for financial time series > Using TimeGAN for sequential data > Training,/*/*[2]/*/*[114]/*[1],,149,108,Pretrain the embedding and recovery networks as an autoencoder.,Предварительно обучить сети встраивания и восстановления как автоэнкодер.,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"" value=""1"">
+CH05,CH05-B0128,128,li,5.5 GANs for financial time series > Using TimeGAN for sequential data > Training,/*/*[2]/*/*[114]/*[1],,149,108,Pretrain the embedding and recovery networks as an autoencoder.,Предварительно обучить сеть формирования векторного представления и сеть восстановления как автоэнкодер.,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"" value=""1"">
      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.412.1"">
       Pretrain the embedding
      </span>
@@ -266,11 +266,11 @@ CH05,CH05-B0128,128,li,5.5 GANs for financial time series > Using TimeGAN for se
      </span>
     </li>
     ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"" value=""1"">
-     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.412.1"">Предварительно обучить сети встраивания</span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.412.1"">Предварительно обучить сеть формирования векторного представления</span>
      <a id=""_idIndexMarker532"">
      </a>
-     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.413.1"">и восстановления как автоэнкодер.</span>
-    </li>",,,,,,,a,READY_FOR_RECHECK,PENDING,PENDING,PENDING,PENDING,PENDING,CH05-BATCH-004,Autonomous pilot draft; pending independent QA. Corrected autonomous pilot; target_html generated and pending independent recheck.,v0.3
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.413.1"">и сеть восстановления как автоэнкодер.</span>
+    </li>",,,,,,,a,READY_FOR_RECHECK,PENDING,PENDING,PENDING,PENDING,PENDING,CH05-BATCH-004,Autonomous pilot draft; pending independent QA. Corrected autonomous pilot; target_html generated and pending independent recheck. Minor language correction applied; pending final recheck.,v0.3
 CH05,CH05-B0129,129,li,5.5 GANs for financial time series > Using TimeGAN for sequential data > Training,/*/*[2]/*/*[114]/*[2],,149,108,Train the supervisor on real embeddings.,Обучить прогнозирующую сеть на векторных представлениях реальных данных.,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.414.1"">
       Train the supervisor on real embeddings.
@@ -663,7 +663,7 @@ CH05,CH05-B0146,146,h3,5.5 GANs for financial time series > Using Tail-GAN for r
     </a>
     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.463.1"">Когда использовать Tail-GAN</span>
    </h3>",,,,,,,a,READY_FOR_RECHECK,PENDING,PENDING,PENDING,PENDING,PENDING,CH05-BATCH-004,Autonomous pilot draft; pending independent QA. Corrected autonomous pilot; target_html generated and pending independent recheck.,v0.3
-CH05,CH05-B0147,147,p,5.5 GANs for financial time series > Using Tail-GAN for risk-constrained generation > When to use Tail-GAN,/*/*[2]/*/*[133],,150,109,Use Tail-GAN when the downstream task is risk measurement and tail accuracy dominates other fidelity notions. The method may sacrifice fit in the distribution center to improve VaR/ES matching.,"Используйте Tail-GAN, когда последующей задачей является измерение риска и точность в хвостах важнее других представлений о соответствии. Метод может жертвовать качеством подгонки в центре распределения ради улучшения соответствия VaR и ES.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+CH05,CH05-B0147,147,p,5.5 GANs for financial time series > Using Tail-GAN for risk-constrained generation > When to use Tail-GAN,/*/*[2]/*/*[133],,150,109,Use Tail-GAN when the downstream task is risk measurement and tail accuracy dominates other fidelity notions. The method may sacrifice fit in the distribution center to improve VaR/ES matching.,"Используйте Tail-GAN, когда последующей задачей является измерение риска и точность воспроизведения хвостов важнее других критериев точности воспроизведения. Метод может жертвовать качеством подгонки в центре распределения ради улучшения соответствия VaR и ES.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.464.1"">
      Use Tail-GAN when the downstream task is risk measurement and tail accuracy dominates other fidelity notions.
     </span>
@@ -672,9 +672,9 @@ CH05,CH05-B0147,147,p,5.5 GANs for financial time series > Using Tail-GAN for ri
     </span>
    </p>
    ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
-    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.464.1"">Используйте Tail-GAN, когда последующей задачей является измерение риска и точность в хвостах важнее других представлений о соответствии.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.464.1"">Используйте Tail-GAN, когда последующей задачей является измерение риска и точность воспроизведения хвостов важнее других критериев точности воспроизведения.</span>
     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.464.2"">Метод может жертвовать качеством подгонки в центре распределения ради улучшения соответствия VaR и ES.</span>
-   </p>",,,,,,,,READY_FOR_RECHECK,PENDING,PENDING,PENDING,PENDING,PENDING,CH05-BATCH-004,Autonomous pilot draft; pending independent QA. Corrected autonomous pilot; target_html generated and pending independent recheck.,v0.3
+   </p>",,,,,,,,READY_FOR_RECHECK,PENDING,PENDING,PENDING,PENDING,PENDING,CH05-BATCH-004,Autonomous pilot draft; pending independent QA. Corrected autonomous pilot; target_html generated and pending independent recheck. Minor language correction applied; pending final recheck.,v0.3
 CH05,CH05-B0148,148,p,5.5 GANs for financial time series > Using Tail-GAN for risk-constrained generation > When to use Tail-GAN,/*/*[2]/*/*[134]/*,,151,110,"Implementation : 02_tailgan_tail_risk.py trains Tail-GAN on 5 ETFs using 32 random long-short portfolio strategies. At , VaR relative error is 13% and ES error is 11%, illustrating that explicit tail penalties produce usable risk estimates. In this 32-strategy configuration, synthetic VaR is slightly more negative than real (synthetic versus real ), so the trained Tail-GAN modestly overstates loss magnitude rather than understating it.","Реализация: 02_tailgan_tail_risk.py обучает Tail-GAN на данных 5 ETF с использованием 32 случайных портфельных стратегий с длинными и короткими позициями. При α = 5 относительная ошибка VaR составляет 13 %, а ошибка ES — 11 %; это показывает, что явные штрафы за расхождения мер хвостового риска позволяют получать пригодные для практического использования оценки риска. В этой конфигурации из 32 стратегий синтетическая оценка VaR немного более отрицательна, чем реальная (синтетическая ≈ −10,33 против реальной ≈ −9,13), поэтому обученная Tail-GAN умеренно завышает, а не занижает величину потерь.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
      <strong class=""screenText"">
       <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.465.1"">
@@ -961,7 +961,7 @@ CH05,CH05-B0155,155,p,5.5 GANs for financial time series > Using Sig-CWGAN for p
     </a>
     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.499.1"">имеет вид:</span>
    </p>","CH05-ASSET-058,CH05-ASSET-059,CH05-ASSET-095",,,,,,"strong,a",READY_FOR_RECHECK,PENDING,PENDING,PENDING,PENDING,PENDING,CH05-BATCH-004,Autonomous pilot draft; formula checked against PDF physical page 151. Corrected autonomous pilot; target_html generated and pending independent recheck.,v0.3
-CH05,CH05-B0156,156,p,5.5 GANs for financial time series > Using Sig-CWGAN for path signatures for temporal fidelity,/*/*[2]/*/*[143],,151,110,"and the depth- signature collects all terms up to order (n). In practice, one can think of the truncated signature as a finite feature map that converts a sequential path into a set of statistics describing its geometry at increasing levels of detail. Implementations often augment (X) with time as an additional channel and use truncated signatures at modest depth.","а сигнатура глубины n объединяет все члены до порядка n включительно. На практике усечённую сигнатуру можно рассматривать как конечное отображение признаков, которое преобразует последовательную траекторию в набор статистик, описывающих её геометрию с возрастающей степенью детализации. В реализациях X часто дополняют временем как дополнительным каналом и используют усечённые сигнатуры небольшой глубины.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+CH05,CH05-B0156,156,p,5.5 GANs for financial time series > Using Sig-CWGAN for path signatures for temporal fidelity,/*/*[2]/*/*[143],,151,110,"and the depth- signature collects all terms up to order (n). In practice, one can think of the truncated signature as a finite feature map that converts a sequential path into a set of statistics describing its geometry at increasing levels of detail. Implementations often augment (X) with time as an additional channel and use truncated signatures at modest depth.","а сигнатура глубины n объединяет все члены до порядка n включительно. На практике усечённую сигнатуру можно рассматривать как конечное признаковое отображение, которое преобразует последовательную траекторию в набор статистик, описывающих её геометрию с возрастающей степенью детализации. В реализациях X часто дополняют временем как дополнительным каналом и используют усечённые сигнатуры небольшой глубины.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.501.1"">
      and the depth-
     </span>
@@ -988,9 +988,9 @@ CH05,CH05-B0156,156,p,5.5 GANs for financial time series > Using Sig-CWGAN for p
     <a id=""_idIndexMarker555"">
     </a>
     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.503.1"">объединяет все члены до порядка n включительно.</span>
-    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.503.2"">На практике усечённую сигнатуру можно рассматривать как конечное отображение признаков, которое преобразует последовательную траекторию в набор статистик, описывающих её геометрию с возрастающей степенью детализации.</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.503.2"">На практике усечённую сигнатуру можно рассматривать как конечное признаковое отображение, которое преобразует последовательную траекторию в набор статистик, описывающих её геометрию с возрастающей степенью детализации.</span>
     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.503.3"">В реализациях X часто дополняют временем как дополнительным каналом и используют усечённые сигнатуры небольшой глубины.</span>
-   </p>",CH05-ASSET-065,,,,,,a,READY_FOR_RECHECK,PENDING,PENDING,PENDING,PENDING,PENDING,CH05-BATCH-004,Autonomous pilot draft; displayed iterated-integral formula retained as immutable visual evidence. Corrected autonomous pilot; target_html generated and pending independent recheck.,v0.3
+   </p>",CH05-ASSET-065,,,,,,a,READY_FOR_RECHECK,PENDING,PENDING,PENDING,PENDING,PENDING,CH05-BATCH-004,Autonomous pilot draft; displayed iterated-integral formula retained as immutable visual evidence. Corrected autonomous pilot; target_html generated and pending independent recheck. Minor language correction applied; pending final recheck.,v0.3
 CH05,CH05-B0157,157,p,5.5 GANs for financial time series > Using Sig-CWGAN for path signatures for temporal fidelity,/*/*[2]/*/*[144],,151,110,"Sig-CWGAN minimizes a signature-kernel maximum mean discrepancy ( MMD ) between real and synthetic path distributions, yielding a stable training signal without adversarial classification.","Sig-CWGAN минимизирует максимальное среднее расхождение (maximum mean discrepancy, MMD) на основе ядра сигнатур между распределениями реальных и синтетических траекторий, обеспечивая устойчивый обучающий сигнал без состязательной классификации.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.504.1"">
      Sig-CWGAN minimizes a signature-kernel
