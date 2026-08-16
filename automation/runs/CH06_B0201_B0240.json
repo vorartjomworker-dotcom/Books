@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "run_id": "CH06-B0201-B0240-20260816T205743Z",
+  "chapter": "CH06",
+  "start": 201,
+  "end": 240,
+  "branch": "translation/ch06-b0201-b0240",
+  "status": "CI_PENDING",
+  "attempt": 1,
+  "mode": "autonomous",
+  "merge_policy": "manual",
+  "started_at": "2026-08-16T20:57:43Z",
+  "completed_at": null,
+  "stop_reason": null,
+  "qa": {
+    "epub_source": "PASS",
+    "language": "PASS",
+    "terminology": "PASS",
+    "numbers_code_links": "PASS",
+    "structure_formatting": "PASS",
+    "pdf_mapping": "PASS",
+    "registry_validator": "PASS",
+    "unit_tests": "PASS",
+    "ci": "PENDING",
+    "open_issues": 0,
+    "verified_closed_issues": 10,
+    "fix_cycles": 1
+  },
+  "outputs": {
+    "batch": "chapters/CH06/batches/CH06_B0201_B0240.csv",
+    "qa_report": "qa/reports/CH06_B0201_B0240_QA.md",
+    "issues": "qa/issues/CH06/CH06_errors_B0201_B0240.csv"
+  },
+  "canonical_registry_id": "11luC00OhnLC7yvnDhBAjGCX6TGKKue6U",
+  "canonical_drive_written": false,
+  "ci_url": null
+}
