@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "run_id": "CH06-B0081-B0120-20260816T204124+0300",
+  "chapter": "CH06",
+  "start": 81,
+  "end": 120,
+  "branch": "translation/ch06-b0081-b0120",
+  "status": "STOPPED",
+  "attempt": 1,
+  "mode": "autonomous",
+  "merge_policy": "manual",
+  "stop_reason": "Canonical registry mismatch: current Google Drive CH06 registry metadata differed from the source snapshot pinned in main.",
+  "post_stop_resolution": {
+    "status": "VERIFIED_CLOSED",
+    "resolved_at": "2026-08-16T18:40:00Z",
+    "authoritative_registry_sha256": "d6d8dc548e69e2f85365e6291e60e4b5fcba039211f1a6a1bdd7f4f02dfdee71",
+    "authoritative_registry_size_bytes": 114004,
+    "qa_pass_through": 160,
+    "issue_id": "CH06-RUN-ERR-001",
+    "evidence": "Independent read-only audit plus Registry validation workflow run 75 PASS",
+    "historical_qa_import": true,
+    "canonical_drive_written": false
+  },
+  "outputs": {
+    "batch": null,
+    "qa_report": "qa/reports/CH06_B0081_B0120_QA.md",
+    "issues": "qa/issues/CH06/CH06_errors_B0081_B0120.csv"
+  },
+  "canonical_drive_written": false
+}
