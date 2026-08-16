@@ -50,7 +50,48 @@ class PipelineStateTests(unittest.TestCase):
             state = json.loads(state_path.read_text(encoding="utf-8"))
             state["merge_policy"] = "automatic"
             state_path.write_text(json.dumps(state), encoding="utf-8")
-            self.assertIn("pilot requires manual merge policy", validate(temp_root))
+            self.assertIn("manual merge policy is required", validate(temp_root))
+
+
+    def test_mode_mismatch_is_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            temp_root = Path(directory)
+            for relative in [
+                "automation/pipeline_config.json",
+                "automation/state.json",
+                "config/registry_expectations.json",
+            ]:
+                source = self.root / relative
+                target = temp_root / relative
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_text(source.read_text(encoding="utf-8"), encoding="utf-8")
+            state_path = temp_root / "automation/state.json"
+            state = json.loads(state_path.read_text(encoding="utf-8"))
+            state["mode"] = "pilot" if state["mode"] == "autonomous" else "autonomous"
+            state_path.write_text(json.dumps(state), encoding="utf-8")
+            self.assertIn("config and state modes must match", validate(temp_root))
+
+    def test_autonomous_requires_auto_advance(self):
+        with tempfile.TemporaryDirectory() as directory:
+            temp_root = Path(directory)
+            for relative in [
+                "automation/pipeline_config.json",
+                "automation/state.json",
+                "config/registry_expectations.json",
+            ]:
+                source = self.root / relative
+                target = temp_root / relative
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_text(source.read_text(encoding="utf-8"), encoding="utf-8")
+            config_path = temp_root / "automation/pipeline_config.json"
+            state_path = temp_root / "automation/state.json"
+            config = json.loads(config_path.read_text(encoding="utf-8"))
+            state = json.loads(state_path.read_text(encoding="utf-8"))
+            config["mode"] = state["mode"] = "autonomous"
+            config["auto_advance"] = state["auto_advance"] = False
+            config_path.write_text(json.dumps(config), encoding="utf-8")
+            state_path.write_text(json.dumps(state), encoding="utf-8")
+            self.assertIn("autonomous mode requires auto_advance", validate(temp_root))
 
 
 if __name__ == "__main__":
