@@ -564,9 +564,9 @@ CH05,CH05-B0141,141,p,5.5 GANs for financial time series > Using Tail-GAN for ri
     </strong>
     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.447.1"">) и</span>
     <strong class=""keyWord"">
-     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.448.1"">Expected Shortfall</span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.448.1"">ожидаемые потери в хвосте</span>
     </strong>
-    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.449.1"">(ожидаемые потери в хвосте,</span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.449.1"">(Expected Shortfall,</span>
     <strong class=""keyWord"">
      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.450.1"">ES</span>
     </strong>
@@ -574,7 +574,7 @@ CH05,CH05-B0141,141,p,5.5 GANs for financial time series > Using Tail-GAN for ri
     <a id=""_idIndexMarker538"">
     </a>
     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.452.1"">центральной части распределения.</span>
-   </p>",,,,,,,"strong,a",READY_FOR_RECHECK,PENDING,PENDING,PENDING,PENDING,PENDING,CH05-BATCH-004,Autonomous pilot draft; pending independent QA. Corrected autonomous pilot; target_html generated and pending independent recheck.,v0.3
+   </p>",,,,,,,"strong,a",READY_FOR_RECHECK,PENDING,PENDING,PENDING,PENDING,PENDING,CH05-BATCH-004,Autonomous pilot draft; pending independent QA. Corrected autonomous pilot; target_html generated and pending independent recheck. Final B0141 XHTML terminology synchronization; pending focused recheck.,v0.3
 CH05,CH05-B0142,142,p,5.5 GANs for financial time series > Using Tail-GAN for risk-constrained generation,/*/*[2]/*/*[127],,150,109,Tail-GAN augments the generator loss with penalties that discourage discrepancies between real and synthetic tail risk measures:,"Tail-GAN дополняет функцию потерь генератора штрафами, препятствующими расхождению мер хвостового риска для реальных и синтетических данных:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.453.1"">
      Tail-GAN augments the generator loss with penalties that discourage discrepancies between real and synthetic tail risk measures:
