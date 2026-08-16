@@ -8,61 +8,20 @@
     "start": 161,
     "end": 200,
     "branch": "translation/ch06-b0161-b0200",
-    "status": "TRANSLATING",
+    "status": "AWAITING_REVIEW",
     "attempt": 1,
-    "lock": {
-      "run_id": "CH06-B0161-B0200-20260816T184256Z",
-      "owner": "integrator",
-      "acquired_at": "2026-08-16T18:42:56.139Z",
-      "expires_at": "2026-08-16T21:42:56.139Z"
-    },
+    "lock": null,
     "stop_reason": null
   },
   "queue": [
-    {
-      "chapter": "CH05",
-      "start": 121,
-      "end": 160,
-      "branch": "translation/ch05-b0121-b0160",
-      "status": "COMPLETED"
-    },
-    {
-      "chapter": "CH06",
-      "start": 81,
-      "end": 120,
-      "branch": "translation/ch06-b0081-b0120",
-      "status": "COMPLETED"
-    },
-    {
-      "chapter": "CH06",
-      "start": 161,
-      "end": 200,
-      "branch": "translation/ch06-b0161-b0200",
-      "status": "TRANSLATING"
-    },
-    {
-      "chapter": "CH07",
-      "start": 121,
-      "end": 160,
-      "branch": "translation/ch07-b0121-b0160",
-      "status": "READY"
-    },
-    {
-      "chapter": "CH08",
-      "start": 81,
-      "end": 120,
-      "branch": "translation/ch08-b0081-b0120",
-      "status": "READY"
-    },
-    {
-      "chapter": "CH09",
-      "start": 121,
-      "end": 160,
-      "branch": "translation/ch09-b0121-b0160",
-      "status": "AWAITING_REVIEW"
-    }
+    {"chapter": "CH05", "start": 121, "end": 160, "branch": "translation/ch05-b0121-b0160", "status": "COMPLETED"},
+    {"chapter": "CH06", "start": 81, "end": 120, "branch": "translation/ch06-b0081-b0120", "status": "COMPLETED"},
+    {"chapter": "CH06", "start": 161, "end": 200, "branch": "translation/ch06-b0161-b0200", "status": "AWAITING_REVIEW"},
+    {"chapter": "CH07", "start": 121, "end": 160, "branch": "translation/ch07-b0121-b0160", "status": "READY"},
+    {"chapter": "CH08", "start": 81, "end": 120, "branch": "translation/ch08-b0081-b0120", "status": "READY"},
+    {"chapter": "CH09", "start": 121, "end": 160, "branch": "translation/ch09-b0121-b0160", "status": "AWAITING_REVIEW"}
   ],
   "last_run": "CH06-B0161-B0200-20260816T184256Z",
-  "updated_at": "2026-08-16T18:42:56.139Z",
+  "updated_at": "2026-08-16T19:03:00Z",
   "auto_advance": true
 }
