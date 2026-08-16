@@ -1,0 +1,734 @@
+chapter_id,block_id,sequence_number,element_type,section_path,xhtml_path,source_element_id,pdf_physical_page,pdf_printed_page,english_text,russian_text,source_html,target_html,asset_ids,table_id,formula_id,code_id,link_ids,term_candidates,formatting_markers,translation_status,qa_semantic,qa_terminology,qa_numbers_code_links,qa_structure_formatting,qa_status,batch_id,notes,version
+CH06,CH06-B0241,241,h3,6.5 Evaluation protocol for time series > Walk-forward cross-validation as the baseline > Retraining frequency,/*/*[2]/*/*[139],_idParaDest-288,180,139,Retraining frequency,Частота повторного обучения,"<h3 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-3"" id=""_idParaDest-288"">
+    <a id=""_idTextAnchor280"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.591.1"">
+     Retraining frequency
+    </span>
+   </h3>
+   ","<h3 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-3"" id=""_idParaDest-288""><a id=""_idTextAnchor280""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.591.1"">Частота повторного обучения</span></h3>",,,,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0242,242,p,6.5 Evaluation protocol for time series > Walk-forward cross-validation as the baseline > Retraining frequency,/*/*[2]/*/*[140],,180,139,"Retrain when new data represents at least 1–5% of the training window, or when out-of-sample performance degrades systematically. With a 10-year window, monthly or quarterly retraining suffices; with 20-day windows, daily retraining captures meaningful change. These design choices materially affect results and must be logged.","Повторно обучайте модель, когда объём новых данных составляет не менее 1–5 % обучающего окна или когда качество вне обучающей выборки систематически ухудшается. При 10-летнем окне достаточно повторного обучения раз в месяц или квартал; при 20-дневных окнах ежедневное повторное обучение позволяет учитывать существенные изменения. Эти решения по схеме оценки заметно влияют на результаты и должны регистрироваться.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.592.1"">
+     Retrain when new data represents at least 1–5% of the training window, or when out-of-sample performance degrades systematically.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.592.2"">
+     With a 10-year window, monthly or quarterly retraining suffices; with 20-day windows, daily retraining captures meaningful change.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.592.3"">
+     These design choices materially affect results and must be logged.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.592.1"">Повторно обучайте модель, когда объём новых данных составляет не менее 1–5 % обучающего окна или когда качество вне обучающей выборки систематически ухудшается. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.592.2"">При 10-летнем окне достаточно повторного обучения раз в месяц или квартал; при 20-дневных окнах ежедневное повторное обучение позволяет учитывать существенные изменения. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.592.3"">Эти решения по схеме оценки заметно влияют на результаты и должны регистрироваться.</span></p>",,,,,,,,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0243,243,h2,6.5 Evaluation protocol for time series > Temporal buffers – Label buffer and feature buffer,/*/*[2]/*/*[141],_idParaDest-289,180,139,Temporal buffers – Label buffer and feature buffer,Временные буферы — буфер меток и буфер признаков,"<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-289"">
+    <a id=""_idTextAnchor281"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.593.1"">
+     Temporal buffers – Label buffer and feature buffer
+    </span>
+   </h2>
+   ","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-289""><a id=""_idTextAnchor281""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.593.1"">Временные буферы — буфер меток и буфер признаков</span></h2>",,,,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0244,244,p,6.5 Evaluation protocol for time series > Temporal buffers – Label buffer and feature buffer,/*/*[2]/*/*[142],,180,139,Walk-forward validation eliminates the grossest form of leakage—training on the future—but leaves a subtler problem. Training observations can “see” validation data through two channels:,"Пошаговая проверка с продвижением во времени устраняет самую грубую форму утечки информации — обучение на будущих данных, — но оставляет более тонкую проблему. Обучающие наблюдения могут «видеть» проверочные данные по двум каналам:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.594.1"">
+     Walk-forward validation
+    </span>
+    <a id=""_idIndexMarker722"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.595.1"">
+     eliminates the grossest form of leakage—training on the future—but leaves a subtler problem.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.595.2"">
+     Training observations can “see” validation data through two channels:
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.594.1"">Пошаговая проверка с продвижением во времени </span><a id=""_idIndexMarker722""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.595.1"">устраняет самую грубую форму утечки информации — обучение на будущих данных, — но оставляет более тонкую проблему. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.595.2"">Обучающие наблюдения могут «видеть» проверочные данные по двум каналам:</span></p>",,,,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0245,245,li,6.5 Evaluation protocol for time series > Temporal buffers – Label buffer and feature buffer,/*/*[2]/*/*[143]/*[1],,180,139,"Labels look forward : A 20-day return label period begins on the observation date. If a training observation occurs 15 days before validation starts, its label overlaps with five validation days.","Метки используют будущий период: период 20-дневной метки доходности начинается в дату наблюдения. Если обучающее наблюдение приходится на 15 дней раньше начала проверки, период его метки пересекается с пятью проверочными днями.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""screenText"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.596.1"">
+       Labels look forward
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.597.1"">
+      : A 20-day
+     </span>
+     <a id=""_idIndexMarker723"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.598.1"">
+      return label period begins on the observation date.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.598.2"">
+      If a training observation occurs 15 days before validation starts, its label overlaps with five validation days.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""screenText""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.596.1"">Метки используют будущий период</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.597.1"">: период 20-дневной </span><a id=""_idIndexMarker723""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.598.1"">метки доходности начинается в дату наблюдения. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.598.2"">Если обучающее наблюдение приходится на 15 дней раньше начала проверки, период его метки пересекается с пятью проверочными днями.</span></li>",,,,,,,"strong,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0246,246,li,6.5 Evaluation protocol for time series > Temporal buffers – Label buffer and feature buffer,/*/*[2]/*/*[143]/*[2],,180,139,"Features look backward : A 20-day momentum feature uses data from the past 20 days. If training follows validation (as in k-fold or combinatorial schemes; see Combinatorial methods and path dependence below), a training observation immediately after the validation period computes features using prices from the validation period.","Признаки используют предшествующий период: 20-дневный признак моментума рассчитывается по данным за предыдущие 20 дней. Если обучение следует после проверки (как в k-кратных или комбинаторных схемах; см. ниже раздел «Комбинаторные методы и зависимость от траектории»), то для обучающего наблюдения сразу после проверочного периода признаки рассчитываются по ценам из проверочного периода.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""screenText"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.599.1"">
+       Features look backward
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.600.1"">
+      : A 20-day
+     </span>
+     <a id=""_idIndexMarker724"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.601.1"">
+      momentum feature uses data from the past 20 days.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.601.2"">
+      If training
+     </span>
+     <em class=""italic"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.602.1"">
+       follows
+      </span>
+     </em>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.603.1"">
+      validation (as in k-fold or combinatorial schemes; see Combinatorial methods and path dependence below), a training observation immediately after the validation period computes features using prices from the validation period.
+     </span>
+    </li>
+   ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""screenText""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.599.1"">Признаки используют предшествующий период</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.600.1"">: 20-дневный </span><a id=""_idIndexMarker724""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.601.1"">признак моментума рассчитывается по данным за предыдущие 20 дней. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.601.2"">Если обучение </span><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.602.1"">следует после </span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.603.1"">проверки (как в k-кратных или комбинаторных схемах; см. ниже раздел «Комбинаторные методы и зависимость от траектории»), то для обучающего наблюдения сразу после проверочного периода признаки рассчитываются по ценам из проверочного периода.</span></li>",,,,,,,"strong,em,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0247,247,p,6.5 Evaluation protocol for time series > Temporal buffers – Label buffer and feature buffer,/*/*[2]/*/*[144],,180,139,"The solution is temporal buffers: gaps that prevent labels and features from reaching across the boundary. In practice, always count buffer gaps in trading days , not calendar days. The difference is material. For example, a 21-trading-day label buffer in January 2024 spans 30–32 calendar days; a naive 21- calendar -day purge covers only 15 trading days, leaving 6 days of label leakage (see 01_cv_foundations ):","Решением служат временные буферы: зазоры, которые не позволяют меткам и признакам пересекать границу между выборками. На практике всегда измеряйте буферные зазоры в торговых, а не календарных днях. Разница существенна. Например, буфер меток длиной 21 торговый день в январе 2024 года охватывает 30–32 календарных дня; наивное исключение пересекающихся наблюдений за 21 календарный день охватывает лишь 15 торговых дней, оставляя 6 дней утечки через метки (см. 01_cv_foundations):","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.604.1"">
+     The solution is
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.605.1"">
+      temporal buffers:
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.606.1"">
+     gaps that prevent labels and features from reaching across the boundary.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.606.2"">
+     In practice, always count buffer gaps in
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.607.1"">
+      trading days
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.608.1"">
+     , not calendar days.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.608.2"">
+     The difference is material.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.608.3"">
+     For example, a 21-trading-day label buffer in January 2024 spans 30–32 calendar days; a naive 21-
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.609.1"">
+      calendar
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.610.1"">
+     -day purge covers only 15 trading days, leaving 6 days of label leakage (see
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.611.1"">
+      01_cv_foundations
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.612.1"">
+     ):
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.604.1"">Решением служат </span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.605.1"">временные буферы: </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.606.1"">зазоры, которые не позволяют меткам и признакам пересекать границу между выборками. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.606.2"">На практике всегда измеряйте буферные зазоры в </span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.607.1"">торговых</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.608.1"">, а не календарных днях. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.608.2"">Разница существенна. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.608.3"">Например, буфер меток длиной 21 торговый день в январе 2024 года охватывает 30–32 календарных дня; наивное исключение пересекающихся наблюдений за 21 </span><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.609.1"">календарный </span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.610.1"">день охватывает лишь 15 торговых дней, оставляя 6 дней утечки через метки (см. </span><code class=""inlineCode""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.611.1"">01_cv_foundations</span></code><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.612.1"">):</span></p>",,,,,,,"strong,em,code",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0248,248,li,6.5 Evaluation protocol for time series > Temporal buffers – Label buffer and feature buffer,/*/*[2]/*/*[145]/*[1],,180,139,"The label buffer removes training observations whose labels overlap with those in the validation set. Its size equals the label horizon: for 20-day forward returns, exclude training observations within 20 (trading) days of the validation boundary. For one-day-ahead forecasts on daily data, no buffer is needed. López de Prado (2018) calls this purging .","Буфер меток исключает обучающие наблюдения, метки которых пересекаются с метками проверочной выборки. Его размер равен горизонту метки: для 20-дневной будущей доходности исключите обучающие наблюдения в пределах 20 торговых дней от границы проверки. Для прогнозов на один день вперёд по дневным данным буфер не требуется. Лопес де Прадо (2018) называет это исключением пересекающихся наблюдений.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.613.1"">
+      The
+     </span>
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.614.1"">
+       label buffer
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.615.1"">
+      removes
+     </span>
+     <a id=""_idIndexMarker725"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.616.1"">
+      training observations whose labels overlap with those in the validation set.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.616.2"">
+      Its size equals the label horizon: for 20-day forward returns, exclude training observations within 20 (trading) days of the validation boundary.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.616.3"">
+      For one-day-ahead
+     </span>
+     <a id=""_idIndexMarker726"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.617.1"">
+      forecasts on daily data, no buffer is needed.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.617.2"">
+      López de Prado (2018) calls this
+     </span>
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.618.1"">
+       purging
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.619.1"">
+      .
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.613.1""></span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.614.1"">Буфер меток </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.615.1"">исключает </span><a id=""_idIndexMarker725""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.616.1"">обучающие наблюдения, метки которых пересекаются с метками проверочной выборки. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.616.2"">Его размер равен горизонту метки: для 20-дневной будущей доходности исключите обучающие наблюдения в пределах 20 торговых дней от границы проверки. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.616.3"">Для прогнозов на один день вперёд </span><a id=""_idIndexMarker726""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.617.1"">по дневным данным буфер не требуется. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.617.2"">Лопес де Прадо (2018) называет это </span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.618.1"">исключением пересекающихся наблюдений</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.619.1"">.</span></li>",,,,,,,"strong,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0249,249,li,6.5 Evaluation protocol for time series > Temporal buffers – Label buffer and feature buffer,/*/*[2]/*/*[145]/*[2],,181,140,"The feature buffer removes training observations whose feature lookback windows overlap with the validation period. This buffer is only needed when training data appear after the validation period, which does not occur in standard walk-forward CV but does occur in k-fold and combinatorial schemes. López de Prado (2018) calls this an embargo and proposes 1% of the sample length as a rule of thumb; the appropriate size depends on the strategy’s horizon and the strength of temporal dependence.","Буфер признаков исключает обучающие наблюдения, ретроспективные окна признаков которых пересекаются с проверочным периодом. Этот буфер нужен только тогда, когда обучающие данные расположены после проверочного периода: в стандартной пошаговой перекрёстной проверке с продвижением во времени этого не происходит, но это происходит в k-кратных и комбинаторных схемах. Лопес де Прадо (2018) называет такой зазор эмбарго между выборками и предлагает в качестве практического ориентира 1 % длины выборки; подходящий размер зависит от горизонта стратегии и силы временной зависимости.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.620.1"">
+      The
+     </span>
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.621.1"">
+       feature buffer
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.622.1"">
+      removes
+     </span>
+     <a id=""_idIndexMarker727"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.623.1"">
+      training observations whose feature lookback windows overlap with the validation period.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.623.2"">
+      This buffer is only needed when training data appear after the validation period, which does not occur in standard walk-forward CV but does occur in k-fold and combinatorial schemes.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.623.3"">
+      López de Prado (2018) calls this
+     </span>
+     <a id=""_idIndexMarker728"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.624.1"">
+      an
+     </span>
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.625.1"">
+       embargo
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.626.1"">
+      and proposes 1% of the sample length as a rule of thumb; the appropriate size depends on the strategy’s horizon and the strength of temporal dependence.
+     </span>
+    </li>
+   ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.620.1""></span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.621.1"">Буфер признаков </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.622.1"">исключает </span><a id=""_idIndexMarker727""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.623.1"">обучающие наблюдения, ретроспективные окна признаков которых пересекаются с проверочным периодом. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.623.2"">Этот буфер нужен только тогда, когда обучающие данные расположены после проверочного периода: в стандартной пошаговой перекрёстной проверке с продвижением во времени этого не происходит, но это происходит в k-кратных и комбинаторных схемах. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.623.3"">Лопес де Прадо (2018) называет такой зазор </span><a id=""_idIndexMarker728""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.624.1""></span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.625.1"">эмбарго между выборками </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.626.1"">и предлагает в качестве практического ориентира 1 % длины выборки; подходящий размер зависит от горизонта стратегии и силы временной зависимости.</span></li>",,,,,,,"strong,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0250,250,h2,6.5 Evaluation protocol for time series > Holdout test set and rolling retuning,/*/*[2]/*/*[146],_idParaDest-290,181,140,Holdout test set and rolling retuning,Отложенная тестовая выборка и скользящая перенастройка,"<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-290"">
+    <a id=""_idTextAnchor282"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.627.1"">
+     Holdout test set and rolling retuning
+    </span>
+   </h2>
+   ","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-290""><a id=""_idTextAnchor282""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.627.1"">Отложенная тестовая выборка и скользящая перенастройка</span></h2>",,,,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0251,251,p,6.5 Evaluation protocol for time series > Holdout test set and rolling retuning,/*/*[2]/*/*[147],,181,140,"Walk-forward splits reveal how choices behave when the “fit on the past, predict the future” pattern is repeated. But they do not, by themselves, answer the governance question: when do we stop selecting and start measuring?","Пошаговые разбиения с продвижением во времени показывают, как ведут себя выбранные решения при многократном повторении схемы «обучить на прошлом, спрогнозировать будущее». Но сами по себе они не отвечают на вопрос управления и контроля: когда мы прекращаем отбор и начинаем измерение?","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.628.1"">
+     Walk-forward splits reveal how choices behave when the “fit on the past, predict the future” pattern is repeated.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.628.2"">
+     But they do not, by themselves, answer the governance question:
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.629.1"">
+      when do we stop selecting and start measuring?
+     </span>
+    </em>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.628.1"">Пошаговые разбиения с продвижением во времени показывают, как ведут себя выбранные решения при многократном повторении схемы «обучить на прошлом, спрогнозировать будущее». </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.628.2"">Но сами по себе они не отвечают на вопрос управления и контроля: </span><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.629.1"">когда мы прекращаем отбор и начинаем измерение?</span></em></p>",,,,,,,em,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0252,252,p,6.5 Evaluation protocol for time series > Holdout test set and rolling retuning,/*/*[2]/*/*[148],,181,140,"To make that boundary operational, reserve a sealed holdout test set : a final time block that plays no role in any development decision (signal definition, feature selection, hyperparameter tuning, model selection, or reporting choices). The holdout may be inspected only after the pipeline is frozen. During development, we select using the primary development metric computed on walk-forward validation; we report strategy outcomes after freezing the pipeline; and we use the sealed holdout only once for confirmation.","Чтобы сделать эту границу рабочей, зарезервируйте изолированную отложенную тестовую выборку: заключительный временной блок, который не участвует ни в одном решении разработки (определении сигнала, отборе признаков, настройке гиперпараметров, выборе модели или выборе способа представления результатов). Отложенную выборку можно изучать только после фиксации конвейера. В ходе разработки отбор ведётся по основной метрике разработки, рассчитанной при пошаговой проверке с продвижением во времени; результаты стратегии представляются после фиксации конвейера; изолированная отложенная выборка используется лишь один раз для подтверждающей проверки.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.630.1"">
+     To make that boundary operational, reserve
+    </span>
+    <a id=""_idIndexMarker729"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.631.1"">
+     a
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.632.1"">
+      sealed holdout test set
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.633.1"">
+     : a final time block that plays no role in any development decision (signal definition, feature selection, hyperparameter tuning, model selection, or reporting choices).
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.633.2"">
+     The holdout may be inspected only after the pipeline is frozen.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.633.3"">
+     During development, we select using the primary development metric computed on walk-forward validation; we report strategy outcomes after freezing the pipeline; and we use the sealed holdout only once for confirmation.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.630.1"">Чтобы сделать эту границу рабочей, зарезервируйте </span><a id=""_idIndexMarker729""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.631.1""></span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.632.1"">изолированную отложенную тестовую выборку</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.633.1"">: заключительный временной блок, который не участвует ни в одном решении разработки (определении сигнала, отборе признаков, настройке гиперпараметров, выборе модели или выборе способа представления результатов). </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.633.2"">Отложенную выборку можно изучать только после фиксации конвейера. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.633.3"">В ходе разработки отбор ведётся по основной метрике разработки, рассчитанной при пошаговой проверке с продвижением во времени; результаты стратегии представляются после фиксации конвейера; изолированная отложенная выборка используется лишь один раз для подтверждающей проверки.</span></p>",,,,,,,"strong,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0253,253,p,6.5 Evaluation protocol for time series > Holdout test set and rolling retuning,/*/*[2]/*/*[149],,181,140,"With that rule in place, two distinct evaluation modes are useful:",При таком правиле полезны два различных режима оценки:,"<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.634.1"">
+     With that rule in place, two distinct evaluation modes are useful:
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.634.1"">При таком правиле полезны два различных режима оценки:</span></p>",,,,,,,,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0254,254,li,6.5 Evaluation protocol for time series > Holdout test set and rolling retuning,/*/*[2]/*/*[150]/*[1],,181,140,"Fixed holdout (tune once, test once) : Use walk-forward validation on the development period to select a single configuration, freeze the full pipeline (including the score-to-trade mapping and cost/constraint assumptions), and evaluate it once on the sealed holdout to estimate out-of-sample performance.","Фиксированная отложенная выборка (один раз настроить, один раз протестировать): примените пошаговую проверку с продвижением во времени на периоде разработки, чтобы выбрать единственную конфигурацию, зафиксируйте весь конвейер (включая преобразование оценок в сделки и предположения об издержках и ограничениях), а затем однократно оцените его на изолированной отложенной выборке, чтобы получить оценку качества вне обучающей выборки.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.635.1"">
+       Fixed holdout (tune once, test once)
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.636.1"">
+      : Use walk-forward validation on the development period
+     </span>
+     <a id=""_idIndexMarker730"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.637.1"">
+      to select a single configuration, freeze the full pipeline (including the score-to-trade mapping and cost/constraint assumptions), and evaluate it once on the sealed holdout to estimate out-of-sample performance.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.635.1"">Фиксированная отложенная выборка (один раз настроить, один раз протестировать)</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.636.1"">: примените пошаговую проверку с продвижением во времени на периоде разработки, </span><a id=""_idIndexMarker730""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.637.1"">чтобы выбрать единственную конфигурацию, зафиксируйте весь конвейер (включая преобразование оценок в сделки и предположения об издержках и ограничениях), а затем однократно оцените его на изолированной отложенной выборке, чтобы получить оценку качества вне обучающей выборки.</span></li>",,,,,,,"strong,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0255,255,li,6.5 Evaluation protocol for time series > Holdout test set and rolling retuning,/*/*[2]/*/*[150]/*[2],,181,140,"Rolling retuning : To estimate the performance of a procedure that regularly retunes as new data arrives, split the overall test period into smaller windows and repeat the “fixed holdout” procedure for each window. At each test step, tune using only data strictly prior to the next test window, refit on admissible history, and then score on the next test window. Each test window is used for measurement only. This approach is called nested walk-forward because it uses an outer test loop and an inner model-selection loop. Bates et al. (2021) show that confidence intervals computed from nested CV have superior statistical properties. Figure 6.4 illustrates this procedure with expanding and rolling windows.","Скользящая перенастройка: чтобы оценить качество процедуры, которую регулярно перенастраивают по мере поступления новых данных, разделите общий тестовый период на меньшие окна и повторите для каждого окна процедуру «фиксированной отложенной выборки». На каждом шаге тестирования выполняйте настройку только по данным, строго предшествующим следующему тестовому окну, повторно обучайте модель на допустимой истории, а затем оценивайте модель на следующем тестовом окне. Каждое тестовое окно используется только для измерения. Этот подход называется вложенной пошаговой проверкой с продвижением во времени, поскольку в нём применяются внешний цикл тестирования и внутренний цикл выбора модели. Бейтс и соавт. (2021) показывают, что доверительные интервалы, рассчитанные с помощью вложенной перекрёстной проверки, обладают лучшими статистическими свойствами. На рисунке 6.4 эта процедура показана для расширяющихся и скользящих окон.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.638.1"">
+       Rolling retuning
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.639.1"">
+      : To
+     </span>
+     <a id=""_idIndexMarker731"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.640.1"">
+      estimate the performance of a procedure that regularly retunes as new data arrives, split the overall test period into smaller windows and repeat the “fixed holdout” procedure for each window.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.640.2"">
+      At each test step, tune using only data strictly prior to the next test window, refit on admissible history, and then score on the next test window.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.640.3"">
+      Each test window is used for measurement only.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.640.4"">
+      This approach is
+     </span>
+     <a id=""_idIndexMarker732"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.641.1"">
+      called
+     </span>
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.642.1"">
+       nested walk-forward
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.643.1"">
+      because it uses an outer test loop and an inner model-selection loop.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.643.2"">
+      Bates et al.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.643.3"">
+      (2021) show that confidence intervals computed from nested CV have superior statistical properties.
+     </span>
+     <em class=""italic"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.644.1"">
+       Figure 6.4
+      </span>
+     </em>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.645.1"">
+      illustrates this procedure with expanding and rolling windows.
+     </span>
+    </li>
+   ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.638.1"">Скользящая перенастройка</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.639.1"">: чтобы </span><a id=""_idIndexMarker731""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.640.1"">оценить качество процедуры, которую регулярно перенастраивают по мере поступления новых данных, разделите общий тестовый период на меньшие окна и повторите для каждого окна процедуру «фиксированной отложенной выборки». </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.640.2"">На каждом шаге тестирования выполняйте настройку только по данным, строго предшествующим следующему тестовому окну, повторно обучайте модель на допустимой истории, а затем оценивайте модель на следующем тестовом окне. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.640.3"">Каждое тестовое окно используется только для измерения. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.640.4"">Этот подход </span><a id=""_idIndexMarker732""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.641.1"">называется </span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.642.1"">вложенной пошаговой проверкой с продвижением во времени, </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.643.1"">поскольку в нём применяются внешний цикл тестирования и внутренний цикл выбора модели. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.643.2"">Бейтс и соавт. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.643.3"">(2021) показывают, что доверительные интервалы, рассчитанные с помощью вложенной перекрёстной проверки, обладают лучшими статистическими свойствами. </span><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.644.1"">На рисунке 6.4 </span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.645.1"">эта процедура показана для расширяющихся и скользящих окон.</span></li>",,,,,,,"strong,em,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0256,256,p,6.5 Evaluation protocol for time series > Holdout test set and rolling retuning,/*/*[2]/*/*[152],,181,140,Figure 6.4: Nested walk-forward CV with rolling windows,Рисунок 6.4: Вложенная пошаговая перекрёстная проверка с продвижением во времени и скользящими окнами,"<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""packt_figref"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.647.1"">
+     Figure 6.4: Nested walk-forward CV with rolling windows
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""packt_figref""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.647.1"">Рисунок 6.4: Вложенная пошаговая перекрёстная проверка с продвижением во времени и скользящими окнами</span></p>",,,,,,,,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,FIGURE_BINDING_VERIFIED: Figure 6.4 immediately precedes this caption in EPUB/PDF; immutable source image OEBPS/Images/B18427_06_04.png; SHA-256 f8d5622f3a7d18f6cd392597e8b5a3b2ffc8737b529b30fafaf048a0c89867a4. Canonical asset ledger contains no separate ID; asset_ids intentionally remains unchanged. ASSET_LOCALIZATION_REVIEW: internal labels remain in English and require a separately approved derived-artwork task.,v0.1
+CH06,CH06-B0257,257,p,6.5 Evaluation protocol for time series > Holdout test set and rolling retuning,/*/*[2]/*/*[153],,182,141,"Nested walk-forward can capture when model configurations change and can be more realistic. For example, with a two-year test period and a five-year lookback, a live strategy would likely retune the model more than once as assumed by the fixed-holdout approach. Nested walk-forward with many feature sets is computationally demanding; parallelized evaluation, incremental retraining, and feature caching are standard optimizations. The key invariant remains: tuning never uses future data relative to the outer test window.","Вложенная пошаговая проверка с продвижением во времени позволяет учитывать моменты изменения конфигураций модели и может реалистичнее отражать практику. Например, при двухлетнем тестовом периоде и пятилетнем ретроспективном окне действующая стратегия, вероятно, перенастраивала бы модель более одного раза, а не один раз, как предполагает подход с фиксированной отложенной выборкой. Вложенная пошаговая проверка с множеством наборов признаков требует значительных вычислительных ресурсов; стандартными оптимизациями служат параллельная оценка, инкрементальное повторное обучение и кэширование признаков. Ключевой инвариант сохраняется: настройка никогда не использует данные, будущие относительно внешнего тестового окна.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.648.1"">
+     Nested walk-forward can capture when model configurations change and can be more realistic.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.648.2"">
+     For example, with a two-year test period and a five-year lookback, a live strategy would likely retune the model more than once as assumed by the fixed-holdout approach.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.648.3"">
+     Nested walk-forward with many feature sets is computationally demanding; parallelized evaluation, incremental retraining, and feature caching are standard optimizations.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.648.4"">
+     The key invariant remains: tuning never uses future data relative to the outer test window.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.648.1"">Вложенная пошаговая проверка с продвижением во времени позволяет учитывать моменты изменения конфигураций модели и может реалистичнее отражать практику. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.648.2"">Например, при двухлетнем тестовом периоде и пятилетнем ретроспективном окне действующая стратегия, вероятно, перенастраивала бы модель более одного раза, а не один раз, как предполагает подход с фиксированной отложенной выборкой. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.648.3"">Вложенная пошаговая проверка с множеством наборов признаков требует значительных вычислительных ресурсов; стандартными оптимизациями служат параллельная оценка, инкрементальное повторное обучение и кэширование признаков. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.648.4"">Ключевой инвариант сохраняется: настройка никогда не использует данные, будущие относительно внешнего тестового окна.</span></p>",,,,,,,,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0258,258,h2,6.5 Evaluation protocol for time series > Combinatorial methods and path dependence,/*/*[2]/*/*[154],_idParaDest-291,182,141,Combinatorial methods and path dependence,Комбинаторные методы и зависимость от траектории,"<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-291"">
+    <a id=""_idTextAnchor283"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.649.1"">
+     Combinatorial methods and path dependence
+    </span>
+   </h2>
+   ","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-291""><a id=""_idTextAnchor283""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.649.1"">Комбинаторные методы и зависимость от траектории</span></h2>",,,,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0259,259,p,6.5 Evaluation protocol for time series > Combinatorial methods and path dependence,/*/*[2]/*/*[155],,182,141,"A standard walk-forward yields a single sequence of out-of-sample windows: a single historical path. Combinatorial methods partition time into blocks and evaluate many train–test combinations, producing a distribution of out-of-sample outcomes rather than a single trajectory. The motivation is path dependence : a strategy may appear unusually strong or weak depending on which regimes fall along the single test path.","Стандартная пошаговая проверка с продвижением во времени формирует единственную последовательность окон вне обучающей выборки — одну историческую траекторию. Комбинаторные методы разбивают время на блоки и оценивают множество сочетаний обучающих и тестовых данных, получая распределение результатов вне обучающей выборки вместо одной траектории. Причина применения такого подхода — зависимость от траектории: стратегия может выглядеть необычно сильной или слабой в зависимости от того, какие режимы попали на единственную тестовую траекторию.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.650.1"">
+     A standard walk-forward yields a single sequence of out-of-sample windows: a single historical path.
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.651.1"">
+      Combinatorial methods
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.652.1"">
+     partition
+    </span>
+    <a id=""_idIndexMarker733"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.653.1"">
+     time into blocks and evaluate many train–test combinations, producing a distribution of out-of-sample outcomes rather than a single trajectory.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.653.2"">
+     The
+    </span>
+    <a id=""_idIndexMarker734"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.654.1"">
+     motivation is
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.655.1"">
+      path dependence
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.656.1"">
+     : a strategy may appear unusually strong or weak depending on which regimes fall along the single test path.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.650.1"">Стандартная пошаговая проверка с продвижением во времени формирует единственную последовательность окон вне обучающей выборки — одну историческую траекторию. </span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.651.1"">Комбинаторные методы </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.652.1"">разбивают </span><a id=""_idIndexMarker733""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.653.1"">время на блоки и оценивают множество сочетаний обучающих и тестовых данных, получая распределение результатов вне обучающей выборки вместо одной траектории. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.653.2""></span><a id=""_idIndexMarker734""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.654.1"">Причина применения такого подхода — </span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.655.1"">зависимость от траектории</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.656.1"">: стратегия может выглядеть необычно сильной или слабой в зависимости от того, какие режимы попали на единственную тестовую траекторию.</span></p>",,,,,,,"strong,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0260,260,p,6.5 Evaluation protocol for time series > Combinatorial methods and path dependence,/*/*[2]/*/*[156],,182,141,"López de Prado (2018) proposes Combinatorial Purged Cross-Validation ( CPCV ), which selects k groups of contiguous observations from n total groups, creating distinct train/test configurations. Each configuration applies both label and feature buffers—necessary because validation groups can appear anywhere relative to training blocks.","Лопес де Прадо (2018) предлагает комбинаторную перекрёстную проверку с исключением пересекающихся наблюдений — Combinatorial Purged Cross-Validation (CPCV), которая выбирает k групп смежных наблюдений из общего числа n групп, образуя различные конфигурации обучающих и тестовых данных. В каждой конфигурации применяются и буфер меток, и буфер признаков — это необходимо, поскольку проверочные группы могут располагаться в любом месте относительно обучающих блоков.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.657.1"">
+     López de Prado (2018) proposes
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.658.1"">
+      Combinatorial Purged Cross-Validation
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.659.1"">
+     (
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.660.1"">
+      CPCV
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.661.1"">
+     ), which selects k groups of contiguous
+    </span>
+    <a id=""_idIndexMarker735"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.662.1"">
+     observations from n total groups, creating
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.663.1"">
+     <img alt=""img"" src=""../Images/B18427_06_004.png""/>
+    </span>
+    <a id=""_idIndexMarker736"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.664.1"">
+     distinct train/test configurations.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.664.2"">
+     Each configuration applies both label and feature buffers—necessary because validation groups can appear anywhere relative to training blocks.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.657.1"">Лопес де Прадо (2018) предлагает </span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.658.1"">комбинаторную перекрёстную проверку с исключением пересекающихся наблюдений — Combinatorial Purged Cross-Validation </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.659.1"">(</span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.660.1"">CPCV</span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.661.1"">), которая выбирает k групп смежных </span><a id=""_idIndexMarker735""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.662.1"">наблюдений из общего числа n групп, образуя </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.663.1""><img alt=""img"" src=""../Images/B18427_06_004.png""></img></span><a id=""_idIndexMarker736""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.664.1"">различные конфигурации обучающих и тестовых данных. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.664.2"">В каждой конфигурации применяются и буфер меток, и буфер признаков — это необходимо, поскольку проверочные группы могут располагаться в любом месте относительно обучающих блоков.</span></p>",CH06-ASSET-009,,,,,,"strong,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,FORMULA_ASSET_PRESERVED: binomial coefficient n choose k remains unchanged in CH06-ASSET-009 and was checked against PDF page 141.,v0.1
+CH06,CH06-B0261,261,p,6.5 Evaluation protocol for time series > Combinatorial methods and path dependence,/*/*[2]/*/*[157],,182,141,"Combinatorial evaluation is most useful when comparing many variants and seeking a more stable view of selection risk. It does not replace decision-time discipline: overlap leakage must still be prevented using the buffers described above, and each test block must be treated as “future” relative to its paired training blocks. Combinatorial evaluation is computationally expensive— configurations grow quickly—and offers diminishing returns when the time series is short or when most blocks share the same regime. We will discuss CPCV in more detail in Chapter 17 .","Комбинаторная оценка особенно полезна при сравнении множества вариантов и поиске более устойчивого представления о риске отбора. Она не отменяет дисциплину учёта момента принятия решения: утечку из-за пересечений по-прежнему необходимо предотвращать с помощью описанных выше буферов, а каждый тестовый блок следует рассматривать как «будущее» относительно соответствующих обучающих блоков. Комбинаторная оценка требует значительных вычислительных ресурсов: число конфигураций быстро растёт, а при коротком временном ряде или одном и том же рыночном режиме в большинстве блоков дополнительная отдача снижается. Подробнее CPCV рассматривается в главе 17.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.665.1"">
+     Combinatorial evaluation is most useful when comparing many variants and seeking a more stable view of selection risk.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.665.2"">
+     It does not replace decision-time discipline: overlap leakage must still be prevented using the buffers described above, and each test block must be treated as “future” relative to its paired training blocks.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.665.3"">
+     Combinatorial evaluation is computationally expensive—
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.666.1"">
+     <img alt=""img"" src=""../Images/B18427_06_004.png""/>
+    </span>
+    <a id=""_idIndexMarker737"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.667.1"">
+     configurations grow quickly—and offers diminishing returns when the time series is short or when most blocks share the same regime.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.667.2"">
+     We will discuss CPCV in more detail in
+    </span>
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.668.1"">
+      Chapter 17
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.669.1"">
+     .
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.665.1"">Комбинаторная оценка особенно полезна при сравнении множества вариантов и поиске более устойчивого представления о риске отбора. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.665.2"">Она не отменяет дисциплину учёта момента принятия решения: утечку из-за пересечений по-прежнему необходимо предотвращать с помощью описанных выше буферов, а каждый тестовый блок следует рассматривать как «будущее» относительно соответствующих обучающих блоков. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.665.3"">Комбинаторная оценка требует значительных вычислительных ресурсов: </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.666.1""><img alt=""img"" src=""../Images/B18427_06_004.png""></img></span><a id=""_idIndexMarker737""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.667.1"">число конфигураций быстро растёт, а при коротком временном ряде или одном и том же рыночном режиме в большинстве блоков дополнительная отдача снижается. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.667.2"">Подробнее CPCV рассматривается в </span><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.668.1"">главе 17</span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.669.1"">.</span></p>",CH06-ASSET-009,,,,,,"em,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,FORMULA_ASSET_PRESERVED: binomial coefficient n choose k remains unchanged in CH06-ASSET-009 and was checked against PDF page 141.,v0.1
+CH06,CH06-B0262,262,h2,6.5 Evaluation protocol for time series > Design commitments,/*/*[2]/*/*[158],_idParaDest-292,182,141,Design commitments,Фиксируемые параметры схемы оценки,"<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-292"">
+    <a id=""_idTextAnchor284"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.670.1"">
+     Design commitments
+    </span>
+   </h2>
+   ","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-292""><a id=""_idTextAnchor284""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.670.1"">Фиксируемые параметры схемы оценки</span></h2>",,,,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0263,263,p,6.5 Evaluation protocol for time series > Design commitments,/*/*[2]/*/*[159],,182,141,"Before running experiments, specify and log the evaluation design:",До проведения экспериментов задайте и зарегистрируйте схему оценки:,"<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.671.1"">
+     Before running experiments, specify and log the evaluation design:
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.671.1"">До проведения экспериментов задайте и зарегистрируйте схему оценки:</span></p>",,,,,,,,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0264,264,li,6.5 Evaluation protocol for time series > Design commitments,/*/*[2]/*/*[160]/*[1],,182,141,"Window lengths: Training, validation (if used), and test","Длины окон: обучающего, проверочного (если используется) и тестового","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.672.1"">
+       Window lengths:
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.673.1"">
+      Training, validation (if used), and test
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.672.1"">Длины окон: </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.673.1"">обучающего, проверочного (если используется) и тестового</span></li>",,,,,,,strong,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0265,265,li,6.5 Evaluation protocol for time series > Design commitments,/*/*[2]/*/*[160]/*[2],,182,141,Step size: How far the splits roll forward each iteration,Размер шага: насколько далеко разбиения продвигаются вперёд на каждой итерации,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.674.1"">
+       Step size:
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.675.1"">
+      How far the splits roll forward each iteration
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.674.1"">Размер шага: </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.675.1"">насколько далеко разбиения продвигаются вперёд на каждой итерации</span></li>",,,,,,,strong,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0266,266,li,6.5 Evaluation protocol for time series > Design commitments,/*/*[2]/*/*[160]/*[3],,182,141,Retraining cadence: How often the model is refit,Периодичность повторного обучения: как часто модель обучается заново,"<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.676.1"">
+       Retraining cadence:
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.677.1"">
+      How often the model is refit
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.676.1"">Периодичность повторного обучения: </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.677.1"">как часто модель обучается заново</span></li>",,,,,,,strong,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0267,267,li,6.5 Evaluation protocol for time series > Design commitments,/*/*[2]/*/*[160]/*[4],,182,141,"Label horizon: The forward window used to define labels, which determines the label buffer size","Горизонт метки: будущее окно, используемое для определения меток и задающее размер буфера меток","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.678.1"">
+       Label horizon:
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.679.1"">
+      The forward window used to define labels, which determines the label buffer size
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.678.1"">Горизонт метки: </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.679.1"">будущее окно, используемое для определения меток и задающее размер буфера меток</span></li>",,,,,,,strong,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0268,268,li,6.5 Evaluation protocol for time series > Design commitments,/*/*[2]/*/*[160]/*[5],,182,141,"Longest feature lookback: The maximum lookback across all features, which determines the feature buffer size","Максимальная глубина ретроспективного окна признаков: наибольшая глубина ретроспективного окна среди всех признаков, задающая размер буфера признаков","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.680.1"">
+       Longest feature lookback:
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.681.1"">
+      The maximum lookback across all features, which determines the feature buffer size
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.680.1"">Максимальная глубина ретроспективного окна признаков: </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.681.1"">наибольшая глубина ретроспективного окна среди всех признаков, задающая размер буфера признаков</span></li>",,,,,,,strong,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0269,269,li,6.5 Evaluation protocol for time series > Design commitments,/*/*[2]/*/*[160]/*[6],,182,141,"Test period: The dates reserved for final evaluation, not used for any development decision","Тестовый период: даты, зарезервированные для окончательной оценки и не используемые ни в одном решении разработки","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.682.1"">
+       Test period:
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.683.1"">
+      The dates reserved for final evaluation, not used for any development decision
+     </span>
+    </li>
+   ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""bulletList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.682.1"">Тестовый период: </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.683.1"">даты, зарезервированные для окончательной оценки и не используемые ни в одном решении разработки</span></li>",,,,,,,strong,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0270,270,p,6.5 Evaluation protocol for time series > Design commitments,/*/*[2]/*/*[161],,182,141,"These are design commitments, not tuning parameters. Changing them mid-research defines a different evaluation procedure rather than an “improved” result under the same evaluation. Throughout, we encode these commitments in the setup.yaml configuration that each setup notebook writes; downstream chapters convert it to a WalkForwardConfig object for the ml4t-diagnostic splitters. This makes the evaluation design both explicit and executable. Logging these choices before experimentation enables reproducibility and makes “the same strategy” operationally well-defined.","Это фиксируемые параметры схемы оценки, а не параметры настройки. Их изменение в ходе исследования задаёт другую процедуру оценки, а не «улучшенный» результат при прежней оценке. В книге эти параметры записываются в конфигурацию setup.yaml, создаваемую каждым подготовительным блокнотом; в последующих главах она преобразуется в объект WalkForwardConfig для средств разбиения ml4t-diagnostic. Благодаря этому схема оценки становится одновременно явной и исполняемой. Регистрация этих решений до начала экспериментов обеспечивает воспроизводимость и даёт рабочее определение «той же самой стратегии».","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.684.1"">
+     These are design commitments, not tuning parameters.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.684.2"">
+     Changing them mid-research defines a different evaluation procedure rather than an “improved” result under the same evaluation.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.684.3"">
+     Throughout, we encode these commitments in the
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.685.1"">
+      setup.yaml
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.686.1"">
+     configuration that each setup notebook writes; downstream chapters convert it to a
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.687.1"">
+      WalkForwardConfig
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.688.1"">
+     object for the ml4t-diagnostic splitters.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.688.2"">
+     This makes the evaluation design both explicit and executable.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.688.3"">
+     Logging these choices before experimentation enables reproducibility and makes “the same strategy” operationally well-defined.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.684.1"">Это фиксируемые параметры схемы оценки, а не параметры настройки. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.684.2"">Их изменение в ходе исследования задаёт другую процедуру оценки, а не «улучшенный» результат при прежней оценке. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.684.3"">В книге эти параметры записываются в конфигурацию </span><code class=""inlineCode""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.685.1"">setup.yaml</span></code><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.686.1"">, создаваемую каждым подготовительным блокнотом; в последующих главах она преобразуется в объект </span><code class=""inlineCode""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.687.1"">WalkForwardConfig </span></code><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.688.1"">для средств разбиения ml4t-diagnostic. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.688.2"">Благодаря этому схема оценки становится одновременно явной и исполняемой. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.688.3"">Регистрация этих решений до начала экспериментов обеспечивает воспроизводимость и даёт рабочее определение «той же самой стратегии».</span></p>",,,,,,,code,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0271,271,p,6.5 Evaluation protocol for time series > Design commitments,/*/*[2]/*/*[162],,183,142,"Figure 6.5 shows the prediction coverage across the case studies. Coverage varies substantially; this heterogeneity motivates strategy-specific protocol choices, and the figure serves as a reference for understanding the statistical depth available for each case study.","На рисунке 6.5 показан охват прогнозов по практическим примерам. Охват существенно различается; эта неоднородность требует выбирать протокол с учётом конкретной стратегии, а рисунок помогает оценить доступный объём данных для статистического анализа по каждому практическому примеру.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <em class=""italic"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.689.1"">
+      Figure 6.5
+     </span>
+    </em>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.690.1"">
+     shows the prediction coverage across the case studies.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.690.2"">
+     Coverage varies substantially; this heterogeneity motivates strategy-specific protocol choices, and the figure serves as a reference for understanding the statistical depth available for each case study.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><em class=""italic""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.689.1"">На рисунке 6.5 </span></em><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.690.1"">показан охват прогнозов по практическим примерам. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.690.2"">Охват существенно различается; эта неоднородность требует выбирать протокол с учётом конкретной стратегии, а рисунок помогает оценить доступный объём данных для статистического анализа по каждому практическому примеру.</span></p>",,,,,,,em,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0272,272,p,6.5 Evaluation protocol for time series > Design commitments,/*/*[2]/*/*[164],,183,142,"Figure 6.5: Training, validation, and holdout periods for the nine case studies","Рисунок 6.5: Периоды обучения, проверки и отложенного тестирования для девяти практических примеров","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""packt_figref"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.692.1"">
+     Figure 6.5: Training, validation, and holdout periods for the nine case studies
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""packt_figref""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.692.1"">Рисунок 6.5: Периоды обучения, проверки и отложенного тестирования для девяти практических примеров</span></p>",,,,,,,,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,FIGURE_BINDING_VERIFIED: Figure 6.5 immediately precedes this caption in EPUB/PDF; immutable source image OEBPS/Images/B18427_06_05.png; SHA-256 9287340b8e8d8628b8f39791db6528d61fa408063e62062b9cb79b3a89c997b8. Canonical asset ledger contains no separate ID; asset_ids intentionally remains unchanged. ASSET_LOCALIZATION_REVIEW: internal labels remain in English and require a separately approved derived-artwork task.,v0.1
+CH06,CH06-B0273,273,p,6.5 Evaluation protocol for time series > Design commitments,/*/*[2]/*/*[165],,183,142,"The notebook 02_case_study_overview.py shows the trading setups and time-series validation configurations for all case studies; the underlying analysis is in the 01_setup.py notebooks in each case study directory. Next, we discuss how to start research with a focused baseline.","Блокнот 02_case_study_overview.py показывает параметры торговли и конфигурации проверки временных рядов для всех практических примеров; исходный анализ находится в блокнотах 01_setup.py в каталоге каждого практического примера. Далее рассматривается, как начинать исследование с базового варианта, ограниченного по охвату.","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.693.1"">
+     The notebook
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.694.1"">
+      02_case_study_overview.py
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.695.1"">
+     shows the trading setups and time-series validation configurations for all case studies; the underlying analysis is in the
+    </span>
+    <code class=""inlineCode"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.696.1"">
+      01_setup.py
+     </span>
+    </code>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.697.1"">
+     notebooks in each case study directory.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.697.2"">
+     Next, we discuss how to start research with a focused baseline.
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.693.1"">Блокнот </span><code class=""inlineCode""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.694.1"">02_case_study_overview.py </span></code><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.695.1"">показывает параметры торговли и конфигурации проверки временных рядов для всех практических примеров; исходный анализ находится в блокнотах </span><code class=""inlineCode""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.696.1"">01_setup.py </span></code><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.697.1"">в каталоге каждого практического примера. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.697.2"">Далее рассматривается, как начинать исследование с базового варианта, ограниченного по охвату.</span></p>",,,,,,,code,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0274,274,h1,6.6 Establishing a baseline checkpoint,/*/*[2]/*/*[166],_idParaDest-293,183,142,6.6 Establishing a baseline checkpoint,6.6 Формирование контрольной точки базового варианта,"<h1 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-1"" id=""_idParaDest-293"">
+    <a id=""_idTextAnchor285"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.698.1"">
+     6.6 Establishing a baseline checkpoint
+    </span>
+   </h1>
+   ","<h1 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-1"" id=""_idParaDest-293""><a id=""_idTextAnchor285""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.698.1"">6.6 Формирование контрольной точки базового варианта</span></h1>",,,,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0275,275,p,6.6 Establishing a baseline checkpoint,/*/*[2]/*/*[167],,183,142,"Before running large experiment grids, we need a baseline checkpoint : the smallest runnable specification that answers an early governance question: under the trading setup and evaluation protocol, is there enough stable structure to justify deeper work, or should the setup itself be revised?","Прежде чем запускать большие сетки экспериментов, необходима контрольная точка базового варианта — минимальная исполняемая спецификация, отвечающая на предварительный вопрос управления и контроля: достаточно ли устойчивой структуры при заданных параметрах торговли и протоколе оценки, чтобы оправдать более глубокую работу, или следует пересмотреть сами параметры торговли?","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.699.1"">
+     Before running large experiment
+    </span>
+    <a id=""_idIndexMarker738"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.700.1"">
+     grids, we need a
+    </span>
+    <strong class=""keyWord"">
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.701.1"">
+      baseline checkpoint
+     </span>
+    </strong>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.702.1"">
+     : the smallest runnable specification that answers an early governance question: under the trading setup and evaluation protocol, is there enough stable structure to justify deeper work, or should the setup itself be revised?
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.699.1"">Прежде чем запускать большие сетки экспериментов, </span><a id=""_idIndexMarker738""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.700.1"">необходима </span><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.701.1"">контрольная точка базового варианта </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.702.1"">— минимальная исполняемая спецификация, отвечающая на предварительный вопрос управления и контроля: достаточно ли устойчивой структуры при заданных параметрах торговли и протоколе оценки, чтобы оправдать более глубокую работу, или следует пересмотреть сами параметры торговли?</span></p>",,,,,,,"strong,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0276,276,h2,6.6 Establishing a baseline checkpoint > Three preflight sanity checks,/*/*[2]/*/*[168],_idParaDest-294,183,142,Three preflight sanity checks,Три предварительные проверки корректности,"<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-294"">
+    <a id=""_idTextAnchor286"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.703.1"">
+     Three preflight sanity checks
+    </span>
+   </h2>
+   ","<h2 xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""heading-2"" id=""_idParaDest-294""><a id=""_idTextAnchor286""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.703.1"">Три предварительные проверки корректности</span></h2>",,,,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0277,277,p,6.6 Establishing a baseline checkpoint > Three preflight sanity checks,/*/*[2]/*/*[169],,183,142,"Before investing in feature engineering and model search, run three checks that catch common failures early. These are not evidence of an edge. They are sanity checks that the checkpoint is well-posed. Here are the three checks:","Прежде чем вкладываться в конструирование признаков и поиск модели, выполните три проверки, позволяющие на раннем этапе обнаружить распространённые сбои. Они не подтверждают наличие преимущества. Это проверки корректности постановки контрольной точки. Вот эти три проверки:","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal"">
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.704.1"">
+     Before investing in
+    </span>
+    <a id=""_idIndexMarker739"">
+    </a>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.705.1"">
+     feature engineering and model search, run three checks that catch common failures early.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.705.2"">
+     These are not evidence of an edge.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.705.3"">
+     They are sanity checks that the checkpoint is well-posed.
+    </span>
+    <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.705.4"">
+     Here are the three checks:
+    </span>
+   </p>
+   ","<p xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""normal""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.704.1"">Прежде чем вкладываться в </span><a id=""_idIndexMarker739""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.705.1"">конструирование признаков и поиск модели, выполните три проверки, позволяющие на раннем этапе обнаружить распространённые сбои. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.705.2"">Они не подтверждают наличие преимущества. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.705.3"">Это проверки корректности постановки контрольной точки. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.705.4"">Вот эти три проверки:</span></p>",,,,,,,a,TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0278,278,li,6.6 Establishing a baseline checkpoint > Three preflight sanity checks,/*/*[2]/*/*[170]/*[1],,183,142,"Timing sanity. Confirm that the baseline measurement and label can be computed using only information available at the declared decision snapshot, respecting data and model pipeline timelines, and execution delays.","Проверка временной согласованности. Убедитесь, что показатель базового варианта и метку можно рассчитать, используя только информацию, доступную в заявленном срезе данных на момент принятия решения, с учётом временных графиков конвейеров данных и модели, а также задержек исполнения заявок.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"" value=""1"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.706.1"">
+       Timing sanity.
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.707.1"">
+      Confirm
+     </span>
+     <a id=""_idIndexMarker740"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.708.1"">
+      that the baseline measurement and label can be computed using only information available at the declared decision snapshot, respecting data and model pipeline timelines, and execution delays.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"" value=""1""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.706.1"">Проверка временной согласованности. </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.707.1"">Убедитесь, </span><a id=""_idIndexMarker740""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.708.1"">что показатель базового варианта и метку можно рассчитать, используя только информацию, доступную в заявленном срезе данных на момент принятия решения, с учётом временных графиков конвейеров данных и модели, а также задержек исполнения заявок.</span></li>",,,,,,,"strong,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0279,279,li,6.6 Establishing a baseline checkpoint > Three preflight sanity checks,/*/*[2]/*/*[170]/*[2],,183,142,"Coverage sanity. Report how much of the intended universe is actually tradable at each decision time under the eligibility rules, and whether that coverage changes materially across history.","Проверка охвата. Укажите, какая доля предполагаемой совокупности активов действительно доступна для торговли в каждый момент принятия решения с учётом правил допустимости и существенно ли меняется этот охват на протяжении истории.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.709.1"">
+       Coverage sanity.
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.710.1"">
+      Report
+     </span>
+     <a id=""_idIndexMarker741"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.711.1"">
+      how much of the intended universe is actually tradable at each decision time under the eligibility rules, and whether that coverage changes materially across history.
+     </span>
+    </li>
+    ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.709.1"">Проверка охвата. </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.710.1"">Укажите, </span><a id=""_idIndexMarker741""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.711.1"">какая доля предполагаемой совокупности активов действительно доступна для торговли в каждый момент принятия решения с учётом правил допустимости и существенно ли меняется этот охват на протяжении истории.</span></li>",,,,,,,"strong,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
+CH06,CH06-B0280,280,li,6.6 Establishing a baseline checkpoint > Three preflight sanity checks,/*/*[2]/*/*[170]/*[3],,184,143,Trading-intensity sanity. Use a coarse proxy for how often the mapping would trade. The goal is to detect definitions that implicitly demand unrealistic turnover before building a detailed cost model.,"Проверка интенсивности торговли. Используйте приближённый показатель того, насколько часто это преобразование приводило бы к сделкам. Цель — до построения подробной модели издержек выявить определения, которые неявно требуют нереалистично высокого оборота портфеля.","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList"">
+     <strong class=""keyWord"">
+      <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.712.1"">
+       Trading-intensity sanity.
+      </span>
+     </strong>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.713.1"">
+      Use a coarse proxy for how often the mapping would trade.
+     </span>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.713.2"">
+      The goal is to
+     </span>
+     <a id=""_idIndexMarker742"">
+     </a>
+     <span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.714.1"">
+      detect definitions that implicitly demand unrealistic turnover before building a detailed cost model.
+     </span>
+    </li>
+   ","<li xmlns=""http://www.w3.org/1999/xhtml"" xmlns:epub=""http://www.idpf.org/2007/ops"" class=""numberedList""><strong class=""keyWord""><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.712.1"">Проверка интенсивности торговли. </span></strong><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.713.1"">Используйте приближённый показатель того, насколько часто это преобразование приводило бы к сделкам. </span><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.713.2"">Цель — </span><a id=""_idIndexMarker742""></a><span xmlns=""http://www.w3.org/1999/xhtml"" class=""koboSpan"" id=""kobo.714.1"">до построения подробной модели издержек выявить определения, которые неявно требуют нереалистично высокого оборота портфеля.</span></li>",,,,,,,"strong,a",TRANSLATED,PASS,PASS,PASS,PASS,QA_PASS,CH06-BATCH-007,,v0.1
