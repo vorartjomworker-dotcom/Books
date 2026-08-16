@@ -1,14 +1,19 @@
 {
   "schema_version": 1,
   "repository": "vorartjomworker-dotcom/Machine-Learning-for-Trading",
-  "mode": "pilot",
+  "mode": "autonomous",
   "merge_policy": "manual",
   "canonical_write_policy": "integrator_only",
   "batch_size": 40,
   "max_batches_per_run": 1,
   "max_fix_cycles": 3,
   "lock_ttl_minutes": 180,
-  "roles": ["translator", "language_qa", "structural_qa", "integrator"],
+  "roles": [
+    "translator",
+    "language_qa",
+    "structural_qa",
+    "integrator"
+  ],
   "allowed_states": [
     "READY",
     "TRANSLATING",
@@ -36,5 +41,6 @@
     "registry_validator",
     "unit_tests",
     "zero_open_high_critical"
-  ]
+  ],
+  "auto_advance": true
 }
