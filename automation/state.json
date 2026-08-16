@@ -8,7 +8,7 @@
     "start": 121,
     "end": 160,
     "branch": "translation/ch09-b0121-b0160",
-    "status": "TRANSLATING",
+    "status": "CI_PENDING",
     "attempt": 1,
     "lock": {
       "run_id": "CH09-B0121-B0160-20260816T190652+0300",
@@ -23,8 +23,8 @@
     {"chapter": "CH06", "start": 81, "end": 120, "branch": "translation/ch06-b0081-b0120", "status": "READY"},
     {"chapter": "CH07", "start": 121, "end": 160, "branch": "translation/ch07-b0121-b0160", "status": "READY"},
     {"chapter": "CH08", "start": 81, "end": 120, "branch": "translation/ch08-b0081-b0120", "status": "READY"},
-    {"chapter": "CH09", "start": 121, "end": 160, "branch": "translation/ch09-b0121-b0160", "status": "TRANSLATING"}
+    {"chapter": "CH09", "start": 121, "end": 160, "branch": "translation/ch09-b0121-b0160", "status": "CI_PENDING"}
   ],
-  "last_run": null,
-  "updated_at": "2026-08-16T19:06:52+03:00"
+  "last_run": "CH09-B0121-B0160-20260816T190652+0300",
+  "updated_at": "2026-08-16T19:18:00+03:00"
 }
