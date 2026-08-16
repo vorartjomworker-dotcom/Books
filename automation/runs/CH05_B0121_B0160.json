@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "run_id": "pilot-ch05-b0121-b0160-20260816",
+  "batch_id": "CH05-BATCH-004",
+  "chapter": "CH05",
+  "start": 121,
+  "end": 160,
+  "branch": "translation/ch05-b0121-b0160",
+  "status": "COMPLETED",
+  "attempt": 2,
+  "lock": null,
+  "started_at": "2026-08-15T23:34:58Z",
+  "updated_at": "2026-08-16T16:46:00Z",
+  "source": {
+    "registry": "CH05 v0.3",
+    "epub_sha256": "e22359c1e148ecdebcee4d24e4d5506e8a9dbd94b59d88c4ab574e4995ba0da2",
+    "pdf_sha256": "2931e9657a2f7a3b0343d8e10bf29dc9fe92ccc6a36714ce12eae2c7e6f7b65e"
+  },
+  "artifacts": {
+    "batch": "chapters/CH05/batches/CH05_B0121_B0160.csv",
+    "metadata_overlay": "chapters/CH05/batches/CH05_B0121_B0160_metadata_overlay.json",
+    "visual_relationships": "chapters/CH05/batches/CH05_B0121_B0160_visual_relationships.json",
+    "qa_report": "qa/reports/CH05_B0121_B0160_QA.md",
+    "issues": "qa/issues/CH05/CH05_errors_B0121_B0160.csv"
+  },
+  "checks": {
+    "exact_range": "PASS",
+    "immutable_source": "PASS",
+    "complete_translation": "PASS",
+    "target_html": "PASS",
+    "protected_tokens": "PASS",
+    "language_qa": "PASS",
+    "structural_qa": "PASS",
+    "registry_validator": "PASS",
+    "unit_tests": "PASS",
+    "zero_open_high_critical": "PASS",
+    "canonical_registry_sync": "PASS",
+    "human_approval": "PASS"
+  },
+  "canonical_sync": {
+    "drive_file_id": "1k3edfdB4aG5lPJhQ4ryn-vLHefRYgXh0",
+    "registry_version": "v0.3",
+    "xlsx_sha256": "999050b88094b861ca3d962aebf95c803c8936873fac4ebcb2026a35decd9d46",
+    "synchronized_at": "2026-08-16T16:45:47Z",
+    "accepted_rows": 40,
+    "issues_appended": 19,
+    "archive_file_id": "1Ty7nuNySBnxNch-tJUf314kQ_q_8WECN"
+  },
+  "open_issues": [],
+  "next_action": "Advance automatically to CH06-B0081–CH06-B0120."
+}
