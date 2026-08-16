@@ -5,7 +5,7 @@
   "start": 121,
   "end": 160,
   "branch": "translation/ch09-b0121-b0160",
-  "status": "AWAITING_REVIEW",
+  "status": "COMPLETED",
   "attempt": 1,
   "mode": "pilot",
   "merge_policy": "manual",
@@ -47,6 +47,12 @@
       "at": "2026-08-16T19:18:00+03:00",
       "workflow_run_id": 31958167927,
       "result": "PASS"
+    },
+    {
+      "state": "COMPLETED",
+      "at": "2026-08-16T21:29:09.107Z",
+      "result": "INTERNAL_AUTONOMOUS_ACCEPTANCE",
+      "basis": "All required gates PASS; zero open Critical/High; CI run 31958167927 concluded success."
     }
   ],
   "outputs": {
@@ -64,5 +70,22 @@
     "fix_cycles": 1
   },
   "canonical_drive_written": false,
-  "stop_reason": null
+  "stop_reason": null,
+  "updated_at": "2026-08-16T21:29:09.107Z",
+  "internal_acceptance": {
+    "accepted": true,
+    "accepted_by": "integrator",
+    "accepted_at": "2026-08-16T21:29:09.107Z",
+    "acceptance_run_id": "CH09-B0121-B0160-ACCEPT-20260816T212842Z",
+    "canonical_drive_written": false,
+    "merge_to_main": false
+  },
+  "next_range": {
+    "chapter": "CH09",
+    "start": 161,
+    "end": 200,
+    "branch": "translation/ch09-b0161-b0200",
+    "status": "READY"
+  },
+  "next_action": "Continue CH09-B0161–CH09-B0200 on translation/ch09-b0161-b0200 in the next run."
 }
