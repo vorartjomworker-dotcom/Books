@@ -5,7 +5,7 @@
   "start": 121,
   "end": 160,
   "branch": "translation/ch09-b0121-b0160",
-  "status": "CI_PENDING",
+  "status": "AWAITING_REVIEW",
   "attempt": 1,
   "mode": "pilot",
   "merge_policy": "manual",
@@ -41,6 +41,12 @@
     {
       "state": "CI_PENDING",
       "at": "2026-08-16T19:16:00+03:00"
+    },
+    {
+      "state": "AWAITING_REVIEW",
+      "at": "2026-08-16T19:18:00+03:00",
+      "workflow_run_id": 31958167927,
+      "result": "PASS"
     }
   ],
   "outputs": {
@@ -51,6 +57,9 @@
   "qa": {
     "language": "PASS",
     "structural": "PASS",
+    "registry_validator": "PASS",
+    "unit_tests": "PASS",
+    "pipeline_state_validator": "PASS",
     "open_critical_high": 0,
     "fix_cycles": 1
   },
