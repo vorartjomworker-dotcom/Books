@@ -1,0 +1,60 @@
+{
+  "format_version": "1.0",
+  "scope": {
+    "chapter": "CH05",
+    "batch": "CH05-B0121-B0160",
+    "storage_mode": "pilot branch overlay",
+    "canonical_registry_write_authorized": false
+  },
+  "relationships": [
+    {
+      "asset_path": "OEBPS/Images/B18427_05_04.png",
+      "asset_sha256": "c138ffca508607e82755e92927f675344f507ad30edc7204227c8732a00fedfe",
+      "asset_dimensions_px": {"width": 877, "height": 394},
+      "type": "figure",
+      "figure_number": "5.4",
+      "placement_after_block": "CH05-B0137",
+      "placement_before_block": "CH05-B0138",
+      "caption_block_id": "CH05-B0138",
+      "pdf_physical_page": 150,
+      "pdf_printed_page": 109,
+      "evidence": "EPUB figure occurs after the validation-framework paragraph and immediately before the Figure 5.4 caption; PDF page 109 shows the same figure and caption."
+    },
+    {
+      "asset_path": "OEBPS/Images/B18427_05_047.png",
+      "asset_sha256": "6c7d4833b375aef4041f2c9152865bf7fa51d8c796467f12ae23de4a780025fc",
+      "asset_dimensions_px": {"width": 458, "height": 29},
+      "type": "formula",
+      "placement_after_block": "CH05-B0142",
+      "placement_before_block": "CH05-B0143",
+      "pdf_physical_page": 150,
+      "pdf_printed_page": 109,
+      "evidence": "EPUB centers the Tail-GAN loss formula between the lead-in ending 'tail risk measures:' and the following 'where alpha...' paragraph; PDF page 109 confirms the same placement."
+    },
+    {
+      "asset_path": "OEBPS/Images/B18427_05_057.png",
+      "asset_sha256": "864f91319ca527eb0c929b2127d5a173291044cb49a1305bbe3f1907e667edc9",
+      "asset_dimensions_px": {"width": 317, "height": 52},
+      "type": "formula",
+      "placement_after_block": "CH05-B0155",
+      "placement_before_block": "CH05-B0156",
+      "pdf_physical_page": 151,
+      "pdf_printed_page": 110,
+      "evidence": "EPUB centers the path-signature integral after the paragraph ending 'has the form:' and before the continuation beginning 'and the depth-n signature...'; PDF page 110 confirms the same placement."
+    }
+  ],
+  "application_policy": {
+    "allowed_in_batch_branch": [
+      "Store this file as a non-canonical visual relationship overlay.",
+      "Use these relationships to build target_html and run structural QA.",
+      "Store source_code_ref values from metadata_patch.json as evidence-only relationships.",
+      "Apply pagination as a batch metadata overlay for CI and review."
+    ],
+    "requires_canonical_google_drive_registry_update": [
+      "Changing the canonical pdf page fields for the 11 listed block IDs.",
+      "Adding the three visual nodes to the canonical visual/asset registry.",
+      "Assigning or changing any canonical code_id value.",
+      "Promoting the batch to QA_PASS after canonical synchronization and repeated QA."
+    ]
+  }
+}
