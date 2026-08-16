@@ -7,9 +7,13 @@
   "branch": "translation/ch05-b0121-b0160",
   "status": "QA",
   "attempt": 0,
-  "lock": null,
+  "lock": {
+    "run_id": "auto-20260816T025751+0300",
+    "acquired_at": "2026-08-15T23:57:51Z",
+    "expires_at": "2026-08-16T02:57:51Z"
+  },
   "started_at": "2026-08-15T23:34:58Z",
-  "updated_at": "2026-08-15T23:40:30Z",
+  "updated_at": "2026-08-15T23:57:51Z",
   "artifacts": {
     "batch": "chapters/CH05/batches/CH05_B0121_B0160.csv",
     "qa_report": "qa/reports/CH05_B0121_B0160_QA.md",
