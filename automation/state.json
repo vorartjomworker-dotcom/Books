@@ -19,14 +19,9 @@
       "start": 201,
       "end": 240,
       "branch": "translation/ch06-b0201-b0240",
-      "status": "CI_PENDING",
+      "status": "AWAITING_REVIEW",
       "attempt": 2,
-      "lock": {
-        "owner": "codex-integrator",
-        "run_id": "CH06-B0201-B0240-20260816T205743Z",
-        "acquired_at": "2026-08-16T20:57:43Z",
-        "expires_at": "2026-08-16T23:57:43Z"
-      },
+      "lock": null,
       "stop_reason": null
     },
     "CH07": {
@@ -94,7 +89,7 @@
       "start": 201,
       "end": 240,
       "branch": "translation/ch06-b0201-b0240",
-      "status": "CI_PENDING"
+      "status": "AWAITING_REVIEW"
     },
     {
       "chapter": "CH07",
@@ -119,6 +114,6 @@
     }
   ],
   "last_run": "CH06-B0201-B0240-20260816T205743Z",
-  "updated_at": "2026-08-16T21:25:00Z",
+  "updated_at": "2026-08-16T21:24:30Z",
   "auto_advance": true
 }
