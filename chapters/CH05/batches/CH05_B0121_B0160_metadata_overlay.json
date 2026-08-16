@@ -1,0 +1,60 @@
+{
+  "format_version": "1.0",
+  "scope": {
+    "chapter": "CH05",
+    "batch": "CH05-B0121-B0160",
+    "purpose": "evidence-backed metadata overlay for pilot branch",
+    "generated_on": "2026-08-16",
+    "canonical_registry_write_authorized": false
+  },
+  "evidence_sources": {
+    "epub": {
+      "sha256": "e22359c1e148ecdebcee4d24e4d5506e8a9dbd94b59d88c4ab574e4995ba0da2",
+      "chapter_path": "OEBPS/Text/Chapter_5.xhtml"
+    },
+    "pdf": {
+      "sha256": "2931e9657a2f7a3b0343d8e10bf29dc9fe92ccc6a36714ce12eae2c7e6f7b65e",
+      "page_count": 827,
+      "page_numbering_rule": "pdf_physical_page is the 1-based PDF page index; pdf_printed_page is the page number printed in the book"
+    }
+  },
+  "pagination_updates": [
+    {"block_id": "CH05-B0121", "pdf_physical_page": 149, "pdf_printed_page": 108},
+    {"block_id": "CH05-B0122", "pdf_physical_page": 149, "pdf_printed_page": 108},
+    {"block_id": "CH05-B0123", "pdf_physical_page": 149, "pdf_printed_page": 108},
+    {"block_id": "CH05-B0124", "pdf_physical_page": 149, "pdf_printed_page": 108},
+    {"block_id": "CH05-B0125", "pdf_physical_page": 149, "pdf_printed_page": 108},
+    {"block_id": "CH05-B0126", "pdf_physical_page": 149, "pdf_printed_page": 108},
+    {"block_id": "CH05-B0135", "pdf_physical_page": 149, "pdf_printed_page": 108},
+    {"block_id": "CH05-B0143", "pdf_physical_page": 150, "pdf_printed_page": 109},
+    {"block_id": "CH05-B0148", "pdf_physical_page": 151, "pdf_printed_page": 110},
+    {"block_id": "CH05-B0156", "pdf_physical_page": 151, "pdf_printed_page": 110},
+    {"block_id": "CH05-B0160", "pdf_physical_page": 152, "pdf_printed_page": 111}
+  ],
+  "source_code_relationships": [
+    {
+      "block_id": "CH05-B0135",
+      "source_code_ref": "01_timegan.py",
+      "epub_evidence": "Implementation note names 01_timegan.py",
+      "code_id_action": "NO_CHANGE"
+    },
+    {
+      "block_id": "CH05-B0148",
+      "source_code_ref": "02_tailgan_tail_risk.py",
+      "epub_evidence": "Implementation note names 02_tailgan_tail_risk.py",
+      "code_id_action": "NO_CHANGE"
+    },
+    {
+      "block_id": "CH05-B0160",
+      "source_code_ref": "03_sigcwgan_signatures.py",
+      "epub_evidence": "Implementation note names 03_sigcwgan_signatures.py",
+      "code_id_action": "NO_CHANGE"
+    }
+  ],
+  "explicit_non_changes": {
+    "code_id": "Not patched: the accepted code_id naming scheme is unavailable in the pilot workspace, and filenames must not be guessed into that field.",
+    "canonical_google_drive_registry": "Not modified.",
+    "translation_text": "Not modified.",
+    "qa_status": "Not modified."
+  }
+}
