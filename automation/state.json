@@ -9,14 +9,10 @@
       "start": 161,
       "end": 200,
       "branch": "translation/ch05-b0161-b0200",
-      "status": "TRANSLATING",
+      "status": "STOPPED",
       "attempt": 2,
-      "lock": {
-        "owner": "CH05-B0161-B0200-20260817T012428Z",
-        "acquired_at": "2026-08-17T01:24:28Z",
-        "expires_at": "2026-08-17T04:24:28Z"
-      },
-      "stop_reason": null
+      "lock": null,
+      "stop_reason": "PUBLISH_BLOCKED_UNVERIFIED_REPOSITORY_SENSITIVE_DISCLOSURE: GitHub connector rejected upload of the complete CH05 batch containing English source, Russian translation, and XHTML; explicit user authorization after risk notice is required."
     },
     "CH06": {
       "chapter": "CH06",
@@ -72,7 +68,7 @@
       "start": 161,
       "end": 200,
       "branch": "translation/ch05-b0161-b0200",
-      "status": "TRANSLATING"
+      "status": "STOPPED"
     },
     {
       "chapter": "CH06",
@@ -118,6 +114,6 @@
     }
   ],
   "last_run": "CH05-B0161-B0200-20260817T012428Z",
-  "updated_at": "2026-08-17T01:24:28Z",
+  "updated_at": "2026-08-17T01:47:00Z",
   "auto_advance": true
 }
