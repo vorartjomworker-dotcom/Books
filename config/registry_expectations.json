@@ -19,7 +19,7 @@
       "path": "chapters/CH07/registry/CH07_registry_v0.8_BATCH-003_QA_PASS.xlsx",
       "expected_count": 368,
       "qa_pass_through": 120,
-      "next_batch": "CH07-B0121-CH07-B0160"
+      "next_batch": "CH07-B0161-CH07-B0200"
     },
     {
       "chapter": "CH08",
