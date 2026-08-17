@@ -5,7 +5,7 @@
   "start": 161,
   "end": 200,
   "branch": "translation/ch05-b0161-b0200",
-  "status": "TRANSLATING",
+  "status": "STOPPED",
   "attempt": 1,
   "mode": "autonomous",
   "merge_policy": "manual",
@@ -22,6 +22,11 @@
     {
       "state": "TRANSLATING",
       "at": "2026-08-17T01:11:21Z"
+    },
+    {
+      "state": "STOPPED",
+      "at": "2026-08-17T01:16:30Z",
+      "reason": "RUN_SUPERSEDED_BY_NEW_AUTOMATION_REQUEST"
     }
   ],
   "outputs": {
@@ -42,6 +47,6 @@
   },
   "canonical_drive_written": false,
   "translation_merge_to_main": false,
-  "stop_reason": null,
-  "updated_at": "2026-08-17T01:11:21Z"
+  "stop_reason": "RUN_SUPERSEDED_BY_NEW_AUTOMATION_REQUEST; no batch artifact was published",
+  "updated_at": "2026-08-17T01:16:30Z"
 }
