@@ -9,14 +9,9 @@
       "start": 161,
       "end": 200,
       "branch": "translation/ch05-b0161-b0200",
-      "status": "TRANSLATING",
+      "status": "READY",
       "attempt": 1,
-      "lock": {
-        "run_id": "CH05-B0161-B0200-20260817T011121Z",
-        "owner": "integrator",
-        "acquired_at": "2026-08-17T01:11:21Z",
-        "expires_at": "2026-08-17T04:11:21Z"
-      },
+      "lock": null,
       "stop_reason": null
     },
     "CH06": {
@@ -73,7 +68,7 @@
       "start": 161,
       "end": 200,
       "branch": "translation/ch05-b0161-b0200",
-      "status": "TRANSLATING"
+      "status": "READY"
     },
     {
       "chapter": "CH06",
@@ -119,6 +114,6 @@
     }
   ],
   "last_run": "CH05-B0161-B0200-20260817T011121Z",
-  "updated_at": "2026-08-17T01:11:21Z",
+  "updated_at": "2026-08-17T01:16:30Z",
   "auto_advance": true
 }
