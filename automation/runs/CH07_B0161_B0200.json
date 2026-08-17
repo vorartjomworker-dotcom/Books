@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "run_id": null,
+  "chapter": "CH07",
+  "start": 161,
+  "end": 200,
+  "branch": "translation/ch07-b0161-b0200",
+  "status": "READY",
+  "attempt": 0,
+  "mode": "autonomous",
+  "merge_policy": "manual",
+  "source_registry": {
+    "repository_path": "chapters/CH07/registry/CH07_registry_v0.8_BATCH-003_QA_PASS.xlsx",
+    "repository_sha256": "3a59e4c933bb2ab1e43ecae3efaa0a7b856fa1a682888c274a9b5bcf84a92c8b",
+    "expected_count": 368,
+    "qa_pass_through": 120
+  },
+  "transitions": [
+    {
+      "state": "READY",
+      "at": "2026-08-17T01:19:02Z"
+    }
+  ],
+  "outputs": {
+    "batch": "chapters/CH07/batches/CH07_B0161_B0200.csv",
+    "qa_report": "qa/reports/CH07_B0161_B0200_QA.md",
+    "issues": "qa/issues/CH07/CH07_errors_B0161_B0200.csv"
+  },
+  "qa": {
+    "translator": "PENDING",
+    "language": "PENDING",
+    "structural": "PENDING",
+    "registry_validator": "PENDING",
+    "unit_tests": "PENDING",
+    "pipeline_state_validator": "PENDING",
+    "ci": "PENDING",
+    "open_critical_high": null,
+    "fix_cycles": 0
+  },
+  "canonical_drive_written": false,
+  "translation_merge_to_main": false,
+  "stop_reason": null,
+  "prepared_at": "2026-08-17T01:19:02Z",
+  "updated_at": "2026-08-17T01:19:02Z"
+}
