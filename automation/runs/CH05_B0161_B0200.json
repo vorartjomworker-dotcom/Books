@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "run_id": "CH05-B0161-B0200-20260817T011121Z",
+  "run_id": "CH05-B0161-B0200-20260817T012428Z",
   "chapter": "CH05",
   "start": 161,
   "end": 200,
   "branch": "translation/ch05-b0161-b0200",
-  "status": "STOPPED",
-  "attempt": 1,
+  "status": "TRANSLATING",
+  "attempt": 2,
   "mode": "autonomous",
   "merge_policy": "manual",
   "source_registry": {
@@ -27,6 +27,15 @@
       "state": "STOPPED",
       "at": "2026-08-17T01:16:30Z",
       "reason": "RUN_SUPERSEDED_BY_NEW_AUTOMATION_REQUEST"
+    },
+    {
+      "state": "READY",
+      "at": "2026-08-17T01:24:28Z",
+      "reason": "RESUME_AFTER_SUPERSEDED_RUN"
+    },
+    {
+      "state": "TRANSLATING",
+      "at": "2026-08-17T01:24:28Z"
     }
   ],
   "outputs": {
@@ -47,6 +56,6 @@
   },
   "canonical_drive_written": false,
   "translation_merge_to_main": false,
-  "stop_reason": "RUN_SUPERSEDED_BY_NEW_AUTOMATION_REQUEST; no batch artifact was published",
-  "updated_at": "2026-08-17T01:16:30Z"
+  "stop_reason": null,
+  "updated_at": "2026-08-17T01:24:28Z"
 }
