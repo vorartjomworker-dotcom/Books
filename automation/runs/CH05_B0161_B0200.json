@@ -5,7 +5,7 @@
   "start": 161,
   "end": 200,
   "branch": "translation/ch05-b0161-b0200",
-  "status": "TRANSLATING",
+  "status": "STOPPED",
   "attempt": 2,
   "mode": "autonomous",
   "merge_policy": "manual",
@@ -36,6 +36,45 @@
     {
       "state": "TRANSLATING",
       "at": "2026-08-17T01:24:28Z"
+    },
+    {
+      "state": "QA",
+      "at": "2026-08-17T01:31:00Z"
+    },
+    {
+      "state": "FIXING",
+      "at": "2026-08-17T01:34:00Z",
+      "cycle": 1
+    },
+    {
+      "state": "RECHECK",
+      "at": "2026-08-17T01:36:00Z",
+      "cycle": 1
+    },
+    {
+      "state": "FIXING",
+      "at": "2026-08-17T01:38:00Z",
+      "cycle": 2
+    },
+    {
+      "state": "RECHECK",
+      "at": "2026-08-17T01:40:00Z",
+      "cycle": 2
+    },
+    {
+      "state": "FIXING",
+      "at": "2026-08-17T01:41:00Z",
+      "cycle": 3
+    },
+    {
+      "state": "RECHECK",
+      "at": "2026-08-17T01:43:00Z",
+      "cycle": 3
+    },
+    {
+      "state": "STOPPED",
+      "at": "2026-08-17T01:47:00Z",
+      "reason": "PUBLISH_BLOCKED_UNVERIFIED_REPOSITORY_SENSITIVE_DISCLOSURE: GitHub connector rejected upload of the complete CH05 batch containing English source, Russian translation, and XHTML; explicit user authorization after risk notice is required."
     }
   ],
   "outputs": {
@@ -44,18 +83,26 @@
     "issues": "qa/issues/CH05/CH05_errors_B0161_B0200.csv"
   },
   "qa": {
-    "translator": "IN_PROGRESS",
-    "language": "PENDING",
-    "structural": "PENDING",
-    "registry_validator": "PENDING",
-    "unit_tests": "PENDING",
-    "pipeline_state_validator": "PENDING",
-    "ci": "PENDING",
-    "open_critical_high": null,
-    "fix_cycles": 0
+    "translator": "PASS",
+    "language": "PASS",
+    "structural": "PASS",
+    "registry_validator": "PASS_LOCAL_BATCH_AND_EPUB; FULL_REPO_CI_NOT_RUN",
+    "unit_tests": "PASS_16_OF_16",
+    "pipeline_state_validator": "NOT_RUN_AFTER_PUBLICATION_BLOCK",
+    "ci": "BLOCKED_NOT_RUN",
+    "open_critical_high": 0,
+    "fix_cycles": 3
   },
   "canonical_drive_written": false,
   "translation_merge_to_main": false,
-  "stop_reason": null,
-  "updated_at": "2026-08-17T01:24:28Z"
+  "stop_reason": "PUBLISH_BLOCKED_UNVERIFIED_REPOSITORY_SENSITIVE_DISCLOSURE: GitHub connector rejected upload of the complete CH05 batch containing English source, Russian translation, and XHTML; explicit user authorization after risk notice is required.",
+  "updated_at": "2026-08-17T01:47:00Z",
+  "artifacts": {
+    "local_batch_sha256": "efccc8ee775cb20e61b2b64a65c251ba1bd9cb51223aa6365f8b7b9a94ad9992",
+    "local_issues_sha256": "5e865ab42db20a78eae71d7c270953fce366567ab58ec57369b2aaaa91e116ad",
+    "reviewed_content_sha256": "2542821dd3390ef247adf12167a6993d5d348721e6657b7eb61186a8840915f9",
+    "issues_total": 28,
+    "issues_open": 0,
+    "published": false
+  }
 }
