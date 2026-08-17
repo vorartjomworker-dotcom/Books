@@ -4,128 +4,24 @@
   "mode": "autonomous",
   "merge_policy": "manual",
   "active_by_chapter": {
-    "CH05": {
-      "chapter": "CH05",
-      "start": 161,
-      "end": 200,
-      "branch": "translation/ch05-b0161-b0200",
-      "status": "READY",
-      "attempt": 0,
-      "lock": null,
-      "stop_reason": null
-    },
-    "CH06": {
-      "chapter": "CH06",
-      "start": 201,
-      "end": 240,
-      "branch": "translation/ch06-b0201-b0240",
-      "status": "READY",
-      "attempt": 0,
-      "lock": null,
-      "stop_reason": null
-    },
-    "CH07": {
-      "chapter": "CH07",
-      "start": 121,
-      "end": 160,
-      "branch": "translation/ch07-b0121-b0160",
-      "status": "AWAITING_REVIEW",
-      "attempt": 1,
-      "lock": null,
-      "stop_reason": null
-    },
-    "CH08": {
-      "chapter": "CH08",
-      "start": 81,
-      "end": 120,
-      "branch": "translation/ch08-b0081-b0120",
-      "status": "READY",
-      "attempt": 0,
-      "lock": null,
-      "stop_reason": null
-    },
-    "CH09": {
-      "chapter": "CH09",
-      "start": 161,
-      "end": 200,
-      "branch": "translation/ch09-b0161-b0200",
-      "status": "TRANSLATING",
-      "attempt": 0,
-      "lock": {
-        "run_id": "CH09-B0161-B0200-20260817T004200Z",
-        "owner": "integrator",
-        "acquired_at": "2026-08-17T00:42:00Z",
-        "expires_at": "2026-08-17T03:42:00Z"
-      },
-      "stop_reason": null
-    }
+    "CH05": {"chapter": "CH05", "start": 161, "end": 200, "branch": "translation/ch05-b0161-b0200", "status": "READY", "attempt": 0, "lock": null, "stop_reason": null},
+    "CH06": {"chapter": "CH06", "start": 201, "end": 240, "branch": "translation/ch06-b0201-b0240", "status": "READY", "attempt": 0, "lock": null, "stop_reason": null},
+    "CH07": {"chapter": "CH07", "start": 121, "end": 160, "branch": "translation/ch07-b0121-b0160", "status": "AWAITING_REVIEW", "attempt": 1, "lock": null, "stop_reason": null},
+    "CH08": {"chapter": "CH08", "start": 81, "end": 120, "branch": "translation/ch08-b0081-b0120", "status": "READY", "attempt": 0, "lock": null, "stop_reason": null},
+    "CH09": {"chapter": "CH09", "start": 161, "end": 200, "branch": "translation/ch09-b0161-b0200", "status": "STOPPED", "attempt": 1, "lock": null, "stop_reason": "PUBLISH_AUTHORIZATION_REQUIRED: explicit approval required to upload the full batch payload to GitHub"}
   },
   "queue": [
-    {
-      "chapter": "CH05",
-      "start": 121,
-      "end": 160,
-      "branch": "translation/ch05-b0121-b0160",
-      "status": "COMPLETED"
-    },
-    {
-      "chapter": "CH05",
-      "start": 161,
-      "end": 200,
-      "branch": "translation/ch05-b0161-b0200",
-      "status": "READY"
-    },
-    {
-      "chapter": "CH06",
-      "start": 81,
-      "end": 120,
-      "branch": "translation/ch06-b0081-b0120",
-      "status": "COMPLETED"
-    },
-    {
-      "chapter": "CH06",
-      "start": 161,
-      "end": 200,
-      "branch": "translation/ch06-b0161-b0200",
-      "status": "COMPLETED"
-    },
-    {
-      "chapter": "CH06",
-      "start": 201,
-      "end": 240,
-      "branch": "translation/ch06-b0201-b0240",
-      "status": "READY"
-    },
-    {
-      "chapter": "CH07",
-      "start": 121,
-      "end": 160,
-      "branch": "translation/ch07-b0121-b0160",
-      "status": "AWAITING_REVIEW"
-    },
-    {
-      "chapter": "CH08",
-      "start": 81,
-      "end": 120,
-      "branch": "translation/ch08-b0081-b0120",
-      "status": "READY"
-    },
-    {
-      "chapter": "CH09",
-      "start": 121,
-      "end": 160,
-      "branch": "translation/ch09-b0121-b0160",
-      "status": "COMPLETED"
-    },
-    {
-      "chapter": "CH09",
-      "start": 161,
-      "end": 200,
-      "branch": "translation/ch09-b0161-b0200",
-      "status": "TRANSLATING"
-    }
+    {"chapter": "CH05", "start": 121, "end": 160, "branch": "translation/ch05-b0121-b0160", "status": "COMPLETED"},
+    {"chapter": "CH05", "start": 161, "end": 200, "branch": "translation/ch05-b0161-b0200", "status": "READY"},
+    {"chapter": "CH06", "start": 81, "end": 120, "branch": "translation/ch06-b0081-b0120", "status": "COMPLETED"},
+    {"chapter": "CH06", "start": 161, "end": 200, "branch": "translation/ch06-b0161-b0200", "status": "COMPLETED"},
+    {"chapter": "CH06", "start": 201, "end": 240, "branch": "translation/ch06-b0201-b0240", "status": "READY"},
+    {"chapter": "CH07", "start": 121, "end": 160, "branch": "translation/ch07-b0121-b0160", "status": "AWAITING_REVIEW"},
+    {"chapter": "CH08", "start": 81, "end": 120, "branch": "translation/ch08-b0081-b0120", "status": "READY"},
+    {"chapter": "CH09", "start": 121, "end": 160, "branch": "translation/ch09-b0121-b0160", "status": "COMPLETED"},
+    {"chapter": "CH09", "start": 161, "end": 200, "branch": "translation/ch09-b0161-b0200", "status": "STOPPED"}
   ],
   "last_run": "CH09-B0161-B0200-20260817T004200Z",
-  "updated_at": "2026-08-17T00:42:00Z",
+  "updated_at": "2026-08-17T01:08:00Z",
   "auto_advance": true
 }

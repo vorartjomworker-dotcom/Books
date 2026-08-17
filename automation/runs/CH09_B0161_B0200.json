@@ -5,8 +5,8 @@
   "start": 161,
   "end": 200,
   "branch": "translation/ch09-b0161-b0200",
-  "status": "TRANSLATING",
-  "attempt": 0,
+  "status": "STOPPED",
+  "attempt": 1,
   "mode": "autonomous",
   "merge_policy": "manual",
   "source_registry": {
@@ -16,33 +16,37 @@
     "qa_pass_through": 120
   },
   "transitions": [
-    {
-      "state": "READY",
-      "at": "2026-08-17T00:42:00Z"
-    },
-    {
-      "state": "TRANSLATING",
-      "at": "2026-08-17T00:42:00Z"
-    }
+    {"state": "READY", "at": "2026-08-17T00:42:00Z"},
+    {"state": "TRANSLATING", "at": "2026-08-17T00:42:00Z"},
+    {"state": "QA", "at": "2026-08-17T00:49:00Z"},
+    {"state": "FIXING", "at": "2026-08-17T00:55:00Z"},
+    {"state": "RECHECK", "at": "2026-08-17T01:00:00Z"},
+    {"state": "CI_PENDING", "at": "2026-08-17T01:04:00Z"},
+    {"state": "STOPPED", "at": "2026-08-17T01:08:00Z", "reason": "PUBLISH_AUTHORIZATION_REQUIRED"}
   ],
   "outputs": {
     "batch": "chapters/CH09/batches/CH09_B0161_B0200.csv",
     "qa_report": "qa/reports/CH09_B0161_B0200_QA.md",
     "issues": "qa/issues/CH09/CH09_errors_B0161_B0200.csv"
   },
+  "hashes": {
+    "batch_sha256": "41c4b008bad9bfb310df999216cd2d3df8e0f56959cd4dd8e6a462483b251bdc",
+    "issues_sha256": "7a02d01cc88fe1bb774dd9fa3049aa971d92828466b6bd5a23842592af93f9f8"
+  },
   "qa": {
-    "translator": "IN_PROGRESS",
-    "language": "PENDING",
-    "structural": "PENDING",
-    "registry_validator": "PENDING",
-    "unit_tests": "PENDING",
-    "pipeline_state_validator": "PENDING",
-    "ci": "PENDING",
-    "open_critical_high": null,
-    "fix_cycles": 0
+    "translator": "PASS",
+    "language": "PASS",
+    "structural": "PASS",
+    "registry_validator": "PENDING_CI",
+    "unit_tests": "PASS_16",
+    "pipeline_state_validator": "PASS",
+    "ci": "BLOCKED_NOT_RUN",
+    "open_critical_high": 0,
+    "open_all": 0,
+    "fix_cycles": 1
   },
   "canonical_drive_written": false,
   "translation_merge_to_main": false,
-  "stop_reason": null,
-  "updated_at": "2026-08-17T00:42:00Z"
+  "stop_reason": "PUBLISH_AUTHORIZATION_REQUIRED: explicit approval required to upload the full batch payload to GitHub",
+  "updated_at": "2026-08-17T01:08:00Z"
 }
